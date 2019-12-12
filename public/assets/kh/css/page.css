@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+
+.pageAd{ padding-top:63px; background:#f4f4f4 url(../img/icon_8.png) repeat-x; padding-bottom:25px; font-size:14px; margin-bottom:60px;}
+.pageAd h2{ font-size:40px; font-weight:normal; padding-top:18px;}
+
+.leftBox{ width:770px; margin-right:65px; float:left;}
+.rightBox{ width:225px; float:left; padding-left:40px;}
+.rb2{ width:265px; padding-left:0;}
+.rightBox .form h2{font-size:32px; font-weight:normal; margin-bottom:18px;}
+.rightBox .form .lable{ position:relative; margin-bottom:8px;}
+.rightBox .form .lable .inputText{ height:30px; width:223px; border:1px solid #c1c1c1; text-indent:16px; line-height:30px;}
+.rightBox .form .tr{ text-align:right; padding:12px 0; color:#aaa;font-size:14px;}
+.rightBox .form .tr u{text-decoration:none; color:#f00; padding-right:3px; }
+
+.rightBox .form .sure,.rightBox .form .reg{ width:225px; height:42px; line-height:42px; text-align:center; font-size:20px; color:#fff; background:#025da5; display:block; margin:20px 0;border-radius:3px; }
+.rightBox .form .reg{ background:#0ab6de;}
+.rightBox .form .reg i{ background:url(../img/icon_9.png) no-repeat; width:10px; height:19px; position:relative; top:3px; display:inline-block; margin-left:15px;}
+
+.rightBox .form .sure:hover{ background:#00457b;}
+.rightBox .form .reg:hover{ background:#0192b3;}
+
+.rightBox .form .reg i{   
+  -webkit-transform: translateX(0);
+     -moz-transform: translateX(0);
+          transform: translateX(0);
+	-webkit-transition: -webkit-transform 0.5s ease;
+     -moz-transition:    -moz-transform 0.5s ease;
+          transition:         transform 0.5s ease;}
+.rightBox .form .reg:hover i{   
+  -webkit-transform: translateX(8px);
+     -moz-transform: translateX(8px);
+          transform: translateX(8px);
+  -webkit-transition: -webkit-transform 0.5s ease;
+     -moz-transition:    -moz-transform 0.5s ease;
+          transition:         transform 0.5s ease;}
+		  
+		  
+.productPage{ font-size:14px; line-height:24px;}
+.productPage h2{ font-size:24px; color:#067dc5; font-weight:normal; margin-bottom:20px;}
+
+.productPage table{ margin:40px 0;}
+.productPage td{ height:32px; line-height:32px; border-bottom:1px solid #93959c;}
+.productPage .tt td{ background:#333645; height:40px; line-height:40px; color:#fff; font-size:14px;}
+
+.newList .item{ margin-bottom:60px; font-size:14px;}
+.newList .item .pic{ float:left; width:172px; height:172px; margin-right:45px;}
+.newList .item h2{ width:545px;white-space: nowrap;
+text-overflow: ellipsis;
+-o-text-overflow: ellipsis;
+display: block;
+overflow: hidden;}
+.newList .item h2 a{color:#067dc5; font-size:24px; font-weight:normal;}
+.newList .item .tip{ padding:5px 0 15px 0; font-family:Arial, Helvetica, sans-serif;}
+.newList .item .txt{ margin-bottom:12px;}
+.newList .item .more a{color:#067dc5;}
+.newList .item a:hover{ color:#000;}
+.newPage .title{ 
+
+	border-bottom:1px solid #e3e3e3; 
+	
+}
+.newPage h2{ font-size:24px; font-weight:normal; margin-bottom:8px;}
+.newPage p{ 
+	font-family:"微软雅黑"; 
+	font-size:14px; 
+	color: #000;
+}
+.newPage .info{ 
+	font-size: 14px;
+	line-height: 24px;
+	padding-top: 30px;
+	padding-right: 0;
+	padding-bottom: 30px;
+	padding-left: 0;
+	font-family: "微软雅黑";
+}
+
+.links{ border-top:1px solid #e3e3e3; margin-top:50px;}
+
+.leftBox .other{ height:52px; overflow:hidden; margin-top:30px; margin-bottom:20px;}
+.leftBox .other a.prev{ background:#067dc5 url(../img/page/icon_3.png) no-repeat center center; width:52px; height:52px; display:block; float:left;}
+.leftBox .other a.next{ background:#067dc5 url(../img/page/icon_4.png) no-repeat center center; width:52px; height:52px; display:block; float:right;}
+.leftBox .other a:hover{ background-color:#363948;}
+
+.recom li{ background:url(../img/page/icon_5.png) no-repeat left 10px; padding-left:20px;font-size:14px; margin-bottom:12px;}
+.recom li a{ color:#067dc5; display:block; width:245px;white-space: nowrap;
+text-overflow: ellipsis;
+-o-text-overflow: ellipsis;
+display: block;
+overflow: hidden;}
+.recom li a:hover{ color:#000;}
+.recom li .date{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#999; }
+

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+</head>
+<body>
+<div class="tab-pane" id="RealAccountWizardTab9">
+    <div style="text-align: center; margin: 20px 0 20px 0; font: bold 20px arial">
+        Surat Pernyataan
+    </div>
+    <table style="width: 100%">
+        <tbody>
+        <tr>
+            <td width="200">Nama</td>
+            <td width="20" style="text-align: center;">:</td>
+            <td>{{ userDatas.account_name }}</td>
+        </tr>
+        <tr valign="top">
+            <td>Alamat</td>
+            <td style="text-align: center;">:</td>
+            <td>{{ userDatas.open_account_info.home_address }}</td>
+        </tr>
+        <tr>
+            <td>Nomor Telepon</td>
+            <td style="text-align: center;">:</td>
+            <td>+ {{ userDatas.open_account_info.mobile_country_code }} - {{ userDatas.open_account_info.mobile_number }}</td>
+        </tr>
+        <tr>
+            <td>ID</td>
+            <td style="text-align: center;">:</td>
+            <td>
+                {% set marStatus = {} %}
+                {% for item in Lang.select.member.register.identity_type_map  %}
+                {% set marStatus[item.value] = item.label %}
+                {% endfor %}
+                {{ marStatus[ userDatas.open_account_info.identity_type ] }}
+                /
+                {{ userDatas.open_account_info.identity_number }}
+            </td>
+        </tr>
+        <tr>
+            <td>Hari, Tanggal dan Jam</td>
+            <td style="text-align: center;">:</td>
+            <td> {{ userDatas.gmt_modified }}</td>
+        </tr>
+        <tr>
+            <td>Nomor Account</td>
+            <td style="text-align: center;">:</td>
+            <td><em> {{ userDatas.open_account_info.open_account_no.account_no  || "Wating" }} </em></td>
+        </tr>
+        </tbody>
+    </table>
+    <p>
+        Dengan ini memberikan pernyataan dengan sebenar-benarnya dan sejujurnya dalam
+        keadaan
+        sadar, sehat jasmani dan rohani serta tanpa paksaan apapun dari pihak
+        manapun sebagai
+        berikut, bahwa saya sudah :
+    </p>
+    <ol id="ol-pernyataan">
+        <li>
+            Mengetahui profile perusahaan Real Time Futures.
+
+        </li>
+        <li>
+            Membaca dengan seksama dan mengerti :
+            <ol type="a">
+                <li style="margin-bottom: 0px !important;">
+                    Isi Dokumen Pemberitahuan Adanya Risiko Yang Harus Disampaikan Oleh Pialang Berjangka (DPAR) ;
+                </li>
+                <li style="margin-bottom: 0px !important;">
+                    isi Perjanjian Pemberian Amanat ; dan
+                </li>
+                <li style="margin-bottom: 0px !important;">
+                    istilah-istilah dalam perdagangan berjangka.
+                </li>
+            </ol>
+        </li>
+        <li>
+            Memahami dan mengerti :
+            <ol type="a">
+                <li style="margin-bottom: 0px !important;">
+                    isi Dokumen Pemberitahuan Adanya Risiko Yang Harus Disampaikan Oleh Pialang Berjangka (DPAR) ;
+                </li>
+                <li style="margin-bottom: 0px !important;">
+                    isi Perjanjian Pemberian Amanat ; dan
+                </li>
+                <li style="margin-bottom: 0px !important;">
+                    istilah-istilah dalam perdagangan berjangka.
+                </li>
+            </ol>
+        </li>
+        <li>
+            Mengisi Aplikasi Pembukaan Rekening Transaksi dan semua informasi serta
+            dokumen pendukung lainnya adalah benar dan tepat sesuai dengan aslinya
+            dan saya akan bertanggungjawab penuh apabila dikemudian hari terjadi
+            sesuatu hal yang sehubungan dengan ketidak benaran data yang diberikan.
+        </li>
+        <li>
+            Memahami, mengerti dan mengetahui apabila ada ketidaklengkapan pada
+            pengisian Aplikasi Pembukaan Rekening adalah atas kehendak saya sendiri
+            dan saya akan bertanggungjawab penuh apabila dikemudian hari terjadi
+            sesuatu hal yang sehubungan dengan ketidaklengkapan pada pengisian
+            aplikasi tersebut
+        </li>
+        <li>
+            Memahami dan telah mendapat penjelasan mengenai mekanisme transaksi
+            perdagangan berjangka yang akan saya lakukan sendiri.
+        </li>
+        <li>
+            Memahami dan mengerti tentang tata cara bertransaksi perdagangan
+            berjangka dan juga telah melakukan simulasi transaksi perdagangan
+            berjangka pada Real Time Futures.
+        </li>
+        <li>
+            Mengetahui, memahami, mengerti, menerima dan menyetujui
+            ketentuan-ketentuan yang ada pada Trading Rules.
+        </li>
+        <li>
+            Memahami dan mengerti bahwa dalam bertransaksi perdagangan Berjangka
+            disamping mempunyai peluang keuntungan yang besar tetapi juga mempunyai
+            resiko kerugian sebagaimana yang disebutkan di dalam Dokumen
+            Pemberitahuan Adanya Resiko.
+        </li>
+        <li>
+            Memahami dan mengerti bahwa untuk melakukan transaksi di Perdagangan
+            Berjangka, saya harus menempatkan sejumlah dana/margin dan berkewajiban
+            memelihara kecukupan margin tersebut dalam melakukan transaksi, sehingga
+            sewaktu-waktu bisa saja saya berkewajiban untuk menambah sejumlah
+            dana/margin untuk memelihara posisi terbuka saya.
+        </li>
+        <li>
+            Memahami, mengerti dan mengetahui kegunaan / fungsi dari sistem Cabinet
+            (Investor Management System) selain untuk melakukan registrasi online,
+            juga berfungsi untuk melakukan segala sesuatu yang berhubungan dengan
+            setoran dana maupun penarikan dana
+        </li>
+        <li>
+            Mengetahui dan memahami bahwa password pada platform trading bersifat
+            rahasia dan hanya diberikan kepada saya sebagai nasabah.
+        </li>
+        <li>
+            Mengetahui, memahami dan menyetujui bahwa transaksi dilaksanakan melalui
+            sistem online/elektronik sehingga apabila password tersebut
+            jatuh/diberikan kepada pihak lain sekalipun pegawai Real Time Futures, maka hal tersebut menjadi tanggujawab saya sepenuhnya sebagai
+            nasabah.
+        </li>
+        <li>
+            Mengetahui, mengerti dan memahami bahwa Real Time Futures tidak
+            pernah mengeluarkan, menawarkan, menjanjikan, memberikan harapan,
+            mengiming-imingi atau melakukan tindakan-tindakan yang pada intinya
+            menjanjikan keuntungan tetap (fixed income) atau bagi hasil (profit
+            sharing) atau janji pasti untung (profit guarantee) kepada siapapun baik
+            kepada saya sebagai calon nasabah atau sebagai nasabah maupun
+            pihak-pihak lain untuk melakukan investasi berjangka pada Real Time Futures.
+        </li>
+        <li>
+            Mengetahui, mengerti dan memahami apabila dikemudian hari saya melakukan
+            tindakan-tindakan sebagaimana yang disebutkan pada poin 13 dan 14, maka
+            hal tersebut sepenuhnya menjadi tanggungjawab saya sebagai nasabah dan
+            tidak melibatkan Real Time Futures dalam permasalahan dimaksud.
+        </li>
+        <li>
+            Mengetahui, memahami dan mengerti bahwa transaksi yang akan saya lakukan
+            berada dalam mekanisme Sistem Perdagangan Alternatif (SPA) untuk produk
+            Forex, Stodex dan Loco London Gold, dimana Real Time Futures sebagai
+            Pialang (peserta SPA) dan MENARA MAS INBESTINDO sebagai Pedagang
+            (penyelenggara SPA).<br /> Real Time Futures hanya sebagai Pialang yang
+            menyediakan fasilitas dan informasi yang mendukung nasabah bertransaksi
+            dan keputusan sepenuhnya ada pada saya sebagai nasabah.
+        </li>
+        <li>
+            Membaca, memahami dan mengerti semua pernyataan-pernyataan tersebut
+            diatas poin (1-16) secara jujur dan sebenar-benarnya dalam keadaan
+            sadar, sehat jasmani dan rohani serta tanpa paksaan apapun dari pihak
+            manapun.
+        </li>
+    </ol>
+
+    <p style="border-top:1px solid #ccc;padding-top:5px;text-align:center">
+        <label for="RealAccountWaiverClientAccept"
+               style="position: relative;
+                       top: 15px;
+                       font-weight: bold;
+                       cursor: pointer;"
+        >
+            <input type="hidden"
+                   name="data[RealAccountWaiverClient][accept]"
+                   id="RealAccountWaiverClientAccept_"
+                   value="0"
+            />
+            {% if userDatas.state === 1 %}
+            <input type="checkbox"
+                   name="data[RealAccountWaiverClient][accept]"
+                   class="form-control" value="1"
+                   style="display: block; width: auto; height: auto; float: left;"
+                   id="RealAccountWaiverClientAccept"
+            />
+            Dengan ini saya menyatakan telah membaca, mengerti, memahami dan
+            menyetujui <b>seluruh</b> pernyataan di atas dan segala hal yang timbul
+            akan menjadi tanggungjawab saya sepenuhnya.
+        </label>
+        {% else %}
+        <input type="checkbox"
+               name="data[RealAccountWaiverClient][accept]"
+               class="form-control" value="1"
+               checked
+               disabled
+               style="display: block; width: auto; height: auto; float: left;"
+               id="RealAccountWaiverClientAccept"/>
+        Dengan ini saya menyatakan telah membaca, mengerti, memahami dan
+        menyetujui <b>seluruh</b> pernyataan di atas dan segala hal yang timbul
+        akan menjadi tanggungjawab saya sepenuhnya.
+        </label>
+
+        {% endif %}
+        <span class="warninginfo opne-acc-submit-tips" style="width: 100%; ">This field is required.</span>
+        <br />
+    </p>
+
+</div>
+</body>
+</html>

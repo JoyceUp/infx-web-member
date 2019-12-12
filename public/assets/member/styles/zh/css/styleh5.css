@@ -1,0 +1,911 @@
+@charset "utf-8";
+/* 禁用iPhone中Safari的字号自动调整 */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+/* 去除iPhone中默认的input样式 */
+input{/* -webkit-appearance:none; */ resize: none;}
+/* 取消链接高亮  */
+body,div,ul,li,ol,h1,h2,h3,h4,h5,h6,input,textarea,select,p,dl,dt,dd,a,img,button,form,table,th,tr,td,tbody,article,
+aside, details,figcaption,figure,footer,header,hgroup, menu,nav,section{ -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+    font-family: Microsoft YaHei;}
+/* 设置HTML5元素为块 */
+article, aside, details,figcaption,figure,footer,header,hgroup, menu,nav,section {
+    display: block;
+}
+/* 图片自适应 */
+img {
+    max-width: 100%;
+    height: auto;
+    width:auto\9; /* ie8 */
+    -ms-interpolation-mode:bicubic;/*为了照顾ie图片缩放失真*/
+}
+*:focus {
+    outline:none;
+}
+/* 清零 */
+body,div,ul,li,ol,h1,h2,h3,h4,h5,h6,input,textarea,select,p,dl,dt,dd,a,img,button,form,table,th,tr,td,tbody,article,
+aside, details,figcaption,figure,footer,header,hgroup, menu,nav,section{margin:0; padding:0; border:none;}
+body{font-family:Tahoma,Arial,Roboto,"Droid Sans","Helvetica Neue","Droid Sans Fallback","Heiti SC",sans-self; color:#555; }
+em,i{font-style:normal;}
+strong{font-weight: normal;}
+.clearfix:after{content:""; display:block; visibility:hidden; height:0; clear:both;}
+.clearfix{zoom:1;}
+a{text-decoration:none; color:#969696; font-family:Tahoma,Arial,Roboto,"Droid Sans","Helvetica Neue","Droid Sans Fallback","Heiti SC",sans-self;}
+a:hover{color:#969696; text-decoration:none;}
+ul,ol,li{list-style:none;}
+h1, h2, h3, h4, h5, h6{ font-size:100%; font-family:Tahoma,Arial,Roboto,"Droid Sans","Helvetica Neue","Droid Sans Fallback","Heiti SC",sans-self;}
+fieldset,img{border: none;}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+caption, th {
+    text-align:left;
+}
+q:before,
+q:after {
+    content:"";
+}
+input:password {
+    ime-mode:disabled;
+}
+*{box-sizing:border-box;}
+.scope{min-width:320px;max-width: 640px;margin:0 auto;}
+
+/*为了避免在手机端产生间距*/
+img{
+	display: block;
+}
+
+body{
+	max-width: 540px;
+	margin: 0 auto !important;
+}
+
+
+
+/*头部*/
+
+.header{
+	width: 100%;
+	max-width: 540px;
+	height: auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10000;
+}
+
+.head-top{
+	height: 0.6rem;
+	background: #272727;
+}
+.head-menu{
+	height: 0.95rem;
+	background: #fefefe;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.container{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+}
+
+.top-nav{
+	padding: 0 0.2rem;	
+}
+	
+.top-nav ul{
+	float: right;
+	margin-bottom: 0;
+}
+.top-nav ul li{
+	float: left;
+	width: 1rem;
+	line-height: 0.6rem;
+	font-size: 0.22rem;
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+	position: relative;
+}
+
+.top-nav ul li span{
+	position: relative;
+	display: block;
+}
+.top-nav ul li span i{
+	position: absolute;
+	top: 0.26rem;
+	right: 0.05rem;
+	width: 8px;
+	height: 4px;
+	background: url(../img/icon-down.png) no-repeat;
+	
+}
+
+.top-nav ul li span i.on{
+	background: url(../img/icon-top1.png) no-repeat;
+	
+}
+
+.top-nav ul li div{
+	width: 100%;
+	background: #272727;
+	padding-bottom: 0.05rem;
+	position: absolute;
+	top: 0.6rem;
+	left: 0;
+	z-index: 1000;
+	display: none;
+}
+.top-nav ul li div a{
+	display: block;
+	line-height: 0.36rem;
+	color: #fff;
+	background: #272727;
+	
+}
+
+.top-nav ul li.app-download div{
+	width: 1.18rem;
+	height: 1.18rem;
+	left: -0.08rem;
+	padding-bottom: 0;
+}
+
+.top-nav ul li.app-download div img{
+	width: 100%;
+}
+
+.navbar-header{
+	margin: 0 ;
+	padding: 0 0.2rem;
+}
+	
+.navbar{
+	background: #fff;
+	border: none ;
+	margin-bottom: 0;
+}
+
+
+.logo{
+	float: left;
+	margin-top: 0.19rem;
+	 
+}
+
+.menu{
+	float: none; 
+	width: auto;
+	margin-left: 0;
+	background: #fff;
+	padding: 0;
+	margin-top: 0.145rem;
+}
+.navbar-collapse.in{
+	overflow-y: initial ;
+}
+
+.navbar-toggle{
+	margin-right: 0;
+	margin-top: 0.14rem;
+	border-radius: 4px !important;
+}
+
+
+
+.navbar-nav{
+	float: none;
+	margin: 0;
+}
+.nav{
+	padding-bottom: 0.2rem;
+}
+
+.nav>li{
+	width: 100%;
+	padding: 0;
+	line-height: 0.76rem;
+	height: 0.76rem;
+	text-align: center;
+	box-sizing: initial;
+}
+
+.menu .nav li a{
+	line-height: 0.76rem !important;
+	font-size: 0.24rem;
+	padding: 0 ;
+	color: #333;
+}
+
+.menu .nav li.active a{
+	background: none;
+	border-bottom: 3px solid #d73240;
+	color: #d73240;
+}
+
+.menu .nav li.active a:hover{
+	background: none;
+	color: #d73240;
+}
+.menu .nav li.active a:focus{
+	background: none;
+	color: #d73240;
+}
+
+.menu-box{
+	position: relative;
+}
+
+.login-box1{
+	position: absolute;
+	right: 2.3rem;
+	top: -0.6rem;
+	margin-top: 0;
+}
+
+.login-box1 a.btn{
+	float: left;
+	width: 0.8rem;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	color: #fff;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	font-size: 0.22rem;
+	background: none;
+	border: none;
+}
+.login-box1 a.btn-regist{
+	color: #fff;
+	background: none;
+}
+
+
+.footer{
+	margin-bottom: 0;
+	padding: 0.5rem 0;
+	background: #272727;
+}
+
+.foot-menu{
+	padding: 0 0.2rem;
+}
+
+.foot-l,.foot-r{
+	float: none;
+	width: 100%;
+}
+
+.foot-l p{
+	font-size: 0.2rem;
+	line-height: 0.38rem;
+	color: #c2c2c2;
+}
+
+p.text-two{
+	padding: 0.15rem 0;
+}
+
+p.text-two a{
+	color: #eb0000;
+}
+
+.foot-r h3{
+	color: #e8e8e8;
+	font-size: 0.23rem;
+	line-height: 0.6rem;
+}
+
+.btn-grp1{
+	float: left;
+	margin-top: 0;
+}
+
+.btn-grp1 a {
+	display: block;
+    width: 1.56rem;
+    height: 0.56rem;
+    line-height: 0.56rem;
+    text-indent: 0.72rem;
+    font-size: 0.14rem;
+    color: #c2c2c2;
+    border: 1px solid #e6e6e6;
+}
+
+.btn-grp1 a.btn-ios{
+	background: url(../img/icon-ios.png) no-repeat 0.28rem center;
+    margin-bottom: 10px;
+	
+}
+.btn-grp1 a.btn-android{
+	background: url(../img/icon-android.png) no-repeat 0.28rem center;
+	
+}
+
+.ewm {
+	float: left;
+    width: 1.23rem;
+    height: 1.23rem;
+    background: url(../img/app-ewm.png) no-repeat;
+    background-size: 100%;
+    margin-left: 0.15rem;
+}
+
+.icon-back {
+    float: left;
+    width: 0.36rem;
+    height: 0.36rem;
+    background: url(../img/icon-back.png) no-repeat;
+    background-size: 100%;
+    margin-top: 0.12rem;
+}
+
+
+
+
+
+@media only screen and (min-width: 768px ) {
+	
+	.header{
+		left: 50%;
+		margin-left: -270px;
+	}
+	
+	.menu-box .menu{
+		display: none !important;
+	}
+		
+}
+
+
+
+/*注册页面*/
+
+	
+.head-title{
+	float: none;
+	padding-top: 0;
+	padding-bottom: 0.1rem;
+	font-size: 0.3rem;
+	line-height: 0.56rem;
+	padding-left: 0.24rem;
+	color: #333;
+	font-weight: bold;
+}
+
+
+.regist-tit{
+	width: auto;
+	padding: 0 0.24rem;
+	border: none;
+}
+.regist-tit li{
+	background: #f5f5f5;
+	color: #333;
+	line-height: 0.5rem;
+	font-size: 0.24rem;
+	position: relative;
+}
+
+.regist-tit li i.icon-phone{
+	width: 0.2rem;
+	height: 0.3rem;
+	position: absolute;
+	left: 0.5rem;
+	top: 0.15rem;
+	background: url(../img/icon-phone1.png) no-repeat;
+	background-size: 100%;
+}
+.regist-tit li i.icon-email{
+	width: 0.3rem;
+	height: 0.21rem;
+	position: absolute;
+	left: 0.4rem;
+	top: 0.21rem;
+	background: url(../img/icon-email1.png) no-repeat;
+	background-size: 100%;
+}
+.regist-tit li.act i.icon-phone{
+	background: url(../img/icon-phone2.png) no-repeat;
+	background-size: 100%;
+}
+.regist-tit li.act i.icon-email{
+	background: url(../img/icon-email2.png) no-repeat;
+	background-size: 100%;
+}
+
+.page-content-wrapper .page-content{
+	padding: 0 !important;
+}
+.main-con{
+	min-height: 12.5rem;
+	padding: 0.2rem;
+	margin-top: 1.55rem;
+}
+.regist-con{
+	min-height: 9rem;
+	padding: 0.15rem !important;
+}
+.regist-box{
+	width: auto;
+	margin: 0 auto;
+}
+.regist-tit li{
+	padding: 0 0.88rem;
+	height: 0.62rem;
+	line-height: 0.62rem;
+}
+
+.tab-con{
+	margin-top: 0.3rem;
+}
+.form-box{
+	width: auto;
+}
+.form-group{
+	margin-bottom: 0.15rem;
+}
+.form-group .control-label{
+	width: 1.5rem;
+	font-size: 0.22rem;
+	font-weight: normal;
+}
+
+.form-group div{
+	width: 4rem;
+	margin: 0;
+	margin-left: 0.2rem;
+}
+.form-group div .ui-input-text{
+	margin: 0;
+	float: left;
+}
+.form-group div .help-text{
+	line-height: 0.42rem;
+	font-size: 0.18rem;
+}
+.form-group div input{
+	text-indent: 0.1rem;
+	padding: 0;
+	height: 0.5rem;
+	margin: 0;
+	background: #fff;
+	text-shadow: none;
+}
+.form-group .cue{
+	display: block;
+	float: none;
+	position: relative;
+	left: 0;
+	margin-left: 0;
+	line-height: 0.42rem;
+	font-size: 0.18rem;
+}
+.form-group .cue i{
+	top: 5px;
+}
+
+.form-group .yzm-box{
+	width: 2.98rem;
+	position: relative;
+}
+.form-group .yzm-box .ui-input-text{
+	width: 100% ;
+}
+.form-group .yzm-pic{
+	width: 0.9rem;
+	height: 0.5rem;
+	margin-left: 0.1rem;
+}
+.form-box .dtyzm-box{
+	margin: 0;
+}
+.form-box .dtyzm-box .ui-input-text{
+	width: 1.78rem;
+}
+.form-box .dtyzm-box input{
+	float: left;
+	width: 1.8rem;
+}
+.form-group .btn-yzm{
+	width: 1.2rem;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	margin-left: 0.1rem;
+	color: #666;
+	font-weight: normal;
+	font-size: 0.18rem;
+}
+
+.form-group span.btn-yzm{
+	position: static;
+	width: 0.8rem;
+}
+.form-group .help-text1{
+	line-height: 28px;
+}
+
+.check-box{
+	padding-left: 1.68rem;
+}
+
+.check-box .ui-checkbox{
+	float: left;
+	width: 0.3rem;
+	margin-left: 0;
+	
+}
+.check-box input{
+	margin-top: 0.05rem;
+	background-color: #999;
+	border: 1px solid #e2e2e2;
+}
+.check-box p{
+	font-size: 0.18rem;
+}
+
+.btn-regist{
+	width: 2rem;
+	height: 0.6rem;
+	margin: 0.5rem auto 0;
+}
+
+.btn-regist .btn2{
+	width: 100% ;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	font-size: 0.23rem;
+	color: #fff;
+	background: #009944;
+}
+
+.page-footer{
+	padding: 0;
+}
+.page-footer-inner{
+	width: auto;
+	padding-bottom: 0.2rem;
+}
+.error{
+	font-size:0.18rem;
+}
+
+
+.ui-body-a, .ui-page-theme-a .ui-body-inherit, html .ui-bar-a .ui-body-inherit,
+html .ui-body-a .ui-body-inherit, html body .ui-group-theme-a .ui-body-inherit,
+html .ui-panel-page-container-a {
+    border:none !important;
+}
+
+
+
+/*底部*/
+
+.foot-text-box{
+	padding-right: 0;
+	padding: 0.2rem;
+}
+.text1{
+	line-height: 0.42rem;
+	font-size: 0.18rem;
+}
+.text2{
+	line-height: 0.36rem;
+	font-size: 0.18rem;
+}
+.text3{
+	line-height: 0.45rem;
+	font-size: 0.18rem;
+}
+.tel-box{
+	border-left: 0;
+	margin-top: 0.3rem;
+}
+.tel-box span{
+	float: left;
+	width: 0.68rem;
+	height: 0.68rem;
+	background-size: 100%;
+}
+.tel-box div{
+	float: left;
+	margin-left: 0.2rem;
+}
+.text4{
+	line-height: 0.32rem;
+	font-size: 0.18rem;
+	padding-top: 0;
+}
+.text5{
+	line-height: 0.36rem;
+	font-size: 0.22rem;
+}
+
+.bq{
+	text-align: center;
+	font-size: 0.18rem;
+	font-weight: normal;
+}
+.foot-hr{
+	height: 1px;
+	background: #626262;
+	margin: 0.1rem 0;
+}
+.page-footer{
+	background: #364050 !important;
+	text-shadow: none !important;
+	font-family: "微软雅黑";
+}	
+.foot-text-box p{
+	font-weight: normal;
+}
+
+#myPanel{
+	background: #333;
+}
+.ui-panel-inner{
+	padding: 0;
+}
+
+
+
+
+/*app 下载*/
+
+.upload-con{
+	min-height: 9.78rem;
+}	
+	
+.upload-con .head-title{
+	text-align: center;
+	padding-bottom: 0.3rem;
+}	
+	
+.upload{
+	padding: 0.2rem;
+}
+
+.upload a{
+	display: block;
+	text-align: center;
+	font-size: 0.22rem;
+	line-height: 0.5rem;
+	color: #288df0;
+	
+}
+.app-ewm{
+	width: 2rem;
+	height: 2rem;
+	margin: 0.2rem auto 0;
+}
+
+.app-ewm img{
+	width: 100%;
+	height: 100%;
+}
+
+.regist-tit a i.icon-ios{
+	width: 0.3rem;
+	height: 0.3rem;
+	position: absolute;
+	left: 0.62rem;
+	top: 0.08rem;
+	background: url(../img/icon-ios1.png) no-repeat;
+	background-size: 100%;
+}
+.regist-tit a.mui-control-item.mui-active i.icon-ios{
+	background: url(../img/icon-ios2.png) no-repeat;
+	background-size: 100%;
+}
+
+.regist-tit a i.icon-android{
+	width: 0.3rem;
+	height: 0.3rem;
+	position: absolute;
+	left: 0.62rem;
+	top: 0.08rem;
+	background: url(../img/icon-android1.png) no-repeat;
+	background-size: 100%;
+}
+
+.regist-tit a.mui-control-item.mui-active i.icon-android{
+	background: url(../img/icon-android2.png) no-repeat;
+	background-size: 100%;
+}
+
+	
+	
+/*登录页*/	
+
+.login-con{
+	min-height: 6.8rem;
+}
+.login-box2{
+	float: none;
+	width: 4.8rem;
+	margin: 0.5rem auto 0;
+}
+
+.login-box2 h2{
+	height: 0.76rem;
+	font-size: 0.26rem;
+	line-height: 0.76rem;
+}
+
+.title3 h3{
+	width: 1.3rem;
+	font-size: 0.22rem;
+	line-height: 0.55rem;
+}
+.form-login{
+	padding: 0.2rem 0.4rem;
+}
+
+.form-login div{
+	margin-bottom: 0.2rem;
+}
+.cur-text span{
+	font-size: 0.2rem;
+}
+
+.form-login div input{
+	width: 3.93rem;
+	height: 0.55rem;
+	line-height: 0.55rem;
+	text-indent: 0.1rem;
+	font-size: 0.2rem;
+}
+.form-login .for-pwd{
+	text-align: right;
+}
+.form-login .for-pwd a{
+	font-size: 0.18rem;
+}
+
+.btn-grp2{
+	text-align: center;
+}
+.btn-grp2 .btn{
+	float: none;
+	display: inline-block;
+	width: 1.25rem ;
+	height: 0.5rem ;
+	line-height: 0.5rem;
+	font-size: 0.22rem;
+}
+
+
+
+
+
+
+
+/*注册成功*/
+
+.main-con1{
+	margin-top: 0.95rem;
+}
+
+.head-menu1{
+	border: none;
+	background: #272727;
+}
+
+.icon-suc{
+	width: 1.3rem;
+	height: 1.3rem;
+	margin: 0 auto;
+}
+
+.regist-suc-con{
+	padding-top: 0.15rem;
+}
+.regist-suc-con .title1{
+	font-size: 0.34rem;
+	color: #333;
+	font-weight: bold;
+	line-height: 0.6rem;
+	text-align: center;
+	padding-top: 0.3rem;
+}
+.regist-suc-con .text1{
+	font-size: 0.23rem;
+	color: #666;
+	line-height: 0.4rem;
+	text-align: center;
+	padding-bottom: 0.3rem;
+}
+
+.btn-download{
+	display: block;
+	width: 2.5rem;
+	height: 0.68rem;
+	line-height: 0.68rem;
+	background: #009944;
+	border-radius: 0.05rem;
+	color: #fff;
+	font-size: 0.23rem;
+	text-indent: 0.9rem;
+	margin: 0.1rem auto;
+	position: relative;
+}
+			
+.btn-download span{
+	display: block;
+	width: 0.4rem;
+	height: 0.4rem;
+	position: absolute;
+}
+.btn-download span.icon-ios1{
+	background: url(../img/icon-ios2.png) no-repeat;
+	background-size: 100%;
+	left: 0.4rem;
+	top: 0.11rem;
+	
+}
+.btn-download span.icon-android1{
+	background: url(../img/icon-android2.png) no-repeat;
+	background-size: 100%;
+	left: 0.4rem;
+	top: 0.13rem;
+}
+
+.ewm-download{
+	width: 2.5rem;
+    height: 2.5rem;
+    margin: 0.25rem auto 0;
+}
+
+.regist-suc-con .text2{
+	font-size: 0.22rem;
+	color: #666;
+	line-height: 0.4rem;
+	padding-left: 0.75rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+
+

@@ -1,0 +1,1511 @@
+{
+  "lang":"zh",
+  "btn_login": "登 录",
+  "btn_sub": "提交",
+  "btn_save": "保存",
+  "btn_true": "确定",
+  "btn_search": "查询",
+  "btn_reset": "清空",
+  "btn_back": "返回",
+  "btn_copy": "复制",
+  "btn_confirm": "确认",
+  "btn_cancel": "取消",
+  "btn_delete": "删除",
+  "btn_update": "修改",
+  "btn_QRCode": "二维码",
+  "btn_manager_bank_card": "管理银行卡",
+  "btn_manager_transfer": "管理电汇信息",
+  "btn_cancel_apply": "取消申请",
+  "btn_login_send_reset_password": "发送邮件, 重置密码",
+  "btn_getCode": "获取验证码",
+  "btn_code": "验证码",
+  "btn_previous": "上一步",
+  "btn_next": "下一步",
+  "btn_upload": "上传",
+  "btn_uploadImg": "上传图片",
+  "btn_switch": "是|否",
+  "btn_create_link": "生成链接",
+  "btn_gold_to_success": "入金成功",
+  "btn_gold_to_fail": "入金失败",
+  "btn_yes": "是",
+  "btn_no": "否",
+
+  "form_user_all_show":"用户总览",
+  "form_my_customer_num":"我的客户总数：",
+  "form_person":"人",
+  "form_hand":"手",
+  "form_current_month_customer_new":"本月新增客户数",
+  "form_current_month_customer_deposit":"本月新增客户入金",
+  "form_current_month_customer_withdraw":"本月新增客户出金",
+  "form_current_month_customer_transaction":"本月新增客户交易量",
+
+  "form_my_ib_num":"我的代理总数",
+  "form_current_month_ib_new":"本月新增代理数",
+  "form_current_month_ib_deposit":"本月新增代理入金",
+  "form_current_month_ib_withdraw":"本月新增代理出金",
+
+  "form_my_rebate_num":"我的返佣返利总数",
+  "form_current_month_rebate_new":"本月新增返佣返利",
+  "form_customer_balance_rebate":"客户余额返利",
+  "form_customer_transaction_rebate":"客户交易返佣",
+
+  "form_placeholder_login_email": "邮箱",
+  "form_placeholder_login_email_or_mt": "邮箱或mt账号",
+  "form_placeholder_login_retrieve_email": "请输入注册的邮箱",
+  "form_placeholder_login_password": "密码",
+  "form_placeholder_new_password": "新密码",
+  "form_placeholder_old_password": "旧密码",
+  "form_placeholder_confirm_password": "确认密码",
+  "form_placeholder_confirm_new_password": "确认新密码",
+  "form_placeholder_msg_password": "6-18位数字字母组合，可包含下划线",
+  "form_placeholder_login_code": "验证码",
+  "form_placeholder_name": "姓名",
+  "form_placeholder_customer_name": "客户姓名",
+  "form_placeholder_sales_name": "销售姓名",
+  "form_placeholder_customer_account_no": "客户账号",
+  "form_placeholder_account_no": "账号",
+  "form_placeholder_account_no_from": "转出账号",
+  "form_placeholder_account_no_to": "转入账号",
+  "form_placeholder_account_type": "账户类型",
+  "form_placeholder_account_balance": "账户余额(USD)",
+  "form_placeholder_account_state": "账户状态",
+  "form_placeholder_start_time": "开始时间",
+  "form_placeholder_end_time": "结束时间",
+  "form_placeholder_city": "请输入居住城市",
+  "form_placeholder_address": "请输入居住地址",
+  "form_placeholder_zip_code": "请输入邮政编码",
+  "form_placeholder_mobile": "用于节日祝福和活动推送",
+  "form_placeholder_mobile_yes": "用于节日祝福和活动推送，建议填写",
+
+  "form_label_trade_time": "返佣时间",
+  "form_label_balance_time": "返利日期",
+  "form_label_invite_type": "邀请类型",
+  "form_label_card_no": "银行卡号",
+  "form_label_bank_account": "开户银行",
+  "form_label_account_no": "账户",
+  "form_label_card_user_name": "银行账户户名",
+  "form_label_bank_name": "银行名称",
+  "form_label_bank_country": "银行国家",
+  "form_label_bank_province": "地区（省）",
+  "form_label_bank_city": "地区（市）",
+  "form_label_bank_province_": "银行省",
+  "form_label_bank_city_": "银行城市",
+  "form_label_branch_name_": "支行名称",
+  "form_label_branch_name": "银行开户行",
+  "form_label_branch_address": "开户行地址",
+  "form_label_branch_swift_code": "国际汇款代码",
+  "form_label_rate": "汇率",
+  "form_label_withdraw_rate": "出金汇率",
+  "form_label_application_amount": "申请金额(USD)",
+  "form_label_application_amount_cny": "申请金额(CNY)",
+  "form_label_fee": "手续费(USD)",
+  "form_label_pay_amount_usd": "支付金额(USD)",
+  "form_label_transfer_amount": "转账金额(USD)",
+  "form_label_bankcard": "收款银行",
+  "form_label_bank_account_no": "银行账号",
+  "form_label_ib_account_no": "代理账号",
+  "form_label_ib_name": "代理姓名",
+  "form_label_ib_type": "代理类型",
+  "form_label_order_no": "订单编号",
+  "form_label_proof_photo": "汇票凭证",
+  "form_label_remark": "处理备注",
+  "form_label_state": "状态",
+  "form_label_invite_code": "邀请码",
+  "form_label_leverage": "交易杠杆",
+  "form_label_login_password": "登录密码",
+  "form_label_job": "就业情况",
+  "form_label_capital_source": "资金来源",
+  "form_label_annual_income": "年收入",
+  "form_label_total_asset": "总资产",
+  "form_label_card_front": "卡片正面",
+  "form_label_address": "地址证明",
+  "form_label_close_time_gmt": "平仓时间（GMT）",
+  "form_label_open_time_gmt": "开仓时间（GMT）",
+  "form_a_retry": "重试",
+
+  "form_select_invite_type": "请选择",
+  "form_select_funds_type": "资金类型",
+  "form_select_order_state": "订单状态",
+  "form_select_china": "中国",
+  "form_select_other": "其它",
+  "form_text_personal_info": "个人信息",
+  "form_text_use_info": "用户信息",
+  "form_text_base_info": "基本信息",
+  "form_text_base_info_": "基础信息",
+  "form_text_identity_info": "身份信息",
+  "form_text_address_info": "居住信息",
+  "form_text_bank_info": "银行信息",
+  "form_text_bank_card_info": "银行卡信息",
+  "form_text_tt_info": "电汇信息",
+  "form_text_transfer_info": "电汇信息",
+  "form_text_transfer_info_two": "转账信息",
+  "form_text_account_info": "账号信息",
+  "form_text_account_info_other": "其他信息",
+  "form_text_account_info_trading": "交易信息",
+  "form_text_account_info_": "账户信息",
+  "form_text_deposit_info": "出入金信息",
+  "form_text_position_info": "职位信息",
+  "form_text_customer_details": "客户详情",
+  "form_text_invite_info": "邀请信息",
+  "form_text_password_info": "密码信息",
+  "form_text_investment_info": "投资信息",
+  "form_text_withdraw_info": "出金信息",
+  "form_text_rebate_info": "返利信息",
+  "form_text_commission_info": "返佣信息",
+  "form_text_bank_deposit": "银行卡入金",
+  "form_text_transfer_gold": "电汇入金",
+  "form_text_WeChat_fund": "微信入金",
+  "form_text_other_info": "其他信息",
+  "form_text_sponsored_links": "推广链接",
+  "form_text_email": "电子邮箱",
+  "form_text_identity_type": "证件类型",
+  "form_text_identity_no": "证件号码",
+  "form_text_identity1_path": "证件正面",
+  "form_text_identity2_path": "证件反面",
+  "form_text_upload_files": "点击上传，或将文件拖拽到此处",
+  "form_text_city": "城市",
+  "form_text_country": "国家",
+  "form_text_address": "居住地址",
+  "form_text_gender": "称呼",
+  "form_text_gender_boy": "男",
+  "form_text_gender_girl": "女",
+  "form_text_mobile": "手机号码",
+  "form_text_account_transfer": "账户转账",
+  "form_text_transfer": "转账",
+  "form_text_retry_seconds": "秒后重发 ",
+
+  "form_text_experience": "交易经验及知识 ",
+  "form_text_experience_span": "外汇，差价合约（CFDs）以及其他金融衍生品经验 。",
+  "form_text_assess_risk_span": "我了解金融衍生品是我投资目标和风险投资的一部分，因此我能评估交易所涉及的风险，包括我所有投资资金的损失。",
+  "form_text_professional_span": "关于金融和投资金融衍生品我有相关学术知识/专业知识。",
+  "form_text_upload_img": "证件图片上传 ",
+  "form_text_upload_img_span": "（目前只支持png、jpg格式，大小控制在2MB之内）",
+  "form_text_details_span": "我声明我已经仔细阅读并且了解以下条例 ",
+  "form_text_agree_span": " 我完全明白并且同意。",
+  "form_text_privacy_statement_span": " 隐私声明。",
+  "form_text_risk_warning_span": " Risk Warning",
+  "form_text_chp_span": " Complaints Handling Procedure ",
+  "form_text_legal_information_span": " Legal Information ",
+  "form_text_privacy_policy_span": " Privacy Policy ",
+  "form_text_three_minutes_span": " 完成注册预计需要3分钟 ",
+  "form_text_basic_span": " （邮箱是您接收通知和交易信息的重要渠道，请认真填写。） ",
+  "form_text_order_no": " 订单号 ",
+  "form_text_recharge_amount": " 充值金额 ",
+  "form_text_success": " 恭喜，充值成功！ ",
+  "form_text_fail": " 抱歉,充值失败！ ",
+  "form_text_info_true": " 您的转账信息如下所示，请确认信息无误后，点击“确定”按钮 ",
+  "form_text_withdraw_info_true": " 您的出金信息如下所示，请确认信息无误后，点击“确定”按钮。 ",
+  "form_text_upload_img_limit": " 目前只支持png、jpg格式，大小控制在2MB之内 ",
+  "form_text_history_transaction": " 历史交易 ",
+  "form_text_agree_span_split": " 同意 ",
+  "form_text_ib_agreement": " 代理协议 ",
+  "form_text_ib_submit_success": " 代理注册申请提交成功！ ",
+  "form_text_ib_background_review_to_send": " 后台会尽快审核，并邮件通知审核结果！ ",
+  "form_text_transaction_record": " 交易记录 ",
+  "form_text_beneficiary_account": " 收款人账号 ",
+  "form_text_beneficiary_name": " 收款人名称 ",
+  "form_text_beneficiary_address": " 收款人地址 ",
+  "form_text_beneficiary_branch_name": " 收款人开户银行名称 ",
+  "form_text_beneficiary_branch_address": " 收款人开户银行地址 ",
+  "form_text_zip_code": "邮政编码",
+  "form_text_sales_no": "销售编号",
+  "form_text_sales_account_no": "销售账号",
+  "form_text_date_of_birth": "出生日期",
+  "form_text_gmt_create": "创建时间",
+  "form_text_gmt_modified": "更新时间",
+
+  "form_text_sex": "性别",
+  "form_text_family_name": "姓",
+  "form_text_given_name": "名",
+  "form_text_available_balance": "可用余额",
+  "form_text_transfer_amount": "可转金额",
+  "form_text_add_bank_card": "添加银行卡",
+  "form_text_edit_bank_card": "修改银行卡",
+  "form_text_company": "公司",
+  "form_text_department": "部门",
+  "form_text_team": "组别",
+  "form_text_position_name": "职位",
+  "form_text_account_withdraw": "账户出金",
+  "form_text_bank_card_withdraw": "银行卡出金",
+  "form_text_transfer_withdraw": "电汇出金",
+  "idr": "（IDR）",
+  "usd": "（USD）",
+  "form_msg_account_no": "请选择账号",
+  "form_msg_account_no_to": "请选择转入账号",
+  "form_msg_account_no_from": "请选择转出账号",
+  "form_msg_account_type": "请选择账户类型",
+  "form_msg_identity_type": "请选择证件类型",
+  "form_msg_card_user_name": "银行账户户名不能为空",
+  "form_msg_bank_name": "银行名称不能为空银行名称不能为空",
+  "form_msg_bank_country": "银行国家不能为空",
+  "form_msg_bank_province": "地区（省）不能为空",
+  "form_msg_bank_city": "地区（市）不能为空",
+  "form_msg_branch_name": "银行开户行不能为空",
+  "form_msg_branch_address": "开户行地址不能为空",
+  "form_msg_branch_swift_code": "国际汇款代码不能为空",
+  "form_msg_bankcard": "请选择收款银行",
+  "form_msg_gender": "请选择您的称呼",
+  "form_msg_code": "请输入验证码",
+  "form_msg_date_of_birth": "出生日期不能为空",
+  "form_msg_country": "请选择国家",
+  "form_msg_city": "请输入城市",
+  "form_msg_leverage": "请设置交易杠杆",
+  "form_msg_job": "请选择就业情况",
+  "form_msg_capital_source": "请选择资金来源",
+  "form_msg_annual_income": "请选择年收入",
+  "form_msg_total_asset": "请选择总资产",
+  "alert_submit_success": "提交成功",
+  "alert_add_success": "添加成功",
+  "alert_email_format_error": "邮箱格式不正确",
+  "alert_view_email": "请查看邮箱",
+  "alert_start_time_more_than_the_end_time": "开始时间 不能大于 结束时间",
+  "alert_update_lev_success": "杠杆修改成功",
+  "alert_bank_no_not_null": "银行账号不能为空",
+  "alert_register_success1": "新账户注册成功，MT4账号：",
+  "alert_register_success2": "密码已发送至您的邮箱中",
+  "alert_balance_flush_balance_zero1": "可用余额：",
+  "alert_balance_flush_balance_zero2": "您的账户余额不小于0，不能申请余额清零！",
+  "alert_balance_flush_submit_success": "您的余额清零请求已被系统接收，我们的工作人员将会尽快为您办理，请耐心等待。",
+  "alert_deposit_submit_success": "我们已收到您的电汇入金申请，工作人员会在确认收到款项之后为您办理入金，请耐心等待。",
+  "alert_transfer_submit_success1": "您的转账请求已被系统接收，我们的工作人员将会尽快为您办理，请耐心等待。",
+  "alert_transfer_submit_success2": "若您需要取消，请点击此处进行操作。",
+  "alert_return_to_balance_no_rebate": "该账户无可转返利",
+  "msg_keep_a_bank_card": "请至少保留一张银行卡",
+  "msg_delete_success": "删除成功",
+  "msg_update_success": "修改成功",
+  "msg_upload_error": "上传失败",
+  "msg_login_success": "登录成功",
+  "msg_reset_login_password_re_login": "重置密码成功，请重新登录",
+  "msg_retreat_safely": "安全退出",
+  "msg_email_not_null": "请输入电子邮箱",
+  "msg_email_already_existed": "电子邮箱已存在",
+  "msg_verify_code_send_success": "验证码已发送，请及时查收！",
+  "msg_request_timeout_back1": "请求已超时，请返回第一步",
+  "msg_check_register_file": "请勾选注册协议文件",
+  "msg_check_ib_register_file": "您需要勾选声明",
+  "msg_reset_email_send_success": "重置密码邮件发送成功，请查收邮件",
+  "msg_retister_error": "注册失败",
+  "open_cancel_success": "取消成功",
+  "open_confirm_delete_bank": "确定要删除该银行卡",
+  "open_confirm_logout": "确认退出登录？",
+  "open_deposit_guide": "请您在新打开的页面上完成入金，入金完成后，根据实际支付情况选择点击下面的按钮。",
+  "validate_job_not_null": "请选择就业情况",
+  "validate_capital_source_not_null": "请选择资金来源",
+  "validate_annual_income_not_null": "请选择年收入",
+  "validate_total_asset_not_null": "请选择总资产",
+  "validate_card_no_not_null": "请填写银行卡号",
+  "validate_card_no_only_number": "银行卡号只能输入数字",
+  "validate_card_no_format_error": "请填写正确的银行卡号",
+  "validate_mobile_format_error": "手机号码格式有误",
+  "validate_country_not_null": "请选择居住国家",
+  "validate_city_not_null": "请输入城市",
+  "validate_address_not_null": "请输入居住地址",
+  "validate_zip_code_not_null": "请输入邮政编码",
+  "validate_zip_format_error": "邮政编码有误",
+  "validate_bank_country_not_chose": "请选择银行国家",
+  "validate_bank_province_not_chose": "请选择银行省",
+  "validate_bank_city_not_chose": "请选择银行市",
+  "validate_bank_name_not_chose": "请选择银行名称",
+  "validate_bank_name_not_null_please": "请填写银行名称",
+  "validate_branch_name_not_null_please": "请填写支行名称",
+  "validate_bank_img_path_not_null": "请上传银行卡图片",
+  "validate_path_not_null": "请上传地址证明",
+  "validate_family_name_format_error": "姓的长度1-50位的字母或汉字",
+
+
+  "validate_password_not_null": "请输入密码",
+  "validate_login_password_not_null": "登录密码是必填项",
+  "validate_twice_password_error": "两次密码输入不一致",
+  "validate_old_password_not_null": "请输入旧密码",
+  "validate_new_password_not_null": "请输入新密码",
+  "validate_confirm_password_not_null": "请输入确认新密码",
+  "validate_password_format_error": "密码格式错误，6-18位数字字母组合，可包含下划线",
+
+  "validate_identity1_path_not_null": "证件正面照片必须上传",
+  "validate_identity2_path_not_null": "证件反面照片必须上传",
+  "validate_login_no_not_null": "请输入登录账号",
+  "validate_login_no_format_error": "请输入正确的账号",
+  "validate_captcha_not_null": "请输入验证码",
+  "validate_email_captcha_not_null": "请输入邮箱验证码",
+  "validate_login_email_not_null": "请输入登录账号",
+  "validate_login_email_format_error": "请输入正确的账号",
+  "validate_title_format_error": "标题至少得5个字符啊",
+  "validate_unchinese": "请输入非中文",
+
+  "validate_pay_amount_not_null": "请填写支付金额",
+  "validate_amount_not_null": "请填写申请金额",
+  "validate_amount_only_number": "申请金额必须为数字",
+  "validate_amount_more_than_the_balance": "申请金额不能大于账户可用余额",
+  "validate_amount_more_than_the_fee": "申请金额必须大于手续费",
+  "validate_amount_dollar": "美元",
+  "validate_deopsit_amount_only_number": "入金金额必须为数字",
+  "validate_deopsit_amount_minimum": "入金最少额度为",
+  "validate_transfer_amount_not_null": "请填写转账金额",
+  "validate_transfer_amount_only_number": "转账金额必须为数字！",
+  "validate_transfer_amount_minimum": "转账金额不能低于1美元",
+
+  "validate_transfer_amount_more_than_the_balance": "转账金额不能大于账户可用余额",
+  "validate_transfer_from_account_is_to_account": "转入账户不能和转出账户一样",
+  "validate_withdraw_amount_minimum": "出金最少额度为",
+  "validate_acount_num_maximum": "账户数量已经达到上限，不能再开新账号",
+  "validate_identity_no_not_null": "证件号码不能为空",
+  "validate_birthday_not_null": "出生日期必填项",
+  "validate_card_user_name_not_null": "银行账户户名不能为空",
+  "validate_bank_name_not_null": "银行名称不能为空",
+  "validate_bank_country_not_null": "银行国家不能为空",
+  "validate_bank_province_not_null": "地区（省）不能为空",
+  "validate_bank_city_not_null": "地区（市）不能为空",
+  "validate_branch_name_not_null": "银行开户行不能为空",
+  "validate_branch_address_not_null": "开户行地址不能为空",
+  "validate_branch_swift_code_not_null": "国际汇款代码不能为空",
+  "validate_account_not_chose": "请选择账号",
+  "validate_account_type_not_chose": "请选择账户类型",
+  "validate_account_leverage_not_chose": "请选杠杆比例",
+  "validate_tt_path_not_null": "请上传汇票凭证",
+  "validate_family_name_not_null": "请输入您的姓",
+  "validate_given_name_not_null": "请输入您的名",
+  "validate_identity_type_not_chose": "请选择您的证件类型",
+  "validate_gender_not_chose": "请选择您的称呼",
+  "validate_captcha_err": "验证码错误",
+  "validate_transfer_account_from_not_chose": "请选择转出账号",
+  "validate_transfer_account_to_not_chose": "请选择转入账号",
+  "validate_withdraw_bankcard_not_chose": "请选择收款银行",
+  "validate_invite_type_not_chose":"请选择邀请类型",
+  "validate_ib_type_not_chose":"请选择代理类型",
+
+  "validate_is_identity_err":"身份证号格式错误",
+  "validate_is_identity_zip":"地址编码错误",
+  "validate_is_identity_no_reg":"该证件地区禁止注册",
+  "validate_is_identity_no_age":"18岁以下用户禁止注册",
+  "validate_is_identity_fail":"身份证校验失败",
+  "validate_is_identity_null":"证件号码不能为空",
+  "validate_is_identity_passport_err":"请输入正确的护照号",
+
+  "header_modify_password":"修改密码"
+,"header_logout":"退出登录"
+
+  ,"page_open_an_account":"开立账户"
+  ,"page_customer_deposit_title":"电汇收款信息"
+,"page_customer_title":"客户列表"
+,"page_client_info_title":"客户信息"
+,"page_customer_info_title":"客户详情"
+,"page_ib_title":"代理列表"
+  ,"page_ib_apply":"申请代理"
+,"page_ib_info_title":"代理详情"
+,"page_rebate_trade_title":"交易返佣记录"
+,"page_rebate_balance_title":"余额返利记录"
+,"page_rebate_balance_info_title":"余额返利明细"
+,"page_rebate_bonus_title":"提成列表"
+,"page_userinfo_title":"用户信息"
+,"page_account_list_title":"账户列表"
+,"page_account_list_info_title":"账户详情"
+,"page_account_append_info_title":"创建新账户"
+,"page_account_modify_lev_title":"修改杠杆"
+,"page_account_balance_flush_title":"余额清零"
+,"page_account_info_title":"个人资料"
+,"page_transaction_deposit_title":"账户入金"
+,"page_transaction_withdraw_title":"账户出金"
+,"page_transaction_withdraw_order_title":"出金订单确认"
+,"page_transaction_withdraw_order_sub_title":"出金提交成功"
+,"page_transaction_transfer_title":"账户转账"
+,"page_funds_fundsrecord_title":"资金记录"
+,"page_funds_deposit_title":"出入金记录"
+,"page_funds_withdraw_record_title":"出金记录"
+,"page_funds_transfer_title":"转账记录"
+,"page_funds_transfer_verify_title":"转账订单确认"
+,"page_funds_transfer_info_title":"转账记录详情"
+,"page_funds_transaction_info_title":"交易记录详情"
+,"page_funds_blanceflush_title":"余额清零记录"
+,"page_funds_blanceflush_info_title":"余额清零详情"
+,"page_user_userinfo_title":"个人信息"
+,"page_user_bankinfo_title":"银行信息"
+,"page_user_bankinfo_add_title":"添加银行卡"
+,"page_user_bankinfo_up_title":"修改银行卡"
+,"page_user_telinfo_title":"电汇信息"
+,"page_user_workinfo_title":"投资者信息"
+,"page_funds_return_to_balance_title":"返利转余额"
+,"page_funds_return_to_balancelist_title":"返利转余额记录"
+,"page_ib_invite_title":"开户链接"
+,"page_login_title":"账户中心"
+,"page_login_backpassword":"忘记密码"
+,"page_login_register":"注册账户"
+,"page_login_oldversions":"使用旧版本登录"
+,"page_backpassword_title":"找回密码"
+,"page_restpassword_title":"重置密码"
+,"page_register_step_title":"真实账户注册"
+,"page_register_dl_step_title":"代理注册"
+,"page_register_step4_title4_1":"恭喜！注册成功！"
+,"page_register_step4_title4_2":"真实账户注册"
+,"page_register_step4_tips1":"MT4账号："
+,"page_register_step4_tips2":"，交易密码已发送到您的邮箱！"
+,"page_register_step4_tips3":"抱歉！注册失败！失败原因为 "
+,"page_register_skip_tips":"，秒后自动跳转"
+,"page_register_dl_tips_msg1":"完成注册预计需要3分钟 "
+,"page_register_dl_tips_msg2":"基础信息 "
+,"page_register_dl_tips_msg3":"（邮箱是您接收通知和交易信息的重要渠道，请认真填写。） "
+,"page_register_dl_tips_msg4":"邀请信息 "
+,"page_register_dl_tips_msg5":"（填入销售的邀请码，将建立您与他的关联关系；若无，可不填） "
+,"page_register_dl_tips_msg":"账户信息 "
+,"page_register_dl_tips_msg7":"密码信息 "
+,"page_register_dl_tips_msg8":"证件图片上传 "
+,"page_register_dl_tips_msg9":"(目前只支持png、jpg格式，大小控制在2MB之内) "
+,"page_createinvite_dl_title":"开户链接 "
+,"page_reg_signup_dl_title":"代理登记 "
+,"page_reg_signup_dl_registered_title":"代理登记 "
+,"page_reg_signup_dl_tips1":"恭喜，登记成功！ "
+,"page_reg_signup_dl_tips2":"请等待审核，注意查收邮件 "
+,"page_reg_signup_dl_tips3":"抱歉,登记失败！ "
+,"page_reg_signup_dl_tips4":"失败原因： "
+,"page_transfer_depositresult_tips":"充值结果 "
+,"page_transaction_deposit_yhk_msg_h3":"银行卡入金操作说明："
+,"page_transaction_deposit_wx_msg_h3":"微信入金操作说明："
+,"page_transaction_transfer_msg_h3":"账户转账操作说明："
+,"page_sale_title":"外汇2.0-销售中心"
+,"page_member_title":"外汇2.0-客户中心"
+,"page_dl_title":"外汇2.0-代理中心"
+,"page_msg_h3":"提示："
+,"page_msg_login":"登录"
+  ,"page_text_submit_success":"提交完成"
+,"page_text_upsuccessfully":"提交成功："
+,"page_text_info":"信息："
+,"page_deposit_dhzh":"公司电汇账户："
+,"page_disclaimers":"免责声明："
+,"page_account_append_msg_txt":"系统将使用您第一次开立账号时所登记的资料，重新开立一个全新的账号，请确保您有足够的资金去维持新账号。"
+,"page_ib_account_append_msg_txt":"系统将使用您第一次开立账号时所登记的资料，重新开立一个全新的账号。"
+,"page_transaction_deposit_yhk_msg_txt1_1":"1.入金金额： 每次入金金额不得低于"
+,"page_transaction_deposit_yhk_msg_txt1_2":"美金，系统将会自动将美金转换成人民币。"
+,"page_transaction_deposit_yhk_msg_txt2":"2.可接受货币: 人民币（请确认仅使用本人的银行卡入金，第三方入金将无法取款）。"
+,"page_transaction_deposit_yhk_msg_txt3":"3.到账时间 (大约）: 即时到账（备注：可能因系统问题造成入金延迟，补仓敬请提前入金）。"
+,"page_transaction_deposit_dh_msg_txt1":"1. 每次最低入金金额不得低于[deposit_min_limit]美金"
+
+,"page_transaction_deposit_dh_msg_txt2":"2. 请电汇至 [-- 公司电汇账户 --] 后，将汇票凭证上传至页面"
+
+,"page_transaction_deposit_dh_msg_txt2_1":"2. 请电汇至“"
+,"page_transaction_deposit_dh_msg_txt2_2":"”后，将汇票凭证上传至页面；"
+,"page_transaction_deposit_dh_msg_txt3":"3. 电汇入金，平台不收取任何费用，但银行可能产生一定的服务费用。"
+,"page_transaction_deposit_wx_msg_txt1_1":"1. 每次入金金额不得低“"
+,"page_transaction_deposit_wx_msg_txt2":"2. 微信入金无手续费，金额将会即时汇入您的MT4账户。"
+,"page_disclaimers_msg_txt1":"1. 请阁下仔细阅读出金申请的声明，在您提交出金申请后，我们将会发送相关邮件至您的开户邮箱，请确保邮箱的真实有效；"
+,"page_disclaimers_msg_txt2_1":"2. 在您填写出金申请过程中，请阁下仔细确认您的银行卡等相关信息的准确有效，银行卡持有人需与开户身份信息保持一致，"
+,"page_disclaimers_msg_txt2_2":"3. 若信息填写或操作出现错误均由客户本人承担责任；若递交信息不完整则平台有权拒绝此次出金，待阁下重新填写递交后再次处理；"
+,"page_disclaimers_msg_txt3_1":"3.为节约财务成本，平台每月只受理"
+,"page_disclaimers_msg_txt3_2":"次免费出金申请，第"
+,"page_disclaimers_msg_txt3_3":"次出金将扣除"
+,"page_disclaimers_msg_txt3_4":"美金手续费；出金一般在后台扣款后的1-2个工作日到账；"
+,"page_disclaimers_msg_txt4":"4. 请阁下仔细核算出金金额，避免对交易中的账户产生影响，否则由于出金后保证金不足所引发的损失均由阁下本人承担。"
+,"page_disclaimers_msg_txt5":"5. 每次最低出金金额为"
+,"page_disclaimers_msg_txt6":"6. 银行卡出金免费。"
+,"page_transaction_withdraw_dh_msg_txt2_1":"2.系统每月为单个客户（一个有效身份证明对应一个客户）提供免费电汇出金"
+,"page_transaction_withdraw_dh_msg_txt2_2":"次，若您是第"
+,"page_transaction_withdraw_dh_msg_txt2_3":"次出金，将收取"
+,"page_transaction_withdraw_dh_msg_txt2_4":"美元的资金中转费用，谢谢您的理解!"
+,"page_transaction_withdraw_dh_msg_txt3":"3.每次出金金额不得低于[withdraw_min_limit]美金，到账时间一般3-5个工作日"
+,"page_transaction_withdraw_dh_msg_txt3_1":"3.每次出金金额不得低于"
+,"page_transaction_withdraw_dh_msg_txt3_2":"美金，到账时间一般3-5个工作日。"
+,"page_transaction_transfer_msg_txt1":"1. 在您进行转账操作前，请务必确保转出账户无交易风险（包括无未平仓订单、无挂单等），由于转账操作导致的任何损失， 平台不承担责任。"
+,"page_transaction_transfer_msg_txt2":"2. 转账提交后，系统会尽快处理您的订单。"
+,"page_user_userinfo_basics_msg_txt":"为了保障您的资金安全及权益，我们不允许主动修改您的姓名及出生日期等资料。如果您确实需要对以下内容进行修改，请提供必须的证明文件（如结婚证明，姓名更改通知或离婚判决书等），将证明发送至我们的客户服务邮箱service@rtfgroups.com，邮件标题请注明为：“账户个人资料修改+您的账户编号”，或者致电我们的客服热线：400-002-8180，我们的客服人员会协助您完成操作。"
+,"page_user_userinfo_id_msg_txt":"为了保障您的资金安全及权益，我们不允许主动修改您的身份信息。如果您确实需要对以下内容进行修改，请提供必须的证明文件（如结婚证明，姓名更改通知或离婚判决书等），将证明发送至我们的客户服务邮箱service@rtfgroups.com，邮件标题请注明为：“账户个人资料修改+您的账户编号”，或者致电我们的客服热线：400-002-8180，我们的客服人员会协助您完成操作。"
+,"page_user_userinfo_location_msg_txt1":"1.Real Time Futures监管要求您必须提供一份有效的地址信息，否则无法正常出金。"
+,"page_user_userinfo_location_msg_txt2":"2.地址证明包括（任选其一即可）： 户口本/有效期内的护照或驾照或社保卡/最近3个月内的水电煤气账单或银行卡账单。"
+,"page_user_bankinfo_add_msg_txt1":"1.为保证正常出金，请填写准确的支行名称；若无支行，请填写分行名称。"
+,"page_user_bankinfo_add_msg_txt2":"2.本人理解提供银行资料的重要性，因为在本人的提款过程中，这些资料可能会被使用到。本人谨此声明，以上所提供的资料均属真实且正确。"
+
+,"page_account_info_basics_msg_txt":"为了保障您的资金安全及权益，我们不允许主动修改您的姓名及出生日期等资料。如果您确实需要对以下内容进行修改，请提供必须的证明文件（如身份证，护照或社保卡等），将证明发送至我们的客户服务邮箱service@rtfgroups.com，邮件标题请注明为：“账户个人资料修改+您的账户编号”，或者致电我们的客服热线：400-002-8180，我们的客服人员会协助您完成操作。"
+,"page_account_info_id_msg_txt":"为了保障您的资金安全及权益，我们不允许主动修改您的身份信息。如果您确实需要对以下内容进行修改，请提供必须的证明文件（如身份证，护照或社保卡等），将证明发送至我们的客户服务邮箱service@rtfgroups.com，邮件标题请注明为：“账户个人资料修改+您的账户编号”，或者致电我们的客服热线：400-002-8180，我们的客服人员会协助您完成操作。"
+,"page_account_info_dh_msg_txt":"请正确填写属于您本人的电汇账号等银行信息，通常为英文或数字，请勿书写中文。"
+,"page_transfer_msg_txt":"您的转账信息如下所示，请确认信息无误后，点击“确定”按钮。 "
+,"page_withdraw_msg_txt":"您的出金信息如下所示，请确认信息无误后，点击“确定”按钮。 "
+,"page_member_withdraw_bankcard_msg_txt":"您的入金信息如下所示，请确认信息无误后，点击“确定”按钮，跳转至网上银行。"
+,"page_member_withdraw_dh_msg_txt":"您的入金信息如下所示，请确认信息无误后，点击“确定”按钮。"
+,"page_member_withdraw_wx_msg_txt":"您的入金信息如下所示，请确认信息无误后，点击“确定”按钮，跳转至微信支付界面。。"
+,"page_404":"您访问的页面不存在或已删除"
+,"page_update_browser_title":"请升级您的浏览器"
+,"page_update_browser_msg_txt":"尊敬的用户，您现在使用的 Internet Explore 浏览器版本过低，建议您升级至 Internet Explorer 9+ 版本 或使用其他浏览器（ 如：Google Chrome 或 Mozilla Firefox ），请升级后继续使用Real Time Futures的服务。"
+
+, "table_order_no":"订单编号"
+, "table_sum_trade_volume_ib":"代理客户总交易量"
+, "table_total_customer_balance":"代理客户总账户余额"
+, "table_total_customer":"代理客户总数"
+, "table_balance":"账户余额"
+, "table_balance_2":"余额"
+, "table_gmt_create":"注册时间"
+, "table_gmt_create_1":"创建时间"
+, "table_gmt_create_2":"创建日期"
+, "table_customer_name":"姓名"
+, "table_customer_name_1":"客户姓名"
+, "table_mobile":"手机号码"
+, "table_email":"电子邮箱"
+, "table_total_balance":"账户总余额"
+, "table_sum_deposit":"总入金"
+, "table_sum_withdraw":"总出金"
+, "table_net_deposit":"总净入金"
+, "table_sum_trade_volume":"客户总交易量"
+, "table_change_time":"提成日期"
+, "table_common_sales_amount":"客户经理提成(USD)"
+, "table_department_leader_amount":"客户总监提成(USD)"
+, "table_amount":"提成合计(USD)"
+, "table_change_time_1":"返佣时间"
+, "table_source_account_no":"账号"
+, "table_source_account_no_1":"客户账号"
+, "table_source_account_type":"账户类型"
+, "table_source_account_type_1":"客户账户类型"
+, "table_trading_symbol":"交易品种"
+, "table_trading_volume":"交易量"
+
+, "table_commission_amount":"返佣金额(USD)"
+, "table_rate":"年化返利率"
+, "table_rebate_date":"返利日期"
+, "table_account_no":"转出账号"
+, "table_target_account_no":"转入账号"
+, "table_amount_1":"返利金额(USD)"
+, "table_amount_2":"转账金额(USD)"
+, "table_amount_3":"申请金额(USD)"
+, "table_amount_4":"返利金额"
+, "table_amount_5":"提成金额(USD)"
+, "table_sum_deposit_1":"入金"
+, "table_sum_withdraw_1":"出金"
+, "table_net_deposit_1":"净入金"
+, "table_rebate":"可转返利(USD)"
+, "table_account_state":"账户状态"
+, "table_account_state_1":"状态"
+, "table_state":"订单状态"
+, "table_cause":"资金类型"
+, "table_difference":"金额(USD)"
+, "table_account_balance":"转前余额(USD)"
+, "table_account_balance_1":"转后余额(USD)"
+, "table_account_no_1":"代理账号"
+, "table_open_time":"开仓时间"
+, "table_type":"交易类型"
+, "table_open_price":"开仓价格"
+, "table_close_price":"平仓价格"
+, "table_close_time":"平仓时间"
+, "table_fee":"手续费(USD)"
+, "table_swaps":"隔夜利息"
+, "table_profit":"交易盈亏"
+, "table_leverage":"杠杆比例"
+, "table_leverage_1":"杠杆"
+, "table_mt4_account":"MT4账号"
+, "table_content_state":"处理中"
+, "table_remark":"处理备注"
+, "table_belong_IB":"所属IB"
+, "table_company":"公司"
+, "table_department":"部门"
+, "table_team":"组别"
+, "table_position":"职位"
+, "table_unknown":"未知"
+, "table_ib_name": "代理姓名"
+, "table_ib_account": "代理账户"
+, "table_ib_income":"代理收益"
+,"table_earning_rate":"提成比例"
+,"table_layui_paging_goto":"到第"
+,"table_layui_paging_page":"页"
+,"table_layui_paging_total":"共"
+,"table_layui_paging_item":"条"
+,"table_layui_paging_page_size":"条/页"
+,"table_layui_data_null":"无数据"
+,"table_layui_data_request":"数据请求中"
+
+
+
+,"msg_withdraw_success":"您的出金请求已被系统接收，我们的工作人员将会尽快为您办理，请耐心等待，款项一般会在2个工作日后转入您所登记的银行账户内。"
+,"msg_withdraw_error":"您的出金请求已被系统接收，我们的工作人员将会尽快为您办理，请耐心等待，款项一般会在3-5个工作日后转入您所登记的银行账户内。"
+,"msg_retry":"重试"
+,"msg_ing":"处理中"
+,"msg_cancel_success":"已取消"
+,"btn_reset_email_retry":"重新发送"
+,"dialog_title_reset":"修改密码"
+,"dialog_account_details":"账户详情"
+,"dialog_transfer_confirm":"转账订单确认"
+,"dialog_transfer_details":"转账记录详情"
+,"dialog_withdraw_confirm":"出金订单确认"
+,"dialog_xx_details":"详情"
+,"dialog_rebate_details":"余额返利明细"
+,"dialog_bonus_details":"客户经理提成明细"
+,"dialog_bonus_details_department":"客户总监提成明细"
+,"alert_content_submit_success":"提交成功"
+,"alert_content_withdraw_cancel":"若您需要取消出金，请点击此处进行操作。"
+,"table_total_text":"合计"
+,"alert_title_info":"信息"
+,"tips_copy_success":"复制成功"
+,"dropdown_choose_city":"请选择县/区"
+
+,"menu_member_account":"我的账户"
+,"menu_member_account_list":"账户列表"
+,"menu_member_account_create":"创建新账户"
+,"menu_member_account_modify_lev":"修改杠杆"
+,"menu_member_account_balance_flush":"余额清零"
+
+,"menu_member_transaction":"资金交易"
+,"menu_member_transaction_deposit":"账户入金"
+,"menu_member_transaction_withdraw":"账户出金"
+,"menu_member_transaction_transfer":"账户转账"
+
+,"menu_member_funds":"资金信息"
+,"menu_member_funds_fundsrecord":"资金记录"
+,"menu_member_funds_deposit":"出入金记录"
+,"menu_member_funds_transfer":"转账记录"
+,"menu_member_funds_blanceflush":"余额清零记录"
+
+,"menu_member_user":"客户信息"
+,"menu_member_user_userinfo":"个人信息"
+,"menu_member_user_bankinfo":"银行信息"
+,"menu_member_user_telinfo":"电汇信息"
+,"menu_member_user_workinfo":"投资者信息"
+
+,"menu_ib_account":"我的账户"
+,"menu_ib_account_list":"账户列表"
+,"menu_ib_account_append":"创建新账户"
+,"menu_ib_account_info":"个人资料"
+
+,"menu_ib_funds":"我的资金"
+,"menu_ib_funds_withdraw":"出金"
+,"menu_ib_funds_transfer":"账户转账"
+,"menu_ib_funds_balance":"返利转余额"
+,"menu_ib_funds_fundsrecord":"资金记录"
+,"menu_ib_funds_withdraw_record":"出金记录"
+,"menu_ib_funds_transfer_record":"转账记录"
+,"menu_ib_funds_balance_record":"返利转余额记录"
+,"menu_ib_client":"我的客户"
+,"menu_ib_client_list":"客户信息"
+,"menu_ib_rebates":"我的佣金"
+,"menu_ib_rebates_trade":"交易返佣记录"
+,"menu_ib_rebates_balance":"余额返利记录"
+,"menu_ib_invite":"开户链接"
+
+,"menu_sale_customer":"客户信息"
+,"menu_sale_customer_list":"客户列表"
+,"menu_sale_ib":"代理信息"
+,"menu_sale_ib_list":"代理列表"
+,"menu_sale_rebate":"返佣返利信息"
+,"menu_sale_rebate_trade":"交易返佣记录"
+,"menu_sale_rebate_balance":"余额返利记录"
+,"menu_sale_bonus":"提成信息"
+,"menu_sale_bonus_list":"提成列表"
+,"menu_sale_userinfo":"用户信息"
+,"menu_sale_invitation":"邀请管理"
+
+
+  ,"layui_data_api_err":"数据接口请求异常"
+
+
+
+,"================================喻英芝":"新增国际化 start-------------------------------"
+,"table_buy_amount":"总持仓手数"
+,"table_sell_amount":"总平仓手数"
+,"table_amount_01":"返利(USD)"
+,"table_amount_04":"返佣(USD)"
+,"table_year_month":"年月"
+,"table_amount_6":"津贴金额(USD)"
+,"form_text_year_month": "年月"
+,"page_rebate_benefit_title":"津贴管理"
+,"table_account_no_next":"下级帐号"
+, "table_balance_3":"余额(USD)"
+,"table_balance_date":"返佣日期"
+,"table_trade_number":"交易手数"
+,"table_referral":"推荐人姓名"
+,"form_referral":"推荐人姓名"
+,"table_date":"日期"
+,"table_sales_account_no":"销售帐号"
+,"table_sales_name":"销售姓名"
+,"table_sales_type":"销售类别"
+,"table_sales_amount":"销售收益"
+,"table_sales_benefit":"津贴金额(USD)"
+,"dialog_benefit_detail":"津贴明细"
+,"dialog_bonus_details_2":"提成明细"
+, "table_rate_rebate":"返佣比例"
+,"form_text_cutomer_type":"直客"
+,"form_text_cutomer_type_no":"非直客"
+,"================================喻英芝":"新增国际化 end-------------------------------"
+
+  ,"================================宋志涛":"新增国际化 start-------------------------------",
+  "page_idr_deposit_dh_msg_txt1":"1. 每次最低入金金额不得低于[deposit_min_limit]美金，请输入印尼盾金额，系统会根据当天汇率自动转换成美元金额；",
+
+  "form_text_invite_": "（填入邀请码，若无，可不填。）",
+  "page_transaction_deposit_dh_msg_h3_idr":"电汇入金（IDR）操作说明：",
+  "page_transaction_deposit_dh_msg_txt1_2_idr":"美金，请输入印尼盾金额，系统会根据当天汇率自动转换成美元金额；",
+  "page_transaction_deposit_dh_msg_h3_usd":"电汇入金（USD）操作说明：",
+  "form_label_application_amount_idr": "申请金额(IDR)",
+
+  "page_transaction_withdraw_dh_msg_txt1":"1. 为保证顺利出金，请在提交申请时，务必确认电汇账号等银行信息的正确性，一般为英文或数字；",
+  "page_transaction_withdraw_dh_msg_txt4":"4. 请输入申请金额(USD),系统根据当天汇率自动换算成印尼盾（IDR）",
+
+  "page_transaction_withdraw_dh_msg_h3_idr":"电汇出金（IDR）操作说明：",
+  "page_transaction_withdraw_dh_msg_h3_usd":"电汇出金（USD）操作说明：",
+
+
+
+  "form_label_pay_amount": "支付金额(IDR)",
+
+  "menu_member_lower_level_management": "下级管理",
+  "menu_member_rebate":"我的返佣返利",
+  "menu_member_rebate_trade":"返佣记录",
+  "menu_member_rebate_balance":"返利记录",
+
+  "table_serial_number": "序号",
+  "table_account_number": "账号",
+  "table_currency": "币种",
+  "table_lower_level_account": "下级账号",
+  "table_lower_level_name": "下级姓名",
+
+  "open_confirm_delete_tt": "确定删除电汇信息",
+
+  "button_add_to": "添加",
+
+  "form_text_superior_account": "上级账号",
+  "form_text_superior_name": "上级姓名",
+
+  "title_my_lower_level": "我的下级",
+
+  "tt_detail_idr_title": "电汇（IDR）收款信息",
+  "tt_detail_usd_title": "电汇（USD）收款信息",
+  "================================宋志涛":"新增国际化 end------------------------------",
+
+
+
+
+"===================2018-05-18-v0.2==============------------------":""
+  ,"form_user_name":"姓名"
+  ,"form_UserBirthPlace":"出生地点"
+  ,"form_birth_date":"出生日期"
+  ,"form_user_identity_number":"证件号码"
+  ,"form_user_investment_experience":"投资经验"
+  ,"form_user_account_purpose":"开户目的"
+  ,"form_user_npwp_flag":"个人税号"
+  ,"form_user_gender":"性别"
+  ,"form_user_marital_status":"婚姻状况"
+  ,"form_user_spouse":"配偶的名字"
+  ,"form_user_have_family_in":"有一位在BAPPEBTI /期货交易所/结算所工作的家庭成员？"
+  ,"form_user_bankruptcy":"你是否被法庭宣布破产？"
+  ,"form_user_emergency_contact_relationship":"关系"
+  ,"form_user_emergency_contact_address":"家庭住址"
+  ,"form_user_emergency_contact_zip_code":"邮编"
+  ,"form_user_work_work":"职业"
+  ,"form_user_work_company_name":"公司名称"
+  ,"form_user_work_line_of_business":"业务领域"
+  ,"form_user_work_position":"职位"
+  ,"form_user_work_working_period":"服务时长(years)"
+  ,"form_user_work_ex_working_period":"前公司服务时长(years)"
+  ,"form_user_work_office_address":"公司地址"
+  ,"form_user_work_zip_code":"邮编"
+  ,"form_user_work_phone_number":"办公室电话"
+  ,"form_user_work_facsimile_number":"办公传真号码"
+  ,"form_user_list_of_asset_income_per_year_id":"年收入"
+  ,"form_user_list_of_asset_home_location":"房子位置"
+  ,"form_user_list_of_asset_value_svto":"房屋税价值"
+  ,"form_user_list_of_asset_bank_deposits":"定期存款"
+  ,"form_user_list_of_asset_total":"合计"
+  ,"form_user_list_of_asset_other":"其他"
+  ,"form_user_bank_name":"银行名称"
+  ,"form_user_bank_branch":"分支"
+  ,"form_user_bank_phone_number":"电话号码"
+  ,"form_user_bank_account_number":"帐号"
+  ,"form_user_bank_account_type":"账户类型"
+  ,"form_user_bank_account_name":"账户名称"
+  ,"form_user_bank_swift_code":"Swift Code"
+  ,"form_user_info":"个人资料"
+  ,"form_user_emergency_contact_info":"各方在紧急情况下联系"
+  ,"form_user_work_info":"职位信息"
+  ,"form_user_list_asset_info":"财富榜"
+  ,"form_user_bank_info":"银行信息"
+  ,"button_back":"返回"
+  ,"button_save":"保存并继续"
+  ,"form_user_mother":"母亲的姓名"
+  ,"form_user_home_ownership":"房屋所有权房屋状况"
+  ,"form_user_home_fax_number":"房屋传真号码"
+  ,"form_handphone_number":"手机号码"
+  ,"form_house_number":"电话号码"
+
+  ,"page_register_submit_succ_msg":"提交成功，请查收邮件激活账户"
+  ,"page_register_active_succ_msg":"恭喜！账户激活成功,请登录账户"
+   ,"page_register_active_err_msg":"出错了，激活失败"
+  ,"page_register_active_succ_goto":"秒后跳转登录"
+  ,"page_real_account_list_title":"开设账户"
+  ,"menu_real_accounts":"开设账户"
+
+  ,"table_source_real_account_date":"提交时间"
+  ,"table_source_real_account_state":"申请状态"
+  ,"real_account_apply_btn":"申请开设账户"
+
+
+  ,"validate_spouse_name":"配偶的名字为必填项"
+  ,"validate_investment_experience":"投资经验为必填项"
+  ,"validate_occupation":"职业为必填项"
+  ,"validate_place":"出生地点为必填项"
+  ,"validate_tax_number":"请输入个人税号"
+
+  ,"form_title_customer_bank":"客户银行信息"
+  ,"form_title_company_bank":"公司银行信息"
+
+  ,"validate_bank_name_chose": "请选择银行"
+  ,"validate_bank_name_account_chose": "请选择银行账号"
+  ,"validate_bank_name_account_name": "银行户名"
+  ,"validate_bank_name_account_swift": "Swift Code"
+  ,"demo_accounts_title":"模拟账户"
+  ,"real_accounts_title":"真实账户"
+  ,"real_accounts_type":"类型"
+  ,"dialog_account_history":"账户历史"
+
+  ,"page_real_account_type_title":"选择账户类型"
+  ,"form_select":"请选择"
+  ,"form_photos_title":"文档附件"
+  ,"form_recent_photo":"最近的照片"
+  ,"form_account_others":"银行账户对账单（最近3个月）/信用卡账单/电力/电话账户"
+  ,"form_photos_required":"JPG或PNG图像文件类型，每个文件最大大小为2M。"
+  ,"form_bill_photo":"请上传银行账户对账单照片"
+  ,"form_user_work_fax_number":"传真号码"
+  ,"validate_country_code":"Country code必须是数字"
+  ,"validate_country_code_not_null":"请选择Country code"
+  ,"validate_services_years":"工作年限必须是数字,可以包含一位小数"
+  ,"validate_previous_services_years":"上一份工作年限必须是数字,可以包含一位小数"
+  ,"validate_full_name_not_null":"请输入姓名全称"
+  ,"validate_bank_mobile_not_null":"请输入手机号"
+  ,"validate_bank_mobile_is_number":"手机号必须是数字"
+  ,"validate_phone_is_number":"电话号码必须是数字"
+  ,"validate_identity_style":"证件号码必须是数字/字母/数组字母组合"
+,"validate_tax_number_regular":"个人税号必须是数字/字母/数组字母组合"
+  ,"validate_other_account_type":"请输入其他帐户类型"
+  ,"validate_wealth_total":"请输入财产总额"
+  ,"validate_wealth_total_regular":"财产总额必须是正整数或0"
+,"validate_house_tax_value":"请输入房产价值税"
+,"validate_house_tax_value_regular":"房产价值税必须是正整数或0"
+,"validate_time_deposit":"请输入定期存款额"
+,"validate_time_deposit_regular":"定期存款额必须是正整数或0"
+,"validate_wealth_others":"请输入其他财产额"
+,"validate_wealth_others_regular":"其他财产额必须是正整数或0"
+  ,"form_country_name":"国籍"
+,"form_have_family_in":"Having a family member who worked in BAPPEBTI / Futures Exchange / Clearing House?"
+,"form_have_family_in2":"Do you have been declared bankrupt by the court?"
+,"validate_given_name_format_error": "姓名的长度1-50位的大写或小写字母"
+  ,"validate_office_telephone":"请输入办公室电话"
+,"validate_user_work_facsimile_number":"请输入办公传真号码"
+,"validate_user_account_purpose":"请输入开户目的"
+,"validate_recent_photo":"请上传最近的照片"
+,"validate_identity_photo":"请上传证件照"
+,"validate_bill_photo":"请上传银行账户对账单"
+,"validate_select_rate":"请选择汇率"
+,"validate_select_leverage":"请选择杠杆"
+,"validate_mobile_numble":"手机号码为必填项"
+  ,"validate_previous_services_years_max":"工作年限不能大于100"
+,"validate_house_ownership":"please enter house ownership"
+,"validate_user_work_facsimile_is_number":"办公传真号码必须是数字"
+,"form_confirm_succee_tips_ok":"提交成功，请等待审核！"
+,"form_confirm_succee_tips_failed":"提交失败，请等重新提交！"
+,"nationality_not_null":"国籍是必填项"
+,"identity_type_not_null":"证件类型是必填项"
+,"investment_experience_select":"请选择是否有投资经验"
+,"marital_status_select":"请选择婚姻状况"
+,"mother_maiden_name":"请输入母亲的名字"
+,"home_address":"请输入家庭住址"
+,"ec_full_name":"请输入紧急联系人的姓名"
+,"ec_relation_ship":"请输入与紧急联系人的关系"
+,"ec_home_address":"请输入紧急联系人的家庭住址"
+,"annual":"请选择年收入范围"
+,"validate_zip_format_number": "邮政编码必须是数字"
+,"validate_bank_name_account_swift_number": "Swift Code 必须是数字"
+,"validate_money_regular":"财产金额不能超过18位"
+,"validate_required_empty":"必填项不能为空"
+,"tips_no_info_yet":"暂无信息"
+,"form_user_identity_type_id":"证件类型"
+,"form_phone_number":"电话号码"
+,"validate_wealth_other_regular":"其他财产金额必须是正整数或0"
+,"upload_img_suffix_not_contain":"选择的图片中包含不支持的格式"
+,"upload_img_size_max":"文件不能超过2MB"
+,"upload_img_interface_error":"请求上传接口出现异常"
+,"upload_img_response_error":"获取上传后的响应信息出现异常"
+
+,"form_text_MT4_acc_no":"MT4账号"
+
+,"form_label_bank_type":"储蓄账户类型"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+,"select": {
+    "common":{
+      "address": {
+        "countries": [
+          ["CN", "中国"],
+          ["AO", "安哥拉"],
+          ["AF", "阿富汗"],
+          ["AL", "阿尔巴尼亚"],
+          ["DZ", "阿尔及利亚"],
+          ["AD", "安道尔共和国"],
+          ["AI", "安圭拉岛"],
+          ["AG", "安提瓜和巴布达"],
+          ["AR", "阿根廷"],
+          ["AM", "亚美尼亚"],
+          ["AU", "澳大利亚"],
+          ["AT", "奥地利"],
+          ["AZ", "阿塞拜疆"],
+          ["BS", "巴哈马"],
+          ["BH", "巴林"],
+          ["BD", "孟加拉国"],
+          ["BB", "巴巴多斯"],
+          ["BY", "白俄罗斯"],
+          ["BE", "比利时"],
+          ["BZ", "伯利兹"],
+          ["BJ", "贝宁"],
+          ["BM", "百慕大群岛"],
+          ["BO", "玻利维亚"],
+          ["BW", "博茨瓦纳"],
+          ["BR", "巴西"],
+          ["BN", "文莱"],
+          ["BG", "保加利亚"],
+          ["BF", "布基纳法索"],
+          ["MM", "缅甸"],
+          ["BI", "布隆迪"],
+          ["CM", "喀麦隆"],
+          ["CA", "加拿大"],
+          ["CF", "中非共和国"],
+          ["TD", "乍得"],
+          ["CL", "智利"],
+          ["CO", "哥伦比亚"],
+          ["CG", "刚果"],
+          ["CK", "库克群岛"],
+          ["CR", "哥斯达黎加"],
+          ["CU", "古巴"],
+          ["CY", "塞浦路斯"],
+          ["CZ", "捷克"],
+          ["DK", "丹麦"],
+          ["DJ", "吉布提"],
+          ["DO", "多米尼加共和国"],
+          ["EC", "厄瓜多尔"],
+          ["EG", "埃及"],
+          ["SV", "萨尔瓦多"],
+          ["EE", "爱沙尼亚"],
+          ["ET", "埃塞俄比亚"],
+          ["FJ", "斐济"],
+          ["FI", "芬兰"],
+          ["FR", "法国"],
+          ["GF", "法属圭亚那"],
+          ["GA", "加蓬"],
+          ["GM", "冈比亚"],
+          ["GE", "格鲁吉亚"],
+          ["DE", "德国"],
+          ["GH", "加纳"],
+          ["GI", "直布罗陀"],
+          ["GR", "希腊"],
+          ["GD", "格林纳达"],
+          ["GU", "关岛"],
+          ["GT", "危地马拉"],
+          ["GN", "几内亚"],
+          ["GY", "圭亚那"],
+          ["HT", "海地"],
+          ["HN", "洪都拉斯"],
+          ["HK", "香港"],
+          ["HU", "匈牙利"],
+          ["IS", "冰岛"],
+          ["IN", "印度"],
+          ["ID", "印度尼西亚"],
+          ["IR", "伊朗"],
+          ["IQ", "伊拉克"],
+          ["IE", "爱尔兰"],
+          ["IL", "以色列"],
+          ["IT", "意大利"],
+          ["JM", "牙买加"],
+          ["JP", "日本"],
+          ["JO", "约旦"],
+          ["KH", "柬埔寨"],
+          ["KZ", "哈萨克斯坦"],
+          ["KE", "肯尼亚"],
+          ["KR", "韩国"],
+          ["KW", "科威特"],
+          ["KG", "吉尔吉斯坦"],
+          ["LA", "老挝"],
+          ["LV", "拉脱维亚"],
+          ["LB", "黎巴嫩"],
+          ["LS", "莱索托"],
+          ["LR", "利比里亚"],
+          ["LY", "利比亚"],
+          ["LI", "列支敦士登"],
+          ["LT", "立陶宛"],
+          ["LU", "卢森堡"],
+          ["MO", "澳门"],
+          ["MG", "马达加斯加"],
+          ["MW", "马拉维"],
+          ["MY", "马来西亚"],
+          ["MV", "马尔代夫"],
+          ["ML", "马里"],
+          ["MT", "马耳他"],
+          ["MU", "毛里求斯"],
+          ["MX", "墨西哥"],
+          ["MD", "摩尔多瓦"],
+          ["MC", "摩纳哥"],
+          ["MN", "蒙古"],
+          ["MS", "蒙特塞拉特岛"],
+          ["MA", "摩洛哥"],
+          ["MZ", "莫桑比克"],
+          ["NA", "纳米比亚"],
+          ["NR", "瑙鲁"],
+          ["NP", "尼泊尔"],
+          ["NL", "荷兰"],
+          ["NZ", "新西兰"],
+          ["NI", "尼加拉瓜"],
+          ["NE", "尼日尔"],
+          ["NG", "尼日利亚"],
+          ["KP", "朝鲜"],
+          ["NO", "挪威"],
+          ["OM", "阿曼"],
+          ["PK", "巴基斯坦"],
+          ["PA", "巴拿马"],
+          ["PG", "巴布亚新几内亚"],
+          ["PY", "巴拉圭"],
+          ["PE", "秘鲁"],
+          ["PH", "菲律宾"],
+          ["PL", "波兰"],
+          ["PF", "法属玻利尼西亚"],
+          ["PT", "葡萄牙"],
+          ["PR", "波多黎各"],
+          ["QA", "卡塔尔"],
+          ["RO", "罗马尼亚"],
+          ["RU", "俄罗斯"],
+          ["LC", "圣卢西亚"],
+          ["VC", "圣文森特岛"],
+          ["SM", "圣马力诺"],
+          ["ST", "圣多美和普林西比"],
+          ["SA", "沙特阿拉伯"],
+          ["SN", "塞内加尔"],
+          ["SC", "塞舌尔"],
+          ["SL", "塞拉利昂"],
+          ["SG", "新加坡"],
+          ["SK", "斯洛伐克"],
+          ["SI", "斯洛文尼亚"],
+          ["SB", "所罗门群岛"],
+          ["SO", "索马里"],
+          ["ZA", "南非"],
+          ["ES", "西班牙"],
+          ["LK", "斯里兰卡"],
+          ["SD", "苏丹"],
+          ["SR", "苏里南"],
+          ["SZ", "斯威士兰"],
+          ["SE", "瑞典"],
+          ["CH", "瑞士"],
+          ["SY", "叙利亚"],
+          ["TW", "台湾省"],
+          ["TJ", "塔吉克斯坦"],
+          ["TZ", "坦桑尼亚"],
+          ["TH", "泰国"],
+          ["TG", "多哥"],
+          ["TO", "汤加"],
+          ["TT", "特立尼达和多巴哥"],
+          ["TN", "突尼斯"],
+          ["TR", "土耳其"],
+          ["TM", "土库曼斯坦"],
+          ["UG", "乌干达"],
+          ["UA", "乌克兰"],
+          ["AE", "阿拉伯联合酋长国"],
+          ["GB", "英国"],
+          ["US", "美国"],
+          ["UY", "乌拉圭"],
+          ["UZ", "乌兹别克斯坦"],
+          ["VE", "委内瑞拉"],
+          ["VN", "越南"],
+          ["YE", "也门"],
+          ["YU", "南斯拉夫"],
+          ["ZW", "津巴布韦"],
+          ["ZR", "扎伊尔"],
+          ["ZM", "赞比亚"]
+        ]
+      }
+    },
+    "member":{
+      "real_account":{
+        "state":[
+          {"value": 1, "label": "已提交"},
+          {"value": 2, "label": "已确认"},
+          {"value": 3, "label": "已审核"},
+          {"value": 4, "label": "已通过"},
+          {"value": 5, "label": "已拒绝"}
+        ]
+
+      },
+      "account": {
+        "account_type": [
+          {"value": 1, "label": "STANDARD"},
+          {"value": 2, "label": "MINI"},
+          {"value": 3, "label": "STANDARD"},
+          {"value": 9, "label": "虚拟账号"},
+          {"value": 10, "label": "虚拟销售"}
+        ],
+        "account_type_map": {
+          "1": {"value": 1, "label": "标准账户"}
+        },
+        "state": [
+          {"value": 1, "label": "正常"},
+          {"value": 50, "label": "只读"},
+          {"value": 51, "label": "禁用"}
+        ]
+      },
+      "register": {
+        "identity_type": [
+          {"value": 1, "label": "身份证"},
+          {"value": 2, "label": "驾驶执照"},
+          {"value": 3, "label": "护照"}
+        ],
+        "identity_type_map": {
+          "1": {"value": 1, "label": "身份证"},
+          "2": {"value": 2, "label": "驾驶执照"},
+          "3": {"value": 3, "label": "护照"}
+        },
+        "gender": [
+          {"value": 1, "label": "先生"},
+          {"value": 2, "label": "女士"}
+        ],
+        "account_type": [
+          {"value": 1, "label": "STANDARD"},
+          {"value": 2, "label": "MINI"},
+          {"value": 3, "label": "STANDARD"},
+          {"value": 4, "label": "MINI"},
+          {"value": 5, "label": "MINI"},
+          {"value": 6, "label": "MINI"}
+        ],
+        "open_account_type": [
+          {"value": 1, "label": "STANDARD"},
+          {"value": 2, "label": "MINI"}
+        ],
+        "open_account_type_map": {
+          "1": "STANDARD",
+          "2": "MINI"
+        },
+        "demo_account_type": [
+          {"value": 1, "label": "STANDARD"},
+          {"value": 2, "label": "MINI"}
+        ],
+        "demo_account_state": [
+          {"value": 1, "label": "正常"}
+        ],
+        "open_rate": [
+          {"value": 1, "label": "Floating Rate"},
+          {"value": 2, "label": "IDR 10,000"},
+          {"value": 3, "label": "IDR 12,000"}
+        ],
+        "open_rate_map": {
+          "1": "Floating Rate",
+          "2": "IDR 10,000",
+          "3": "IDR 12,000"
+        },
+        "leverage": [
+          {"value": 100, "label": "1:100"},
+          {"value": 200, "label": "1:200"},
+          {"value": 400, "label": "1:400"}
+        ],
+        "leverage_map": {
+          "100": "1:100",
+          "200": "1:200",
+          "400": "1:400"
+         },
+        "job": [
+          {"value": 1, "label": "受雇"},
+          {"value": 2, "label": "自雇"},
+          {"value": 3, "label": "退休"},
+          {"value": 4, "label": "失业"},
+          {"value": 5, "label": "学生"},
+          {"value": 6, "label": "家庭主妇"}
+        ],
+        "capital_source": [
+          {"value": 1, "label": "无资金来源"},
+          {"value": 2, "label": "储蓄"},
+          {"value": 3, "label": "退休金"},
+          {"value": 4, "label": "政府援助"},
+          {"value": 5, "label": "礼物馈赠"},
+          {"value": 6, "label": "遗产继承"},
+          {"value": 7, "label": "出售物业"},
+          {"value": 8, "label": "出售/清算投资"}
+        ],
+        "annual_income": [
+          {"value": 0, "label": "在1亿-2.5亿之间"},
+          {"value": 1, "label": "在2.5亿-5亿之间"},
+          {"value": 2, "label": "5亿以上"}
+        ],
+        "total_asset": [
+          {"value": 0, "label": "在1亿-2.5亿之间"},
+          {"value": 1, "label": "在2.5亿-5亿之间"},
+          {"value": 2, "label": "5亿以上"}
+        ],
+        "experience": [
+          {"value": 1, "label": "是"},
+          {"value": 2, "label": "否"}
+        ],
+        "assess_risk": [
+          {"value": 1, "label": "是"},
+          {"value": 2, "label": "否"}
+        ],
+        "professional": [
+          {"value": 1, "label": "是"},
+          {"value": 2, "label": "否"}
+        ],
+        "purpose_of_account_opening":[
+          {"value":0,"label":"增益/收益"},
+          {"value":1,"label":"套期保值/对冲"},
+          {"value":2,"label":"投机"},
+          {"value":3,"label":"其他"}
+        ],
+        "is_exist_personal_tax_number": [
+          {"value": 2, "label": "是"},
+          {"value": 1, "label": "否"}
+
+        ],
+        "bank_account_type":[
+          {"value":0,"label":"活期帐户"},
+          {"value":1,"label":"储蓄账户"},
+          {"value":2,"label":"其他账户"}
+        ],
+        "occupation":[
+          {"value":0,"label":"私人/员工"},
+          {"value":1,"label":"企业家/商人"},
+          {"value":2,"label":"家庭主妇/家庭主妇"},
+          {"value":3,"label":"专业/专业"},
+          {"value":4,"label":"政府雇员"},
+          {"value":5,"label":"学生/学生"},
+          {"value":6,"label":"其他/其他人"}
+        ],
+        "marital_status":[
+          {"value":0,"label":"未婚"},
+          {"value":1,"label":"娶/嫁"},
+          {"value":2,"label":"寡妇"},
+          {"value":3,"label":"鳏夫"}
+        ]
+        ,"house_ownership":[
+          {"value":0,"label":"自我房产"},
+          {"value":1,"label":"家庭"},
+          {"value":2,"label":"租住"},
+          {"value":3,"label":"其他"}
+        ]
+      },
+      "funds": {
+        "funds_type": [
+          {"value": 41, "label": "入金-电汇-IDR"},
+          {"value": 40, "label": "入金-电汇-USD"},
+          {"value": 10, "label": "入金-出金退回"},
+          {"value": 1021, "label": "出金-电汇-IDR"},
+          {"value": 1020, "label": "出金-电汇-USD"},
+          {"value": 8, "label": "交易返佣"},
+          {"value": 201, "label": "返利"}
+        ],
+        "in_out_type": [
+          {"value":1,"label":"出金"},
+          {"value":2,"label":"入金"},
+          {"value":0,"label":"出入金"}
+        ],
+
+        "channel_type": [
+          {"value": 41, "label": "入金-电汇-IDR"},
+          {"value": 40, "label": "入金-电汇-USD"},
+          {"value": 1021, "label": "出金-电汇-IDR"},
+          {"value": 1020, "label": "出金-电汇-USD"}
+        ],
+
+        "order_state":[
+          {"value": 1000, "label": "处理中"},
+          {"value": 201, "label": "已忽略"},
+          {"value": 202, "label": "已退回"},
+          {"value": 203, "label": "已取消"},
+          {"value": 204, "label": "已完成"}
+        ],
+        "transfer_order_state":[
+          {"value": 1000, "label": "处理中"},
+          {"value": 201, "label": "已忽略"},
+          {"value": 203, "label": "已取消"},
+          {"value": 204, "label": "已完成"}
+        ],
+        "balance_flush_order_state":[
+          {"value": 1000, "label": "处理中"},
+          {"value": 201, "label": "已忽略"},
+          {"value": 204, "label": "已完成"}
+        ],
+        "mt4_transfer_type": [
+          {"value": 1, "label": "买入"},
+          {"value": 2, "label": "卖出"}
+        ],
+        "currency_type": [
+          {"value": 2, "label": "印尼盾"},
+          {"value": 1, "label": "美元"}
+        ]
+      }
+    },
+    "ib":{
+      "register": {
+        "gender": [
+          {"value": 1, "label": "先生"},
+          {"value": 2, "label": "女士"}
+        ],
+        "identity_type": [
+          {"value": 1, "label": "身份证"},
+          {"value": 3, "label": "护照"
+          }
+        ],
+        "account_type": [
+          {"value": 1, "label": "标准账户"}
+        ],
+        "account_type_map": {
+          "1": {"value": 1, "label": "标准账户"}
+        },
+        "state": [
+          {"value": 1, "label": "正常"},
+          {"value": 50, "label": "只读"},
+          {"value": 51, "label": "禁用"}
+        ]
+      },
+      "funds": {
+        "funds_type": [
+          {"value": 6, "label": "转账-转入"},
+          {"value": 8, "label": "交易返佣"},
+          {"value": 9, "label": "返利转入余额"},
+          {"value": 10, "label": "入金-出金退回"},
+          {"value": 101, "label": "出金-银行卡"},
+          {"value": 102, "label": "出金-电汇"},
+          { "value": 103, "label": "转账-转出"}
+
+        ],
+        "withdraw_funds_type": [
+          {"value": 101, "label": "出金-银行卡"},
+          {"value": 102, "label": "出金-电汇"}
+        ],
+
+        "out_channel_type": [
+          {"value": 101, "label": "出金-银行卡"},
+          {"value": 102, "label": "出金-电汇"},
+          {"value": 103, "label": "出金-转账"}
+        ],
+
+        "order_state": [
+          {"value": 1000, "label": "处理中"},
+          {"value": 201, "label": "已忽略"},
+          {"value": 202, "label": "已退回"},
+          {"value": 203, "label": "已取消"},
+          {"value": 204, "label": "已完成"}
+        ],
+
+        "transfer_order_state": [
+          {"value": 1000, "label": "处理中"},
+          {"value": 201, "label": "已忽略"},
+          {"value": 203, "label": "已取消"},
+          {"value": 204, "label": "已完成"}
+        ]
+      },
+      "transaction": {
+        "type": [
+          {"value": 0, "label": "买入"},
+          {"value": 1, "label": "卖出"}
+        ],
+        "symbol": [
+          {"value": 1, "label": "xauusd"},
+          {"value": 2, "label": "audusd"}
+        ]
+      }
+
+    },
+    "sale":{
+      "invite_type":[
+        {"value": 1, "label": "客户注册邀请"},
+        {"value": 2, "label": "代理登记邀请"}
+      ],
+
+      "position":[
+        {"value" : 1,"label": "客户总监"},
+        {"value" : 2,"label": "团队经理"},
+        {"value" : 3,"label": "客户经理"}
+      ],
+
+      "order_state":[
+        {"value": 1, "label": "待支付"},
+        {"value": 2, "label": "待审核"},
+        {"value": 3, "label": "待到账确认"},
+        {"value": 4, "label": "待系统处理"},
+        {"value": 5, "label": "待银行打款"},
+        {"value": 6, "label": "待系统返利打款"},
+        {"value": 7, "label": "待读取余额"},
+        {"value": 101, "label": "系统处理失败"},
+        {"value": 102, "label": "读取余额失败"},
+        {"value": 201, "label": "已忽略"},
+        {"value": 202, "label": "已退回"},
+        {"value": 203, "label": "已取消"},
+        {"value": 204, "label": "已完成"},
+        {"value": 205, "label": "支付失败"}
+      ],
+      "funds_type": [
+        {"value": 1, "label": "入金-银行卡"},
+        {"value": 2, "label": "入金-微信支付"},
+        {"value": 4, "label": "入金-电汇"},
+        {"value": 5, "label": "入金-线下充值"},
+        {"value": 6, "label": "入金-转账"},
+
+        {"value": 10, "label": "入金-出金退回"},
+        {"value": 40, "label": "入金-电汇-USD"},
+        {"value": 41, "label": "入金-电汇-IDR"},
+        {"value": 101, "label": "出金-银行卡"},
+        {"value": 102, "label": "出金-电汇"},
+        {"value": 103, "label": "返利转余额"},
+        {"value": 1021, "label": "出金-电汇-IDR"},
+        {"value": 1020, "label": "出金-电汇-USD"}
+      ],
+      "funds_order_status_map":[
+        { "value":0, "label":"持仓"},
+        { "value":1, "label":"平仓"}
+      ],
+      "account_type": [
+        {"value": 1, "label": "STANDARD"},
+        {"value": 2, "label": "MINI"},
+        {"value": 3, "label": "STANDARD"},
+        {"value": 9, "label": "虚拟账号"},
+        {"value": 10, "label": "虚拟销售"}
+      ],
+      "account_state": [
+        {"value": 50, "label": "只读"},
+        {"value": 1, "label": "正常"},
+        {"value": 51, "label": "禁用"}
+      ],
+
+      "account_state_map":{
+        "50":"只读",
+        "1":"正常",
+        "51":"禁用"
+      },
+
+      "agent_account_state": [
+        {"value": 50, "label": "只读"},
+        {"value": 1, "label": "正常"},
+        {"value": 51, "label": "禁用"}
+      ],
+      "agent_account_state_map":{
+        "50": "只读",
+        "1": "正常",
+        "51": "禁用"
+      },
+      "identity_type": {
+        "1": "身份证",
+        "3": "护照"
+      },
+      "gender": {
+        "1": "先生",
+        "2": "女士"
+      },
+      "position_name":{
+       "1": "客户总监",
+       "2": "团队经理",
+       "3": "客户经理"
+      }
+    }
+  }
+ }
+

@@ -1,0 +1,10 @@
+.ui-dialog .ui-dialog-buttonpane button { 
+	width: 171px;
+	height: 31px;
+	background: #c0c0c0;
+	color: #fff;
+	font-size: 14px;
+	border-radius: 125px;
+	border: none;
+	cursor: pointer;
+}

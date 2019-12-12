@@ -1,0 +1,22 @@
+﻿# Intellij project files
+.idea/
+.DS_Store
+
+# Others
+##下面的注释下载后去掉
+#bin/
+database/
+node_modules/
+npm-debug.log
+/public/uploads/*
+
+*.zip
+coverage/
+#config.js
+nodemon.json
+.app/controller/prod/support/url.js
+
+#/config.js
+/public/upload/
+uploads/
+yarn-error.log

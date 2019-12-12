@@ -1,0 +1,133 @@
+.show-detail{padding:20px;}
+.show-detail .d-item{margin:12px 0;padding-left:150px;}
+.show-detail .d-item>label{display:inline-block;width:240px;text-align: right;margin-left:-155px;line-height: 26px;color:#999;}
+.show-detail .d-item>span{padding-left:10px;}
+
+.layui-form.form{margin:40px 0;width:530px;}
+.layui-form.deposit-form{margin:40px 0;width:1200px;}
+.layui-form.center{margin:40px auto;}
+.mt50{margin-top:50px;}
+
+.layui-table-page{padding:17px 7px 0;height:60px}
+.layui-table-page>div{text-align: center}
+
+a{color:#41aae1}
+
+.main_page_Info{}
+.ww150{width: 150px;}
+.ww130{width: 130px;}
+.main_page_Info .layui-form.w500{width:500px;}
+.main_page_Info .layui-form.w800{width:800px;}
+.main_page_Info .layui-form.w1000{width:1000px;}
+.main_page_Info .layui-form.col-12{width:100%;}
+.main_page_Info .layui-form-label{width: 250px;}
+.main_page_Info .layui-input-block{margin-left: 280px;}
+
+.layui-form-mid.btn{
+    padding: 4px 0!important;
+}
+/*.layui-btn{min-width: 100px;}*/
+.form-group-o .switch{display:inline-block;padding-left:40px;}
+.from_alert {
+    background: #f6f6f6;
+    padding: 20px;
+    color: #999;
+    margin-top:20px;
+}
+#search_box{}
+#search_box .layui-form{line-height: 50px}
+#search_box .input-title{white-space: nowrap;}
+
+
+
+.input-title i,.layui-form-label i{ font-style: normal; color:red;display:inline-block;padding-right:5px;}
+
+.form {margin:20px 0}
+
+.mt30{margin-top:30px}
+
+#captcha-item input{text-align:center;width:140px;font-size:14px;padding:2px;display:inline-block;vertical-align: middle;margin-right:40px;}
+#captcha-item img{cursor:pointer;display: inline-block;vertical-align: middle}
+
+.sale_home{width:100%;margin-top:20px}
+.sale_home_item{margin:20px 0 ;background: #f6f6f6;padding:20px;}
+.sale_home_item h3{font-size:16px;border-bottom: 1px solid #ddd;padding-bottom:20px;margin-bottom:20px;}
+.sale_home_item h3 i{color:red;font-style: normal}
+.sale_home_item table{width:100%;}
+.sale_home_item table th{text-align: center;padding:10px 0 ;color:#999}
+.sale_home_item table td{text-align: center;font-weight: bold;padding:10px 0 }
+
+.layui-table-view .layui-table{min-width:100%}
+
+.register .succ{
+    position:relative;
+    padding-left:150px;
+    font-size:14px;
+    color: #333;
+    line-height:30px;
+    height:300px;
+    margin:150px 0 0 200px;
+}
+.register .succ .succ-icon{
+    position:absolute;
+    top:-10px;
+    left:-10px;
+}
+.register .succ h4{
+    font-size: 26px;
+    font-weight: 600;
+    margin-top:10px;
+    line-height:40px;
+    margin-bottom:10px;
+    color:#999
+}
+.register .succ p{
+    font-size: 18px;
+
+    color:#999
+}
+.register .succ h4 span{
+    color:#389e31;
+}
+.register .succ .info{
+    font-size: 17px;
+}
+
+.register .succ .info em{
+    color:#c81233;
+}
+.register .succ .txt em{
+    color:#006be3;
+}
+
+.canceApply{margin-top:20px;padding-top:20px;border-top:1px solid #ddd;text-align: center}
+
+.main_head_unit{position:relative}
+.main_head_unit .layui-btn{float:right}
+.fr{float:right}
+
+.bank_card  .layui-form-label {
+    width:150px;
+}
+/*销售中心样式20180409*/
+.layui-inline .zm-w153{width: 153px;}
+.layui-inline .zm-w100{width: 100px;}
+.layui-form-item .zm-w190{width: 190px;}
+.layui-form-item .zm-ml-220{margin-left: 220px;margin-right: 15px;}
+.layui-table-cell span{
+}
+#main .layui-table-cell{
+    margin:0 auto;
+    overflow: inherit;
+    white-space: unset;
+    text-overflow: inherit;
+    min-height: 28px;
+    height: auto;
+    line-height: 16px;
+    padding: 3px 5px;
+    text-align: center;
+    font-size: 13px;
+}
+.layui-table-view .layui-table td{
+    word-wrap:break-word
+}

@@ -1,0 +1,65 @@
+.main_head_unit {
+	min-width:90px;
+
+	line-height:30px;
+	font-size: 22px;
+	color: #484848;
+	font-family: Adobe 黑体 Std;
+}
+
+.main_head_text {
+
+	line-height:30px;
+	padding-left:155px;
+	background:#fff;
+	font-size: 12px;
+	color: #465073;
+	font-family: microsoft yahei;
+}
+
+#account .information_update>li {
+	width:90%;
+	padding: 10px 0 10px 15px;
+}
+#account .information_update>li label {
+	float: left;
+	margin: 5px 8px 0 0;
+	font-size: 14px;
+	color: #464e73;
+	display: inline-block;
+}
+
+#account .information_update>li input{
+	width:50%;
+	margin:0 10px 0 0;
+	height:26px;
+	line-height:26px;
+	border: 1px solid #dfdfdf;
+	background: #ededf5;
+	text-indent: 10px;
+}
+
+#account .information_update>li select {
+	width:50%;
+	margin:0 10px 0 0;
+	height:26px;
+	line-height:26px;
+	border: 1px solid #dfdfdf;
+	background: #ededf5;
+	text-indent: 10px;
+}
+.required {
+	color: #ad41c8;
+}
+.modifypwd a{
+	background:url(../../img/modifypwd.png)no-repeat;
+	padding-left:26px;
+}
+.logout a{
+	background:url(../../img/logout.png)no-repeat;
+	padding-left:24px;
+}
+.account li div:hover a{
+	background-position:0 -18px;
+
+}

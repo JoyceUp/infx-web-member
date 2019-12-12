@@ -1,0 +1,1293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+</head>
+<body>
+<div class="tab-pane" id="RealAccountWizardTab6">
+    <div class="row">
+        <div class="col-md-8 col-sm-6">
+            <p><strong>Formulir Nomor 107.BPK.05</strong></p>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <table class="table">
+                <tbody>
+                <tr>
+                    <td>Lampiran</td>
+                    <td>:</td>
+                    <td>Peraturan Kepala Badan Pengawas</td>
+                </tr>
+                <tr>
+                    <td colspan="2">&nbsp;</td>
+                    <td>Perdagangan Berjangka Komoditi</td>
+                </tr>
+                <tr>
+                    <td colspan="2">&nbsp;</td>
+                    <td>Nomor: 107/BAPPEBTI/PER/11/2013</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-md-12 col-sm-12">
+            <p class="text-center">
+                <strong>PERJANJIAN PEMBERIAN AMANAT SECARA ELEKTRONIK ON- LINE</strong>
+            </p>
+            <p class="text-center hidden 107BPK051">
+                <strong>UNTUK TRANSAKSI KONTRAK BERJANGKA</strong>
+            </p>
+            <p class="text-center 107BPK052 show">
+                <strong>UNTUK TRANSAKSI KONTRAK DERIVATIF</strong>
+            </p>
+            <p class="text-center 107BPK052 show">
+                <strong>DALAM SISTEM PERDAGANGAN ALTERNATIF</strong>
+            </p>
+            <p>&nbsp;</p>
+            <div class="alert alert-danger text-center">
+                <strong>PERHATIAN !</strong>
+                <br />
+                PERJANJIAN INI MERUPAKAN KONTRAK HUKUM HARAP DIBACA DENGAN SEKSAMA
+            </div>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>
+                {{ userDatas.gmt_modified | date('Y-m-d')}}, kami yang mengisi perjanjian di bawah
+                ini:
+            </p>
+            <ol type="1">
+                <li>
+                    <div class="step-2-formulir-items">
+                        <label class="col-md-2 col-sm-6 control-label">
+                            Nama
+                        </label>
+                        <div class="col-md-10 col-sm-6">
+                            <p class="form-control-static">: {{ userDatas.account_name }}</p>
+                        </div>
+                    </div>
+                    <div class="step-2-formulir-items">
+                        <label class="col-md-2 col-sm-6 control-label">
+                            Pekerjaan/Jabatan
+                        </label>
+                        <div class="col-md-10 col-sm-6">
+                            <p class="form-control-static">:
+
+                                {% if userDatas.open_account_info.open_account_job.occupation == 6 %}
+                                {{ userDatas.open_account_info.open_account_job.occupation_other }} /  {{ userDatas.open_account_info.open_account_job.title }}
+                                {% else %}
+                                {% set marStatus = {} %}
+                                {% for item in Lang.select.member.register.occupation  %}
+                                {% set marStatus[item.value] = item.label %}
+                                {% endfor %}
+                                {{ marStatus[ userDatas.open_account_info.open_account_job.occupation ] }} /  {{ userDatas.open_account_info.open_account_job.title }}
+                                {% endif %}
+                            </p>
+                        </div>
+                    </div>
+                    <div class="step-2-formulir-items">
+                        <label class="col-md-2 col-sm-6 control-label">
+                            Alamat
+                        </label>
+                        <div class="col-md-6 col-sm-6">
+                            <p class="form-control-static">:
+                                {{ userDatas.open_account_info.home_address }}
+                            </p>
+                        </div>
+                    </div>
+                    <p>
+                        dalam hal ini bertindak untuk dan atas nama sendiri yang selanjutnya disebut <strong>Nasabah</strong>
+                    </p>
+                </li>
+                <li>
+                    <div class="step-2-formulir-items">
+                        <label class="col-md-2 col-sm-6 control-label">
+                            Nama
+                        </label>
+                        <div class="col-md-10 col-sm-6">
+                            <p class="form-control-static">:
+                                {% if userDatas.state == 4 %}
+                                {{ userDatas.open_state_log.operator_name }}
+                                {% endif %}
+                            </p>
+                        </div>
+                    </div>
+                    <div class="step-2-formulir-items">
+                        <label class="col-md-2 col-sm-6 control-label">
+                            Pekerjaan/Jabatan
+                        </label>
+                        <div class="col-md-10 col-sm-6">
+                            <p class="form-control-static">:
+                                {% if userDatas.state == 4 %}
+                                {{ userDatas.open_state_log.position }}
+                                {% endif %}
+                            </p>
+                        </div>
+                    </div>
+                    <div class="step-2-formulir-items">
+                        <label class="col-md-2 col-sm-6 control-label">
+                            Alamat
+                        </label>
+                        <div class="col-md-10 col-sm-6">
+                            <p class="form-control-static">:
+                                {% if userDatas.state == 4 %}
+                                {{ userDatas.open_state_log.operator_address }}
+                                {% endif %}
+                            </p>
+                        </div>
+                    </div>
+                    <p>dalam hal ini bertindak untuk dan atas nama <strong>Real Time Futures</strong> yang
+                        selanjutnya disebut <strong>Pialang Berjangka,</strong></p>
+                </li>
+
+            </ol>
+
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+
+            <p>Nasabah dan Pialang Berjangka secara bersama-sama selanjutnya disebut <strong>Para
+                Pihak.</strong></p>
+        </div>
+    </div>
+    <div class="row  107BPK051 hidde">
+        <div class="col-md-12 col-sm-12">
+            <p>Para Pihak sepakat untuk mengadakan Perjanjian Pemberian Amanat untuk melakukan transaksi
+                penjualan maupun pembelian Kontrak Berjangka dengan ketentuan sebagai berikut:</p>
+        </div>
+        <div class="col-md-12 col-sm-12 table-responsive">
+            <table class="table table-bordered">
+                <tbody>
+                <tr>
+                    <td>1</td>
+                    <td colspan="2">
+                        <strong>Margin dan Pembayaran Lainnya</strong>
+                        <ol type="a">
+                            <li><strong>Nasabah menempatkan sejumlah dana</strong> (Margin) ke Rekening Terpisah
+                                <i>(Segregated Account)</i> Pialang Berjangka sebagai Margin Awal dan wajib
+                                mempertahankannya sebagaimana ditetapkan.
+                            </li>
+                            <li>Membayar biaya-biaya yang diperlukan untuk transaksi yaitu biaya transaksi,
+                                pajak, komisi, dan biaya pelayanan, biaya bunga sesuai tingkat yang berlaku, dan
+                                biaya lainnya yang dapat dipertanggungjawabkan berkaitan dengan transaksi sesuai
+                                amanat Nasabah, maupun biaya rekening Nasabah.
+                            </li>
+                        </ol>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="text-right warning">
+                        <div class="confirmation-verify">
+                            <strong>
+                                <em>
+                                    <label for="RealAccountSffoForm0ReadAndUnderstand">
+                                        Saya sudah membaca dan memahami
+                                        <span class="warninginfo">This field is required.</span>
+                                    </label>
+                                </em>
+                            </strong>
+                            <input type="checkbox"
+                                   name="data[RealAccountSffoForm][0][read_and_understand]"
+                                   data-index="0"
+                                   class="107BPK051-checkbox 107BPK05-checkbox form-s45-checkbox"
+                                   value="1"
+                                   id="RealAccountSffoForm0ReadAndUnderstand"/>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td colspan="2">
+                        <p>
+                            <strong>Pelaksanaan Amanat</strong>
+                        </p>
+                        <ol type="1">
+                            <li>Setiap amanat yang disampaikan oleh Nasabah atau kuasanya yang ditunjuk secara
+                                tertulis oleh Nasabah, dianggap sah apabila diterima oleh Pialang Berjangka
+                                sesuai dengan ketentuan yang berlaku, dapat berupa amanat tertulis yang
+                                ditandatangani oleh Nasabah atau kuasanya, amanat telepon yang direkam, dan/atau
+                                amanat transaksi elektronik lainnya.
+                            </li>
+                            <li>Setiap amanat Nasabah yang diterima dapat langsung dilaksanakan sepanjang nilai
+                                Margin yang tersedia pada rekeningnya mencukupi dan eksekusinya tergantung pada
+                                kondisi dan sistem transaksi yang berlaku yang mungkin dapat menimbulkan
+                                perbedaan waktu terhadap proses pelaksanaan amanat tersebut. Nasabah harus
+                                mengetahui posisi Margin dan posisi terbuka sebelum memberikan amanat untuk
+                                transaksi berikutnya.
+                            </li>
+                            <li>Amanat Nasabah hanya dapat dibatalkan dan/atau diperbaiki apabila transaksi atas
+                                amanat tersebut belum terjadi. Pialang Berjangka tidak bertanggung jawab atas
+                                kerugian yang timbul akibat tidak terlaksananya pembatalan dan/atau perbaikan
+                                sepanjang bukan karena kelalaian Pialang Berjangka.
+                            </li>
+                            <li>Pialang Berjangka berhak menolak amanat Nasabah apabila harga yang ditawarkan
+                                atau diminta tidak wajar.
+                            </li>
+                        </ol>
+
+                        <p></p>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td colspan="3" class="text-right warning">
+                        <div class="confirmation-verify">
+                            <strong>
+                                <em>
+                                    <label for="RealAccountSffoForm1ReadAndUnderstand">
+                                        Saya sudah membaca dan memahami
+                                        <span class="warninginfo">This field is required.</span>
+                                    </label>
+                                </em>
+                            </strong>
+                            <input type="checkbox"
+                                   name="data[RealAccountSffoForm][1][read_and_understand]"
+                                   data-index="1"
+                                   class="107BPK051-checkbox 107BPK05-checkbox form-s45-checkbox"
+                                   value="1"
+                                   id="RealAccountSffoForm1ReadAndUnderstand"/>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td colspan="2">
+                        <strong>Antisipasi Penyerahan Barang</strong>
+                        <ol type="a" class="normal">
+                            <li>Untuk kontrak-kontrak tertentu penyelesaian transaksi dapat dilakukan dengan
+                                penyerahan &nbsp;atau &nbsp;penerimaan&nbsp; barang &nbsp;(delivery) &nbsp;apabila
+                                &nbsp;kontrak &nbsp;jatuh &nbsp;tempo. Nasabah &nbsp;menyadari bahwa penyerahan
+                                &nbsp;atau &nbsp;penerimaan&nbsp; barang &nbsp;mengandung risiko yang lebih
+                                besar daripada melikuidasi posisi dengan offset. Penyerahan fisik barang
+                                memiliki konsekuensi kebutuhan &nbsp;dana yang lebih besar serta tambahan biaya
+                                pengelolaan barang.
+                            </li>
+                            <li>Pialang Berjangka tidak bertanggung jawab atas klasifikasi &nbsp;mutu (grade),
+                                kualitas atau tingkat toleransi atas komoditi yang diserahkan atau akan
+                                diserahkan.
+                            </li>
+                            <li>Pelaksanaan &nbsp;penyerahan &nbsp;atau &nbsp;penerimaan&nbsp; barang &nbsp;tersebut
+                                &nbsp;akan &nbsp;diatur &nbsp;dan dijamin oleh Lembaga Kliring Berjangka.
+                            </li>
+                        </ol>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td colspan="3" class="text-right warning">
+                        <div class="confirmation-verify">
+                            <strong>
+                                <em>
+                                    <label for="RealAccountSffoForm2ReadAndUnderstand">
+                                        Saya sudah membaca dan memahami
+                                        <span class="warninginfo">This field is required.</span>
+                                    </label>
+                                </em>
+                            </strong>
+                            <input type="checkbox"
+                                   name="data[RealAccountSffoForm][2][read_and_understand]"
+                                   data-index="2"
+                                   class="107BPK051-checkbox 107BPK05-checkbox form-s45-checkbox"
+                                   value="1"
+                                   id="RealAccountSffoForm2ReadAndUnderstand"/>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td colspan="2">
+                        <strong>Kewajiban Memelihara Margin</strong>
+                        <ol type="a" class="normal">
+                            <li>Nasabah wajib memelihara / memenuhi tingkat Margin yang harus tersedia di
+                                rekening pada Pialang Berjangka sesuai dengan jumlah yang telah ditetapkan baik
+                                diminta ataupun tidak oleh Pialang Berjangka.
+                            </li>
+                            <li>Apabila jumlah Margin memerlukan penambahan maka Pialang Berjangka wajib
+                                memberitahukan dan memintakan kepada Nasabah untuk menambah Margin segera.
+                            </li>
+                            <li>Apabila jumlah Margin memerlukan tambahan (<i>Call Margin</i>) maka nasabah
+                                wajib melakukan penyerahan <i>Call Margin</i> selambat-lambatnya sebelum dimulai
+                                hari perdagangan berikutnya. Kewajiban Nasabah sehubungan dengan penyerahan <i>Call
+                                    Margin</i> tidak terbatas pada jumlah Margin Awal.
+                            </li>
+                            <li>Pialang Berjangka tidak berkewajiban melaksanakan amanat untuk melakukan
+                                transaksi yang baru dari Nasabah sebelum <i>Call Margin</i> dipenuhi;
+                            </li>
+                            <li>Untuk memenuhi kewajiban <i>Call Margin</i> dan keuangan lainnya dari Nasabah,
+                                Pialang Berjangka dapat mencairkan dana Nasabah yang ada di Pialang Berjangka.
+                            </li>
+                        </ol>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="text-right warning">
+                        <div class="confirmation-verify">
+                            <strong>
+                                <em>
+                                    <label for="RealAccountSffoForm3ReadAndUnderstand">
+                                        Saya sudah membaca dan memahami
+                                        <span class="warninginfo">This field is required.</span>
+                                    </label>
+                                </em>
+                            </strong>
+                            <input type="checkbox"
+                                   name="data[RealAccountSffoForm][3][read_and_understand]"
+                                   data-index="3"
+                                   class="107BPK051-checkbox 107BPK05-checkbox form-s45-checkbox"
+                                   value="1"
+                                   id="RealAccountSffoForm3ReadAndUnderstand"/>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td colspan="2">
+                        <p><strong>Hak Pialang Berjangka Melikuidasi Posisi Nasabah</strong></p>
+                        <p>Nasabah bertanggung jawab memantau/mengetahui posisi terbukanya secara terus- menerus&nbsp;
+                            dan memenuhi kewajibannya. Apabila &nbsp;dalam jangka waktu tertentu &nbsp;dana pada
+                            rekening Nasabah&nbsp; kurang &nbsp;dari yang dipersyaratkan, &nbsp;Pialang
+                            Berjangka dapat menutup &nbsp;posisi terbuka &nbsp;Nasabah &nbsp;secara&nbsp;
+                            keseluruhan &nbsp;atau &nbsp;sebagian, membatasi transaksi, &nbsp;atau &nbsp;tindakan
+                            &nbsp;lain &nbsp;untuk &nbsp;melindungi diri&nbsp; dalam &nbsp;pemenuhan &nbsp;Margin
+                            tersebut dengan terlebih dahulu memberitahu atau tanpa memberitahu Nasabah &nbsp;dan
+                            Pialang Berjangka tidak bertanggung jawab atas kerugian yang timbul akibat tindakan
+                            tersebut.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="text-right warning">
+                        <div class="confirmation-verify">
+                            <strong>
+                                <em>
+                                    <label for="RealAccountSffoForm4ReadAndUnderstand">
+                                        Saya sudah membaca dan memahami
+                                        <span class="warninginfo">This field is required.</span>
+                                    </label>
+                                </em>
+                            </strong>
+                            <input type="checkbox"
+                                   name="data[RealAccountSffoForm][4][read_and_understand]"
+                                   data-index="4"
+                                   class="107BPK051-checkbox 107BPK05-checkbox form-s45-checkbox"
+                                   value="1"
+                                   id="RealAccountSffoForm4ReadAndUnderstand"/>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td colspan="2">
+                        <p><strong>Penggantian Kerugian Tidak Menyerahkan Barang</strong></p>
+                        <p>Apabila &nbsp;Nasabah &nbsp;tidak mampu menyerahkan komoditi atas Kontrak &nbsp;Berjangka
+                            yang jatuh tempo, Nasabah memberikan kuasa kepada Pialang Berjangka untuk meminjam
+                            atau&nbsp; &nbsp;membeli komoditi&nbsp; untuk&nbsp; &nbsp;penyerahan &nbsp;tersebut.&nbsp;
+                            &nbsp;Nasabah&nbsp; &nbsp;wajib &nbsp;membayar secepatnya&nbsp; semua &nbsp;biaya,
+                            kerugian&nbsp; dan &nbsp;premi yang telah &nbsp;dibayarkan &nbsp;oleh Pialang
+                            Berjangka atas&nbsp;&nbsp; tindakan &nbsp;tersebut. Apabila&nbsp; &nbsp;Pialang
+                            &nbsp;Berjangka &nbsp;harus&nbsp; &nbsp;menerima penyerahan komoditi atau &nbsp;surat
+                            &nbsp;berharga maka Nasabah &nbsp;bertanggung &nbsp;jawab atas penurunan nilai dari
+                            komoditi atas surat berharga tersebut.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="text-right warning">
+                        <div class="confirmation-verify">
+                            <strong>
+                                <em>
+                                    <label for="RealAccountSffoForm5ReadAndUnderstand">
+                                        Saya sudah membaca dan memahami
+                                        <span class="warninginfo">This field is required.</span>
+                                    </label>
+                                </em>
+                            </strong>
+                            <input type="checkbox"
+                                   name="data[RealAccountSffoForm][5][read_and_understand]"
+                                   data-index="5"
+                                   class="107BPK051-checkbox 107BPK05-checkbox form-s45-checkbox"
+                                   value="1"
+                                   id="RealAccountSffoForm5ReadAndUnderstand"/>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td colspan="2">
+                        <p><strong>Penggantian Kerugian Tidak Adanya Penutupan Posisi</strong></p>
+                        <p>
+                        </p>
+                        <p>Apabila &nbsp;Nasabah &nbsp;tidak &nbsp;mampu &nbsp;melakukan&nbsp; penutupan &nbsp;atas
+                            &nbsp;transaksi &nbsp;yang jatuh tempo, Pialang Berjangka dapat &nbsp;melakukan
+                            &nbsp;penutupan &nbsp;atas &nbsp;transaksi &nbsp;di&nbsp;&nbsp; Bursa. Nasabah wajib
+                            membayar biaya-biaya, termasuk biaya kerugian dan premi yang telah dibayarkan oleh
+                            Pialang Berjangka, dan apabila Nasabah lalai untuk membayar biaya- biaya tersebut,&nbsp;
+                            Pialang Berjangka berhak untuk &nbsp;mengambil pembayaran dari dana Nasabah</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="text-right warning">
+                        <div class="confirmation-verify">
+                            <strong>
+                                <em>
+                                    <label for="RealAccountSffoForm6ReadAndUnderstand">
+                                        Saya sudah membaca dan memahami
+                                        <span class="warninginfo">This field is required.</span>
+                                    </label>
+                                </em>
+                            </strong>
+                            <input type="checkbox"
+                                   name="data[RealAccountSffoForm][6][read_and_understand]"
+                                   data-index="6"
+                                   class="107BPK051-checkbox 107BPK05-checkbox form-s45-checkbox"
+                                   value="1"
+                                   id="RealAccountSffoForm6ReadAndUnderstand"/>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td colspan="2">
+                        <p><strong>Pialang Berjangka Dapat Membatasi Posisi </strong></p>
+                        <p>Nasabah mengakui hak Pialang Berjangka untuk&nbsp;membatasi posisi terbuka Kontrak
+                            Berjangka&nbsp; Nasabah &nbsp;dan Nasabah &nbsp;tidak melakukan&nbsp; transaksi
+                            &nbsp;melebihi batas &nbsp;yang telah ditetapkan tersebut.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="text-right warning">
+                        <div class="confirmation-verify">
+                            <strong>
+                                <em>
+                                    <label for="RealAccountSffoForm7ReadAndUnderstand">
+                                        Saya sudah membaca dan memahami
+                                        <span class="warninginfo">This field is required.</span>
+                                    </label>
+                                </em>
+                            </strong>
+                            <input type="checkbox"
+                                   name="data[RealAccountSffoForm][7][read_and_understand]"
+                                   data-index="7"
+                                   class="107BPK051-checkbox 107BPK05-checkbox form-s45-checkbox"
+                                   value="1"
+                                   id="RealAccountSffoForm7ReadAndUnderstand"/>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td colspan="2">
+                        <p><strong>Tidak Ada Jaminan atas Informasi atau Rekomendasi</strong></p>
+                        <p>Nasabah mengakui bahwa :</p>
+                        <ol type="a">
+                            <li>Informasi dan rekomendasi yang diberikan oleh Pialang Berjangka kepada Nasabah
+                                tidak selalu lengkap dan perlu diverifikasi.
+                            </li>
+                            <li>Pialang Berjangka tidak menjamin bahwa informasi dan rekomendasi yang diberikan
+                                merupakan informasi yang akurat dan lengkap.
+                            </li>
+                            <li>Informasi dan rekomendasi yang diberikan oleh wakil Pialang Berjangka yang satu
+                                dengan yang lain mungkin berbeda karena perbedaan analisis fundamental atau
+                                teknikal. Nasabah menyadari bahwa ada kemungkinan Pialang Berjangka dan pihak
+                                terafiliasinya memiliki posisi di pasar dan memberikan rekomendasi tidak
+                                konsisten kepada Nasabah.
+                            </li>
+                        </ol>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="text-right warning">
+                        <div class="confirmation-verify">
+                            <strong>
+                                <em>
+                                    <label for="RealAccountSffoForm8ReadAndUnderstand">
+                                        Saya sudah membaca dan memahami
+                                        <span class="warninginfo">This field is required.</span>
+                                    </label>
+                                </em>
+                            </strong>
+                            <input type="checkbox"
+                                   name="data[RealAccountSffoForm][8][read_and_understand]"
+                                   data-index="8"
+                                   class="107BPK051-checkbox 107BPK05-checkbox form-s45-checkbox"
+                                   value="1"
+                                   id="RealAccountSffoForm8ReadAndUnderstand"/>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td colspan="2">
+                        <strong>Pembatasan Tanggung Jawab Pialang Berjangka.</strong>
+                        <ol type="a">
+                            <li>Pialang Berjangka tidak bertanggung jawab untuk memberikan penilaian kepada
+                                Nasabah mengenai iklim, pasar, keadaan politik dan ekonomi nasional dan
+                                internasional, nilai kontrak berjangka, kolateral, atau memberikan nasihat
+                                mengenai keadaan pasar. Pialang Berjangka hanya memberikan pelayanan untuk
+                                melakukan transaksi secara jujur serta memberikan laporan atas transaksi
+                                tersebut.
+                            </li>
+                            <li>Perdagangan sewaktu-waktu dapat dihentikan oleh pihak yang memiliki otoritas
+                                (Bappebti / Bursa Berjangka) tanpa pemberitahuan terlebih dahulu kepada Nasabah.
+                                Atas posisi terbuka yang masih dimiliki oleh Nasabah pada saat perdagangan
+                                tersebut dihentikan, maka akan diselesaikan (likuidasi) berdasarkan pada
+                                peraturan / ketentuan yang dikeluarkan dan ditetapkan oleh pihak otoritas
+                                tersebut, dan semua kerugian serta biaya yang timbul sebagai akibat
+                                dihentikannya transaksi oleh pihak otoritas perdagangan tersebut, menjadi beban
+                                dan tanggung jawab Nasabah sepenuhnya.
+                            </li>
+                        </ol>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="text-right warning">
+                        <div class="confirmation-verify">
+                            <strong>
+                                <em>
+                                    <label for="RealAccountSffoForm9ReadAndUnderstand">
+                                        Saya sudah membaca dan memahami
+                                        <span class="warninginfo">This field is required.</span>
+                                    </label>
+                                </em>
+                            </strong>
+                            <input type="checkbox"
+                                   name="data[RealAccountSffoForm][9][read_and_understand]"
+                                   data-index="9"
+                                   class="107BPK051-checkbox 107BPK05-checkbox form-s45-checkbox"
+                                   value="1"
+                                   id="RealAccountSffoForm9ReadAndUnderstand"/>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td colspan="2">
+                        <p><strong>Transaksi Harus Mematuhi Peraturan Yang Berlaku</strong></p>
+                        <p>
+                        </p>
+                        <p>Semua transaksi baik yang dilakukan sendiri oleh Nasabah maupun melalui Pialang
+                            Berjangka wajib mematuhi peraturan perundang-undangan di bidang Perdagangan
+                            Berjangka, kebiasaan dan interpretasi resmi yang ditetapkan oleh Bappebti atau Bursa
+                            Berjangka.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="text-right warning">
+                        <div class="confirmation-verify">
+                            <strong>
+                                <em>
+                                    <label for="RealAccountSffoForm10ReadAndUnderstand">
+                                        Saya sudah membaca dan memahami
+                                        <span class="warninginfo">This field is required.</span>
+                                    </label>
+                                </em>
+                            </strong>
+                            <input type="checkbox"
+                                   name="data[RealAccountSffoForm][10][read_and_understand]"
+                                   data-index="10"
+                                   class="107BPK051-checkbox 107BPK05-checkbox form-s45-checkbox"
+                                   value="1"
+                                   id="RealAccountSffoForm10ReadAndUnderstand"/>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td colspan="2">
+                        <p><strong>Pialang Berjangka tidak Bertanggung jawab atas Kegagalan Komunikasi</strong>
+                        </p>
+                        <p>Pialang Berjangka tidak bertanggung jawab atas keterlambatan atau tidak tepat
+                            waktunya pengiriman amanat atau informasi lainnya yang disebabkan oleh kerusakan
+                            fasilitas komunikasi atau sebab lain diluar kontrol Pialang Berjangka.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="text-right warning">
+                        <div class="confirmation-verify">
+                            <strong>
+                                <em>
+                                    <label for="RealAccountSffoForm11ReadAndUnderstand">
+                                        Saya sudah membaca dan memahami
+                                        <span class="warninginfo">This field is required.</span>
+                                    </label>
+                                </em>
+                            </strong>
+                            <input type="checkbox"
+                                   name="data[RealAccountSffoForm][11][read_and_understand]"
+                                   data-index="11"
+                                   class="107BPK051-checkbox 107BPK05-checkbox form-s45-checkbox"
+                                   value="1"
+                                   id="RealAccountSffoForm11ReadAndUnderstand"/>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td colspan="2">
+                        <strong>Konfirmasi</strong>
+                        <ol type="a">
+                            <li>Konfirmasi dari Nasabah dapat berupa surat, telex, media lain, secara tertulis
+                                ataupun rekaman suara.
+                            </li>
+                            <li>Pialang Berjangka berkewajiban menyampaikan konfirmasi transaksi, laporan
+                                rekening, permintaan Call Margin, dan pemberitahuan lainnya kepada Nasabah
+                                secara akurat, benar dan secepatnya pada alamat Nasabah sesuai dengan yang
+                                tertera dalam rekening Nasabah. Apabila dalam jangka waktu 2 x 24 jam setelah
+                                amanat jual atau beli disampaikan, tetapi Nasabah belum menerima konfirmasi
+                                tertulis, Nasabah segera memberitahukan hal tersebut kepada Pialang Berjangka
+                                melalui telepon dan disusul dengan pemberitahuan tertulis.
+                            </li>
+                            <li>Jika dalam waktu 2 x 24 jam sejak tanggal penerimaan konfirmasi tertulis
+                                tersebut tidak ada sanggahan dari Nasabah maka konfirmasi Pialang Berjangka
+                                dianggap benar dan sah.
+                            </li>
+                            <li>Kekeliruan atas konfirmasi yang diterbitkan Pialang Berjangka akan diperbaiki
+                                oleh Pialang Berjangka sesuai keadaan yang sebenarnya dan demi hukum konfirmasi
+                                yang lama batal.
+                            </li>
+                            <li>Nasabah tidak bertanggung jawab atas transaksi yang dilaksanakan atas
+                                rekeningnya apabila konfirmasi tersebut tidak disampaikan secara benar dan
+                                akurat.
+                            </li>
+                        </ol>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="text-right warning">
+                        <div class="confirmation-verify">
+                            <strong>
+                                <em>
+                                    <label for="RealAccountSffoForm12ReadAndUnderstand">
+                                        Saya sudah membaca dan memahami
+                                        <span class="warninginfo">This field is required.</span>
+                                    </label>
+                                </em>
+                            </strong>
+                            <input type="checkbox"
+                                   name="data[RealAccountSffoForm][12][read_and_understand]"
+                                   data-index="12"
+                                   class="107BPK051-checkbox 107BPK05-checkbox form-s45-checkbox"
+                                   value="1"
+                                   id="RealAccountSffoForm12ReadAndUnderstand"/>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td colspan="2">
+                        <p><strong>Kebenaran informasi Nasabah</strong></p>
+                        <p>Nasabah memberikan informasi yang benar dan akurat mengenai data Nasabah yang diminta
+                            oleh Pialang Berjangka dan akan memberitahukan paling lambat dalam waktu 3 (tiga)
+                            hari kerja setelah terjadi perubahan, termasuk perubahan kemampuan keuangannya untuk
+                            terus melaksanakan transaksi.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="text-right warning">
+                        <div class="confirmation-verify">
+                            <strong>
+                                <em>
+                                    <label for="RealAccountSffoForm13ReadAndUnderstand">
+                                        Saya sudah membaca dan memahami
+                                        <span class="warninginfo">This field is required.</span>
+                                    </label>
+                                </em>
+                            </strong>
+                            <input type="checkbox"
+                                   name="data[RealAccountSffoForm][13][read_and_understand]"
+                                   data-index="13"
+                                   class="107BPK051-checkbox 107BPK05-checkbox form-s45-checkbox"
+                                   value="1"
+                                   id="RealAccountSffoForm13ReadAndUnderstand"/>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td colspan="2">
+                        <p><strong>Komisi Transaksi</strong></p>
+                        <p>Nasabah mengetahui dan menyetujui bahwa Pialang Berjangka berhak untuk memungut
+                            komisi atas transaksi yang telah dilaksanakan, dalam jumlah sebagaimana akan
+                            ditetapkan dari waktu ke waktu oleh Pialang Berjangka. Perubahan beban <i>(fees)</i>
+                            dan biaya lainnya harus disetujui secara tertulis oleh Para Pihak.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="text-right warning">
+                        <div class="confirmation-verify">
+                            <strong>
+                                <em>
+                                    <label for="RealAccountSffoForm14ReadAndUnderstand">
+                                        Saya sudah membaca dan memahami
+                                        <span class="warninginfo">This field is required.</span>
+                                    </label>
+                                </em>
+                            </strong>
+                            <input type="checkbox"
+                                   name="data[RealAccountSffoForm][14][read_and_understand]"
+                                   data-index="14"
+                                   class="107BPK051-checkbox 107BPK05-checkbox form-s45-checkbox"
+                                   value="1"
+                                   id="RealAccountSffoForm14ReadAndUnderstand"/>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>16</td>
+                    <td colspan="2">
+                        <p><strong>Pemberian Kuasa</strong></p>
+                        <p>Nasabah memberikan kuasa kepada Pialang Berjangka untuk menghubungi bank, lembaga
+                            keuangan, Pialang Berjangka lain, atau institusi lain yang terkait untuk memperoleh
+                            keterangan atau verifikasi mengenai informasi yang diterima dari Nasabah. Nasabah
+                            mengerti bahwa penelitian mengenai data hutang pribadi dan bisnis dapat dilakukan
+                            oleh Pialang Berjangka apabila diperlukan. Nasabah diberikan kesempatan untuk
+                            memberitahukan secara tertulis dalam jangka waktu yang telah disepakati untuk
+                            melengkapi persyaratan yang diperlukan. </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="text-right warning">
+                        <div class="confirmation-verify">
+                            <strong>
+                                <em>
+                                    <label for="RealAccountSffoForm15ReadAndUnderstand">
+                                        Saya sudah membaca dan memahami
+                                        <span class="warninginfo">This field is required.</span>
+                                    </label>
+                                </em>
+                            </strong>
+                            <input type="checkbox"
+                                   name="data[RealAccountSffoForm][15][read_and_understand]"
+                                   data-index="15"
+                                   class="107BPK051-checkbox 107BPK05-checkbox form-s45-checkbox"
+                                   value="1"
+                                   id="RealAccountSffoForm15ReadAndUnderstand"/>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>17</td>
+                    <td colspan="2">
+                        <p><strong>Pemindahan Dana</strong></p>
+                        <p>Pialang Berjangka dapat setiap saat mengalihkan dana dari satu rekening ke rekening
+                            lainnya berkaitan dengan kegiatan transaksi yang dilakukan Nasabah seperti
+                            pembayaran komisi, pembayaran biaya transaksi, kliring, dan keterlambatan dalam
+                            memenuhi kewajibannya, tanpa terlebih dahulu memberitahukan kepada Nasabah. Transfer
+                            yang telah dilakukan akan segera diberitahukan secara tertulis kepada Nasabah.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="text-right warning">
+                        <div class="confirmation-verify">
+                            <strong>
+                                <em>
+                                    <label for="RealAccountSffoForm16ReadAndUnderstand">
+                                        Saya sudah membaca dan memahami
+                                        <span class="warninginfo">This field is required.</span>
+                                    </label>
+                                </em>
+                            </strong>
+                            <input type="checkbox"
+                                   name="data[RealAccountSffoForm][16][read_and_understand]"
+                                   data-index="16"
+                                   class="107BPK051-checkbox 107BPK05-checkbox form-s45-checkbox"
+                                   value="1"
+                                   id="RealAccountSffoForm16ReadAndUnderstand"/>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td colspan="2">
+                        <strong>Pemberitahuan</strong>
+                        <ol type="a">
+                            <li>Semua komunikasi, uang, surat berharga, dan kekayaan lainnya harus dikirimkan
+                                langsung ke alamat Nasabah seperti tertera dalam rekeningnya atau alamat lain
+                                yang ditetapkan / diberitahukan secara tertulis oleh Nasabah.
+                            </li>
+                            <li>
+                                Semua uang, harus disetor atau ditransfer langsung oleh Nasabah ke Rekening
+                                Terpisah <i>(Segregated Account)</i> Pialang Berjangka :
+                                <dl class="dl-horizontal">
+                                    <dt>&nbsp;</dt>
+                                    <dd>&nbsp;</dd>
+                                    <dt>Nama</dt>
+                                    <dd>PT Real Time Futures</dd>
+                                    <dt>Alamat</dt>
+                                    <dd>lnternational Financial Centre Tower 2 Lantai 19, JI. Jend.Sudirman Kav.22-23, Jakarta 12920 - Indonesia
+                                    </dd>
+                                    <dt>Bank</dt>
+                                    <dd>BCA - KCU Sudirman</dd>
+                                    <dt>No. Rekening Terpisah</dt>
+                                    <dd>
+                                        0353118673(IDR) <br />
+                                        0353110443(USD) <br /><br />
+                                        CCB Indonesia - KK Rawamangun Jakarta<br />
+                                        1011663989(IDR) <br />
+                                        1011680808(USD) <br />
+                                    </dd>
+                                </dl>
+                                dan dianggap sudah diterima oleh Pialang Berjangka apabila sudah ada tanda terima bukti setor atau transfer dari pegawai Pialang Berjangka.
+                            </li>
+                            <li>
+                                Semua surat berharga, kekayaan lainnya, atau komunikasi harus dikirim kepada
+                                Pialang Berjangka :
+                                <dl class="dl-horizontal">
+                                    <dt>&nbsp;</dt>
+                                    <dd>&nbsp;</dd>
+                                    <dt>Nama</dt>
+                                    <dd>PT Real Time Futures</dd>
+                                    <dt>Alamat</dt>
+                                    <dd> lnternational Financial Centre Tower 2 Lantai 19, JI. Jend.Sudirman Kav.22-23, Jakarta 12920 - Indonesia
+                                    </dd>
+                                    <dt>Telepon</dt>
+                                    <dd>+62 21 40660888</dd>
+                                    <dt>Facsimile</dt>
+                                    <dd>+62 21 50509100</dd>
+                                    <dt>E-mail</dt>
+                                    <dd>finance@trfutures.co.id</dd>
+                                </dl>
+                                dan dianggap sudah diterima oleh Pialang Berjangka apabila sudah ada tanda bukti
+                                penerimaan dari pegawai Pialang Berjangka.
+                            </li>
+                        </ol>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="text-right warning">
+                        <div class="confirmation-verify">
+                            <strong>
+                                <em>
+                                    <label for="RealAccountSffoForm17ReadAndUnderstand">
+                                        Saya sudah membaca dan memahami
+
+                                        <span class="warninginfo">This field is required.</span>
+                                    </label>
+                                </em>
+                            </strong>
+                            <input type="checkbox"
+                                   name="data[RealAccountSffoForm][17][read_and_understand]"
+                                   data-index="17"
+                                   class="107BPK051-checkbox 107BPK05-checkbox form-s45-checkbox"
+                                   value="1"
+                                   id="RealAccountSffoForm17ReadAndUnderstand"/>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>19</td>
+                    <td colspan="2">
+                        <p><strong>Dokumen Pemberitahuan Adanya Resiko</strong></p>
+                        <p>Nasabah mengakui menerima dan mengerti Dokumen Pemberitahuan Adanya Resiko.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="text-right warning">
+                        <div class="confirmation-verify">
+                            <strong>
+                                <em>
+                                    <label for="RealAccountSffoForm18ReadAndUnderstand">
+                                        Saya sudah membaca dan memahami
+
+                                        <span class="warninginfo">This field is required.</span>
+                                    </label>
+                                </em>
+                            </strong>
+                            <input type="checkbox"
+                                   name="data[RealAccountSffoForm][18][read_and_understand]"
+                                   data-index="18"
+                                   class="107BPK051-checkbox 107BPK05-checkbox form-s45-checkbox"
+                                   value="1"
+                                   id="RealAccountSffoForm18ReadAndUnderstand"/>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td colspan="2">
+                        <strong>Jangka Waktu Perjanjian dan Pengakhiran</strong>
+                        <ol type="a" class="normal">
+                            <li>Perjanjian ini mulai berlaku terhitung sejak tanggal ditandatanganinya sampai
+                                disampaikannya pemberitahuan pengakhiran secara tertulis oleh Nasabah atau
+                                Pialang Berjangka.
+                            </li>
+                            <li>Nasabah dapat mengakhiri Perjanjian ini hanya jika Nasabah sudah tidak lagi
+                                memiliki posisi terbuka dan tidak ada kewajiban Nasabah yang diemban oleh atau
+                                terhutang kepada Pialang Berjangka.
+                            </li>
+                            <li>Pengakhiran tidak membebaskan salah satu Pihak dari tanggung jawab atau
+                                kewajiban yang terjadi sebelum pemberitahuan tersebut.
+                            </li>
+                        </ol>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="text-right warning">
+                        <div class="confirmation-verify">
+                            <strong>
+                                <em>
+                                    <label for="RealAccountSffoForm19ReadAndUnderstand">
+                                        Saya sudah membaca dan memahami
+                                        <span class="warninginfo">This field is required.</span>
+                                    </label>
+                                </em>
+                            </strong>
+                            <input type="checkbox"
+                                   name="data[RealAccountSffoForm][19][read_and_understand]"
+                                   data-index="19"
+                                   class="107BPK051-checkbox 107BPK05-checkbox form-s45-checkbox"
+                                   value="1"
+                                   id="RealAccountSffoForm19ReadAndUnderstand"/>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>21</td>
+                    <td colspan="2">
+                        <p><strong>Berakhirnya Perjanjian</strong></p>
+                        <p>Perjanjian dapat berakhir dalam hal Nasabah :</p>
+                        <ol type="a">
+                            <li>dinyatakan pailit, memiliki hutang yang sangat besar, dalam proses peradilan,
+                                menjadi hilang ingatan, mengundurkan diri atau meninggal;
+                            </li>
+                            <li>tidak dapat memenuhi atau mematuhi perjanjian ini dan / atau melakukan
+                                pelanggaran terhadapnya;
+                            </li>
+                            <li>berkaitan dengan angka (1) dan (2) tersebut diatas, Pialang Berjangka dapat :
+                                <ol type="i">
+                                    <li>meneruskan atau menutup posisi Nasabah tersebut setelah
+                                        mempertimbangkannya secara cermat dan jujur ; dan
+                                    </li>
+                                    <li>menolak perintah dari Nasabah atau kuasanya.</li>
+                                </ol>
+                            </li>
+                            <li>Pengakhiran Perjanjian sebagaimana dimaksud dengan poin a dan b tersebut diatas
+                                tidak melepaskan kewajiban dari Para Pihak yang berhubungan dengan penerimaan
+                                atau kewajiban pembayaran atau pertanggungjawaban kewajiban lainnya yang timbul
+                                dari Perjanjian.
+                            </li>
+                        </ol>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="text-right warning">
+                        <div class="confirmation-verify">
+                            <strong>
+                                <em>
+                                    <label for="RealAccountSffoForm20ReadAndUnderstand">
+                                        Saya sudah membaca dan memahami
+                                        <span class="warninginfo">This field is required.</span>
+                                    </label>
+                                </em>
+                            </strong>
+                            <input type="checkbox"
+                                   name="data[RealAccountSffoForm][20][read_and_understand]"
+                                   data-index="20"
+                                   class="107BPK051-checkbox 107BPK05-checkbox form-s45-checkbox"
+                                   value="1"
+                                   id="RealAccountSffoForm20ReadAndUnderstand"/>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>22</td>
+                    <td colspan="2">
+                        <p><strong>Force Majeur</strong></p>
+                        <p>Tidak ada satupun pihak di dalam perjanjian dapat diminta pertanggungjawabannya untuk
+                            suatu keterlambatan atau terhalangnya memenuhi kewajiban berdasarkan Perjanjian yang
+                            diakibatkan oleh suatu sebab yang berada di luar kemampuannya atau kekuasaannya (<i>force
+                                majeur</i>), sepanjang pemberitahuan tertulis mengenai sebab itu disampaikannya
+                            kepada pihak lain dalam Perjanjian dalam waktu tidak lebih dari 24 (dua puluh empat)
+                            jam sejak timbulnya sebab itu. Yang dimaksud dengan <i>force majeur</i> dalam
+                            Perjanjian adalah peristiwa kebakaran, bencana alam (seperti gempa bumi, banjir,
+                            angin topan, petir), pemogokan umum, huru hara, peperangan, perubahan terhadap
+                            peraturan perundang-undangan yang berlaku di bidang ekonomi, keuangan dan
+                            Perdagangan Berjangka, pembatasan yang dilakukan oleh otoritas Perdagangan Berjangka
+                            dan Bursa Berjangka serta terganggunya sistem perdagangan, kliring dan penyelesaian
+                            transaksi Kontrak Berjangka di mana transaksi dilaksanakan yang secara langsung
+                            mempengaruhi pelaksanaan pekerjaan berdasarkan Perjanjian.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="text-right warning">
+                        <div class="confirmation-verify">
+                            <strong>
+                                <em>
+                                    <label for="RealAccountSffoForm21ReadAndUnderstand">
+                                        Saya sudah membaca dan memahami
+                                        <span class="warninginfo">This field is required.</span>
+                                    </label>
+                                </em>
+                            </strong>
+                            <input type="checkbox"
+                                   name="data[RealAccountSffoForm][21][read_and_understand]"
+                                   data-index="21"
+                                   class="107BPK051-checkbox 107BPK05-checkbox form-s45-checkbox"
+                                   value="1"
+                                   id="RealAccountSffoForm21ReadAndUnderstand"/>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>23</td>
+                    <td colspan="2">
+                        <p><strong>Perubahan Atas lsian dalam Perjanjian Pemberian Amanat</strong></p>
+                        <p>Perubahan atas isian dalam Perjanjian pemberian ini hanya dapat dilakukan atas
+                            persetujuan Para Pihak, atau Pialang Berjangka telah memberitahukan secara tertulis
+                            perubahan yang diinginkan, dan Nasabah tetap memberikan perintah untuk transaksi
+                            dengan tanpa memberikan tanggapan secara tertulis atas usul perubahan tersebut.
+                            Tindakan Nasabah tersebut dianggap setuju atas usul perubahan tersebut.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="text-right warning">
+                        <div class="confirmation-verify">
+                            <strong>
+                                <em>
+                                    <label for="RealAccountSffoForm22ReadAndUnderstand">
+                                        Saya sudah membaca dan memahami
+                                        <span class="warninginfo">This field is required.</span>
+                                    </label>
+                                </em>
+                            </strong>
+                            <input type="checkbox"
+                                   name="data[RealAccountSffoForm][22][read_and_understand]"
+                                   data-index="22"
+                                   class="107BPK051-checkbox 107BPK05-checkbox form-s45-checkbox"
+                                   value="1"
+                                   id="RealAccountSffoForm22ReadAndUnderstand"/>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>24</td>
+                    <td colspan="2">
+                        <strong>Penyelesaian Perselisihan</strong>
+                        <ol type="a" class="normal">
+                            <li>Semua perselisihan dan perbedaan pendapat yang timbul dalam pelaksanaan
+                                perjanjian ini wajib diselesaikan terlebih dahulu secara musyawarah untuk
+                                mencapai mufakat antara Para Pihak.
+                            </li>
+                            <li>Apabila perselisihan dan perbedaan pendapat yang timbul tidak dapat diselesaikan
+                                secara musyawarah untuk mencapai mufakat, Para Pihak wajib memanfaatkan sarana
+                                penyelesaian perselisihan yang tersedia di Bursa Berjangka.
+                            </li>
+                            {% if userDatas.state === 1 %}
+                            <li>Apabila Perselisihan dan perbedaan pendapat yang timbul tidak dapat diselesaikan
+                                melalui cara sebagaimana dimaksud pada angka (1) dan angka (2), maka Para Pihak
+                                sepakat untuk menyelesaikan perselisihan melalui :
+                                <br />
+                                <label class="radio">
+                                    <input type="radio"
+                                           name="data[RealAccountStepFife][settlement_of_disputes_1]"
+                                           id="RealAccountStepFifeSettlementOfDisputes1Bakti"
+                                           class="s51-settlement_of_disputes" value="1"
+                                           checked
+                                    />Badan Arbitrase
+                                    Perdagangan Berjangka Komoditi (BAKTI) berdasarkan Peraturan dan Prosedur
+                                    BAKTI ;
+                                </label>
+                                <label class="radio">
+                                    <input type="radio"
+                                           name="data[RealAccountStepFife][settlement_of_disputes_1]"
+                                           id="RealAccountStepFifeSettlementOfDisputes1PengadilanNegeri"
+                                           class="s51-settlement_of_disputes" value="2"/>Pengadilan
+                                    Negeri </label>
+                                <input name="data[RealAccountTradeExperience][account_number]"
+                                       class="form-control" maxlength="64" type="text"
+                                       id="RealAccountSfftForm24PengadilanNegeri"
+                                       required="required" aria-required="true"
+                                />
+                                <span class="warninginfo step-6-input-tips">This field is required.</span>
+                            </li>
+                            <li>Kantor atau kantor cabang Pialang Berjangka terdekat dengan domisili Nasabah
+                                tempat penyelesaian dalam hal terjadi perselisihan.<br />
+                                <strong>Daftar Kantor (Pilih salah satu) :</strong>
+                                <select name="data[RealAccountStepFife][branch_id_1]" class="s51-branch_id"
+                                        id="RealAccountStepFifeBranchId1">
+                                    <option value="">&#45;&#45; Pilih Kantor Cabang &#45;&#45;</option>
+                                    <option value="2" disabled>Kantor Cabang</option>
+                                    <option value="1">Kantor Pusat</option>
+                                </select>
+                                <span class="warninginfo step-6-select-tips">This field is required.</span>
+                            </li>
+                            {% else %}
+                            <li>Apabila Perselisihan dan perbedaan pendapat yang timbul tidak dapat diselesaikan
+                                melalui cara sebagaimana dimaksud pada angka (1) dan angka (2), maka Para Pihak
+                                sepakat untuk menyelesaikan perselisihan melalui :
+                                <br />
+
+                                {% if userDatas.open_account_info.confirm.court === "" %}
+                                <label class="radio">
+                                    <input type="radio"
+                                           name="data[RealAccountStepFife][settlement_of_disputes_1]"
+                                           id="RealAccountStepFifeSettlementOfDisputes1Bakti"
+                                           class="s51-settlement_of_disputes" value="1"
+                                           checked
+                                    />Badan Arbitrase
+                                    Perdagangan Berjangka Komoditi (BAKTI) berdasarkan Peraturan dan Prosedur
+                                    BAKTI ;
+                                </label>
+                                <label class="radio">
+                                    <input type="radio"
+                                           name="data[RealAccountStepFife][settlement_of_disputes_1]"
+                                           id="RealAccountStepFifeSettlementOfDisputes1PengadilanNegeri"
+                                           class="s51-settlement_of_disputes" value="2"
+                                    />Pengadilan
+                                    Negeri
+                                </label>
+                                <input name="data[RealAccountTradeExperience][account_number]"
+                                       class="form-control" maxlength="64" type="text"
+                                       id="RealAccountSfftForm24PengadilanNegeri"
+                                       required="required" aria-required="true"
+                                       disabled
+                                />
+                            </li>
+                            <li>Kantor atau kantor cabang Pialang Berjangka terdekat dengan domisili Nasabah
+                                tempat penyelesaian dalam hal terjadi perselisihan.<br /><br /><br />
+                                <strong>Daftar Kantor (Pilih salah satu) :</strong>
+                                <select name="data[RealAccountStepFife][branch_id_1]" class="s51-branch_id"
+                                        id="RealAccountStepFifeBranchId1"
+                                        disabled
+                                >
+                                    <option value="">&#45;&#45; Pilih Kantor Cabang &#45;&#45;</option>
+                                    <option value="2" disabled>Kantor Cabang</option>
+                                    <option value="1">Kantor Pusat</option>
+                                </select>
+                            </li>
+                            {% else %}
+                            <label class="radio">
+                                <input type="radio"
+                                       name="data[RealAccountStepFife][settlement_of_disputes_1]"
+                                       id="RealAccountStepFifeSettlementOfDisputes1Bakti"
+                                       class="s51-settlement_of_disputes" value="1"
+                                />Badan Arbitrase
+                                Perdagangan Berjangka Komoditi (BAKTI) berdasarkan Peraturan dan Prosedur
+                                BAKTI ;
+                            </label>
+                            <label class="radio">
+                                <input type="radio"
+                                       name="data[RealAccountStepFife][settlement_of_disputes_1]"
+                                       id="RealAccountStepFifeSettlementOfDisputes1PengadilanNegeri"
+                                       class="s51-settlement_of_disputes" value="2"
+                                       checked
+                                />Pengadilan
+                                Negeri
+                            </label>
+                            <input name="data[RealAccountTradeExperience][account_number]"
+                                   class="form-control" maxlength="64" type="text"
+                                   id="RealAccountSfftForm24PengadilanNegeri"
+                                   required="required" aria-required="true"
+                                   value="{{ userDatas.open_account_info.confirm.court }} "
+                            />
+                            <span class="warninginfo step-6-input-tips">This field is required.</span>
+                            </li>
+                            <li>Kantor atau kantor cabang Pialang Berjangka terdekat dengan domisili Nasabah
+                                tempat penyelesaian dalam hal terjadi perselisihan.<br /><br /><br />
+                                <strong>Daftar Kantor (Pilih salah satu) :</strong>
+                                <select name="data[RealAccountStepFife][branch_id_1]"
+                                        class="s51-branch_id"
+                                        disabled
+                                        id="RealAccountStepFifeBranchId1">
+                                    <option value="">&#45;&#45; Pilih Kantor Cabang &#45;&#45;</option>
+                                    <option value="2" disabled>Kantor Cabang</option>
+                                    <option value="1" selected>Kantor Pusat</option>
+                                </select>
+                                <span class="warninginfo step-6-select-tips">This field is required.</span>
+
+                            </li>
+                            {% endif %}
+                            {% endif %}
+
+                        </ol>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td colspan="3" class="text-right warning">
+                        <div class="confirmation-verify">
+                            <strong>
+                                <em>
+                                    <label for="RealAccountSffoForm23ReadAndUnderstand">
+                                        Saya sudah membaca dan memahami
+                                        <span class="warninginfo">This field is required.</span>
+                                    </label>
+                                </em>
+                            </strong>
+                            <input type="checkbox"
+                                   name="data[RealAccountSffoForm][23][read_and_understand]"
+                                   data-index="23"
+                                   class="107BPK051-checkbox 107BPK05-checkbox form-s45-checkbox"
+                                   value="1"
+                                   id="RealAccountSffoForm23ReadAndUnderstand"/>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>25</td>
+                    <td colspan="2">
+                        <strong>
+                            <b>Bahasa</b>
+                        </strong>
+                        <b><p>Perjanjian ini dibuat dalam Bahasa Indonesia..</p></b>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td colspan="3" class="text-right warning">
+                        <div class="confirmation-verify">
+                            <strong>
+                                <em>
+                                    <label for="RealAccountSffoForm24ReadAndUnderstand">
+                                        Saya sudah membaca dan memahami
+                                        <span class="warninginfo">This field is required.</span>
+                                    </label>
+                                </em>
+                            </strong>
+                            <input type="checkbox"
+                                   name="data[RealAccountSffoForm][24][read_and_understand]"
+                                   data-index="24"
+                                   class="107BPK051-checkbox 107BPK05-checkbox form-s45-checkbox"
+                                   value="1"
+                                   id="RealAccountSffoForm24ReadAndUnderstand"/>
+                        </div>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-md-12 col-sm-12">
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>Demikian Perjanjian Pemberian Amanat ini dibuat oleh Para Pihak dalam keadaan sadar, sehat
+                jasmani rohani dan tanpa unsur paksaan dari pihak manapun.
+            </p>
+            <p class="text-center"><strong>"Saya telah membaca, mengerti dan setuju terhadap semua ketentuan
+                yang tercantum dalam perjanjian ini".</strong></p>
+
+            <p class="text-center">Dengan mengisi kolom "YA" di bawah, saya menyatakan bahwa saya telah
+                menerima</p>
+
+            <p class="text-center hidden 107BPK051"><strong>"PERJANJIAN PEMBERIAN AMANAT TRANSAKSI KONTRAK
+                BERJANGKA"</strong></p>
+            <p class="text-center 107BPK052 show"><strong>"PERJANJIAN PEMBERIAN AMANAT TRANSAKSI KONTRAK
+                DERIVATIF"</strong></p>
+            <p class="text-center 107BPK052 show"><strong>"SISTEM PERDAGANGAN ALTERNATIF"</strong></p>
+
+
+
+            <p class="text-center">
+                mengerti dan juga menyetujui isinya.
+            </p>
+            <p>&nbsp;</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

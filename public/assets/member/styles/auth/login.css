@@ -1,0 +1,529 @@
+body{overflow-x: hidden;overflow-y: auto;background: #fff;}
+/*
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td,select{margin:0;padding:0;}
+body,button,input,select,textarea{font:12px/1.5 tahoma,microsoft yahei,arial,5b8b4f53; color:#3C3C3C;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+address,cite,dfn,em,var{font-style:normal;}
+code,kbd,pre,samp{font-family:courier new,courier,monospace;}
+input,button,select,textarea{ outline:none;}
+textarea{resize:none;}
+ul,ol{list-style:none;}
+a{text-decoration:none;color:#70757d;}
+a:hover{text-decoration:none; color:#d8332d;outline:none;hide-focus:expression(this.hideFocus=true);}
+sup{vertical-align:text-top; vertical-align:super}sub{vertical-align:text-bottom;}
+fieldset,img{border:0;}
+button,input,select,textarea{font-size:100%;}
+table{border-collapse:collapse;border-spacing:0;}
+
+body{overflow-x: hidden;overflow-y: auto;background: #fff;}
+#dialog{
+	min-height: 610px;
+	width:500px;
+	margin: 50px auto;
+	border-radius: 4px;
+	text-align: left;
+	overflow: hidden;
+}
+#dialog .dialog_title{
+	display: inline-block;
+	width: 100%;
+	margin:71px 0 0 0;
+}
+
+#dialog .dialog_title h2{
+	font-size:18px;
+	color:#000;
+	font-weight: normal;
+	padding-bottom: 7px;
+}
+
+#dialog .dialog_title hr{
+	border:none;
+	background-color:#41aae1;
+	width: 123px;
+	height: 4px;
+	margin: 0 auto 60px;
+}
+
+#dialog .list-group-item{
+	clear:both;
+	margin:0;
+	padding:0;
+	background-color:#fff;
+	border: 0;
+}
+#dialog .dialog_content{
+	padding: 25px 30px ;
+	text-align: center;
+}
+#dialog .tipTxt{
+	display: inline-block;
+	transition: color 0.2s;
+	font-weight: bold !important;
+	font-size: 12px;
+	padding-right: 12px;
+	color: #838994;
+	position: absolute;
+	z-index: 1000;
+	left: 13px;
+	top: 7px;
+}
+#dialog .from li{
+	transition: all 0.2s;
+	clear:both;
+	width: 100%;
+	position: relative;
+}
+#dialog .from .input_index{
+	transition: border 0.2s;
+	font-size: 18px;
+	padding:6px 0px 6px 6px;
+    letter-spacing: -0.02em;
+    display: block;
+    width: 100%;
+   	border-top:none;
+   	border-left: none;
+   	border-right: none;
+ 	border-bottom: 1px solid #cbcbcb ;
+ 	margin: 1px auto;
+	line-height:25px;
+
+}
+
+#dialog .from .input_pwd{
+	transition: border 0.2s;
+	font-size: 18px;
+	padding:6px 0px 6px 6px;
+    letter-spacing: -0.02em;
+    display: block;
+    width: 100%;
+   	border-top: 1px solid #eee;
+   	border-left: none;
+   	border-right: none;
+ 	border-bottom: 1px solid #cbcbcb ;
+ 	margin: 1px auto;
+	line-height:26px;
+
+}
+
+!*input提示*!
+::-moz-placeholder {
+    color: #9ba0a4;
+    text-align: left;
+    opacity: 1!important;
+    font-size: 12px;
+}
+:-ms-input-placeholder {
+    color: #9ba0a4;
+    text-align: left;
+    font-size: 12px;
+}
+::-webkit-input-placeholder {
+    color: #9ba0a4;
+    text-align: left;
+    font-size: 12px;
+}
+
+
+#dialog  .accountType{
+	 text-align: left;
+	 padding: 16px 0 0 0;
+	 color: #353d61;
+	 font-size: 12px;
+}
+input[type="radio"] {
+	border: none !important;
+	vertical-align:middle;
+	margin-top:-2px;
+	margin-bottom:1px;
+}
+
+#dialog  .accountType input{
+	 display: inline;
+	 width: 30px;
+}
+
+#dialog  .forgetpwd{
+	 text-align: left;
+	 padding: 20px 0 0 0;
+	 color: #9ba0a4;
+}
+
+#dialog .pull-right a {color: #0072cc;font-size: 14px;margin: 10px 0 0 0;display: inline-block;}
+
+#dialog .btn_bottom {
+   padding: 100px 0 70px 0;
+}
+
+#dialog .btn-primary {
+	background-color:#41aae1;
+	color: #fff;
+	font-size: 16px;
+	border-radius:5px;
+	border: none;
+	cursor: pointer;
+	width: 182px;
+	height: 48px;
+
+
+}
+
+#dialog .btn-icon {
+padding-right:20px;
+background:#41aae1 url(../../images/img/login_btn_bg.png)no-repeat 70% center ;
+}
+
+#dialog .btn-primary:hover {
+	background-color:#198fcc  ;
+}
+
+
+#dialog form{display: inline-block;}
+#dialog .form_required{color:#f15a29;margin: 5px;}
+*/
+
+
+.dialog_text_holder{
+	height:123px;
+	width: 100%;
+	text-align: center;
+	background-color: #eee;
+	padding:20px 0;
+
+}
+
+.dialog_text_holder hr{
+	border:none;
+	background-color:#41aae1;
+	height: 1px;
+}
+
+.dialog_text_holder p{
+	padding-bottom:10px;
+	color: #6a6c75;
+	font-size: 12px;
+}
+
+
+
+#header {
+	width: 100%;
+	background-color:#2a2a2c;
+}
+
+.header_holder {
+	height: 82px;
+	line-height: 82px;
+	width: 100%;
+}
+.layui-form-label {
+	width:150px
+}
+.layui-input-block{
+	margin-left: 180px;
+}
+.switch-item .layui-input-block{
+	margin-left: 90px;
+}
+.layui-form-label i{
+font-style: normal;
+	color:red;
+	padding-right:2px
+}
+#header .logo {
+	float: left;
+	width: 230px;
+	height: 82px;
+	background: url(/assets/member/images/logo.png) no-repeat;
+	/* background-color: #000; */
+	background-position: center;
+	/*float: left;
+	width:353px;
+	height: 82px;
+!*	background: url("../../images/logo.png") no-repeat  ;*!
+	background-position: center;*/
+}
+
+#header .account {
+	float: right;
+	margin: 0 10px 0 0;
+}
+
+#header .account li {
+	float: left;
+}
+
+#header .account li a {
+	padding: 0 10px;
+	font-size: 14px;
+	color: #fff;
+}
+
+#header .account u {
+	text-decoration: none;
+	color: #fff;
+}
+.ui-pd-bottom{
+	height:61px
+}
+.container{
+	position:relative;
+	min-height:100%
+}
+#footer {
+	position: absolute;
+	bottom:0;
+	width: 100%;
+	overflow: hidden;
+	background-color: #eee;
+	margin-left:0;
+	
+}
+
+#footer .cLink {
+	display: block;
+	height: 34px;
+	line-height:34px;
+	text-align:center;
+	float:left;
+
+	
+}
+
+#footer .cLink a {
+	color: #41aae1;
+	font-size: 12px;
+	padding-right:16px;
+}
+
+#footer u {
+	padding: 0 5px;
+	color: #a3a4a8;
+	text-decoration: none;
+}
+
+#footer .en {
+	display: block;
+	height: 32px;
+	line-height:32px;
+	text-align:center;
+	color: #96979c;
+	font-size: 12px;
+	/* float:right; */
+
+}
+.footer_container{
+border-top:1px solid #c0c1c5!important;
+padding-top:10px;
+height:50px;
+}
+.required {
+	color: #ad41c8;
+}
+
+.w1100{width:1100px;margin:0 auto!important;}
+
+/* #dialog .from input:required{color: #f15a29;} */
+
+
+/** forex2.0 login css*/
+#LAY_app,body,html {
+	height: 100%
+}
+
+.layui-layout-body {
+	overflow: auto
+}
+
+#LAY-user-login {
+	display: block!important
+}
+
+.layadmin-user-login {
+	position: relative;
+	left: 0;
+	top: 0;
+	padding: 110px 0;
+	min-height: 100%;
+	box-sizing: border-box
+}
+
+.layadmin-user-login-main {
+	width: 375px;
+	margin: 8% auto;
+	box-sizing: border-box
+}
+
+.layadmin-user-login-box {
+	padding: 20px
+}
+
+.layadmin-user-login-header {
+	text-align: center
+}
+
+.layadmin-user-login-header h2 {
+	margin-bottom: 10px;
+	font-weight: 300;
+	font-size: 30px;
+	color: #000
+}
+
+.layadmin-user-login-header p {
+	font-weight: 300;
+	color: #999
+}
+
+.layadmin-user-login-body .layui-form-item {
+	position: relative
+}
+
+.layadmin-user-login-icon {
+	position: absolute;
+	left: 1px;
+	top: 1px;
+	width: 38px;
+	line-height: 36px;
+	text-align: center;
+	color: #d2d2d2
+}
+
+.layadmin-user-login-body .layui-form-item .layui-input {
+	padding-left: 38px
+}
+
+.layadmin-user-login-other {
+	position: relative;
+	font-size: 0;
+	line-height: 38px;
+	padding-top: 20px
+}
+
+.layadmin-user-login-other>* {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+	font-size: 14px
+}
+
+.layadmin-user-login-other .layui-icon {
+	position: relative;
+	top: 2px;
+	font-size: 26px
+}
+
+.layadmin-user-login-other a:hover {
+	opacity: .8
+}
+
+.layadmin-user-login-footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	line-height: 30px;
+	padding: 20px;
+	text-align: center;
+	box-sizing: border-box;
+	color: rgba(0,0,0,.5)
+}
+
+.layadmin-user-login-footer span {
+	padding: 0 5px
+}
+
+.layadmin-user-login-footer a {
+	padding: 0 5px;
+	color: rgba(0,0,0,.5)
+}
+
+.layadmin-user-login-footer a:hover {
+	color: rgba(0,0,0,1)
+}
+
+.layadmin-user-login-main[bgimg] {
+	background-color: #fff;
+	box-shadow: 0 0 5px rgba(0,0,0,.05)
+}
+
+.ladmin-user-login-theme {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	text-align: center
+}
+
+.ladmin-user-login-theme ul {
+	display: inline-block;
+	padding: 5px;
+	background-color: #fff
+}
+
+.ladmin-user-login-theme ul li {
+	display: inline-block;
+	vertical-align: top;
+	width: 64px;
+	height: 43px;
+	cursor: pointer;
+	transition: all .3s;
+	-webkit-transition: all .3s;
+	background-color: #f2f2f2
+}
+
+.ladmin-user-login-theme ul li:hover {
+	opacity: .9
+}
+
+@media screen and (max-width:768px) {
+	.layadmin-user-login {
+		padding-top: 80px
+	}
+
+	.layadmin-user-login-main {
+		width: 300px
+	}
+}
+
+.register .succ{
+	position:relative;
+	padding-left:150px;
+	font-size:14px;
+	color: #333;
+	line-height:30px;
+	height:300px;
+	margin:150px 0 0 200px;
+}
+.register .succ .succ-icon{
+	position:absolute;
+	top:-10px;
+	left:-10px;
+}
+.register .succ h4{
+	font-size: 26px;
+	font-weight: 600;
+	margin-top:10px;
+	line-height:40px;
+	margin-bottom:10px;
+	color:#999
+}
+.register .succ p{
+	font-size: 18px;
+
+	color:#999
+}
+.register .succ h4 span{
+	color:#389e31;
+}
+.register .succ .info{
+	font-size: 17px;
+}
+
+.register .succ .info em{
+	color:#c81233;
+}
+.register .succ .txt em{
+	color:#006be3;
+}
+
+.w800{width:800px;margin:0 auto}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+</head>
+<body>
+<div class="tab-pane" id="RealAccountWizardTab3">
+
+    <div class="row" id="107BPK022">
+        <div class="col-md-8 col-sm-6">
+            <p><strong>Formulir Nomor 107.BPK.02.2</strong></p>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <table class="table">
+                <tbody>
+                <tr>
+                    <td>Lampiran</td>
+                    <td>:</td>
+                    <td>Peraturan Kepala Badan Pengawas</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>Perdagangan Berjangka Komoditi</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>Nomor: 107/BAPPEBTI/PER/11/2013</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-md-12 col-sm-12">
+            <p class="text-center">
+                <strong>SURAT PERNYATAAN TELAH BERPENGALAMAN</strong>
+            </p>
+            <p class="text-center">
+                <strong>MELAKSANAKAN TRANSAKSI PERDAGANGAN BERJANGKA KOMODITI</strong>
+            </p>
+
+            <p>Yang mengisi formulir dibawah di bawah ini:</p>
+
+            <div class="step-2-formulir-items">
+                <label class="col-md-2 col-sm-12 control-label">Nama Lengkap</label>
+                <div class="col-md-4 col-sm-12">
+                    <p class="form-control-static">
+                        {{ userDatas.account_name }}
+                    </p>
+                </div>
+            </div>
+            <div class="step-2-formulir-items">
+                <label class="col-md-2 col-sm-12 control-label">Tempat, Tgl Lahir</label>
+                <div class="col-md-4 col-sm-12">
+                    <p class="form-control-static">
+                        {{userDatas.open_account_info.place }} {{ userDatas.open_account_info.birthday | date('Y-m-d') }}
+                    </p>
+                </div>
+            </div>
+            <div class="step-2-formulir-items">
+                <label class="col-md-2 col-sm-12 control-label">Alamat Rumah</label>
+                <div class="col-md-4 col-sm-12">
+                    <p class="form-control-static">
+                        {{ userDatas.open_account_info.home_address }}
+                    </p>
+                </div>
+            </div>
+            <div class="step-2-formulir-items">
+                <label class="col-md-2 col-sm-12 control-label">Kode Pos</label>
+                <div class="col-md-4 col-sm-12">
+                    <p class="form-control-static">
+                        {{ userDatas.open_account_info.postal_code }}
+                    </p>
+                </div>
+            </div>
+            <div class="step-2-formulir-items">
+                <label class="col-md-2 col-sm-12 control-label">ID</label>
+                <div class="col-md-4 col-sm-12">
+                    <p class="form-control-static">
+                        {% set marStatus = {} %}
+                        {% for item in Lang.select.member.register.identity_type_map  %}
+                        {% set marStatus[item.value] = item.label %}
+                        {% endfor %}
+                        {{ marStatus[ userDatas.open_account_info.identity_type ] }}
+                        /
+                        {{ userDatas.open_account_info.identity_number }}
+                    </p>
+                </div>
+            </div>
+
+            <div class="step-2-formulir-items required" error="has-error" aria-required="true">
+                <label for="RealAccountTradeExperienceAccountNumber" class="col-md-2 col-sm-12 control-label">
+                    Demo. Acc
+                </label>
+                <div class="col-md-4 col-sm-6">
+                    <p class="form-control-static">{{ userDatas.open_account_info.open_account_no.demo_account_no }}</p>
+                </div>
+                <div class="col-md-2 col-sm-12" style="display: none;">
+                    <input name="data[RealAccountTradeExperience][account_number]"
+                           class="form-control" maxlength="64" type="text"
+                           id="RealAccountTradeExperienceAccountNumber"
+                           required="required" aria-required="true"
+                           value="{{ userDatas.open_account_info.open_account_no.demo_account_no }}"
+                           disabled
+                    />
+                </div>
+            </div>
+            <p style="clear: both;">&nbsp;</p>
+            <div class="col-md-12 col-sm-12" style="display: table;">
+                Dengan mengisi kolom "YA" di bawah ini, saya menyatakan bahwa saya
+                telah
+                memiliki pengalaman yang mencukupi dalam melaksanakan transaksi
+                Perdagangan berjangka
+                karena pernah bertransaksi pada perusahaan pialang berjangka
+                <strong>PT Real Time Futures</strong>
+                Demikianlah surat pernyataan ini dibuat dengan sebenarnya dalam
+                keadaan sadar,
+                sehat jasmani dan rohani serta tanpa paksaan apapun dari pihak
+                manapun.
+                dan telah memahami tentang tata cara bertransaksi Perdagangan
+                Berjangka.
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

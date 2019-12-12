@@ -1,0 +1,47 @@
+.label{
+	width: 100%;
+}
+
+.clear{
+	clear: both;
+}
+.certA{
+	width: 35%;
+	height: 26px;
+	line-height: 26px;
+	display: block;
+	float: left;
+    background: #ededf5;
+    font-size: 14px;
+    color: #464e73;
+}
+
+.certImg{
+	width: 100px;
+	height: 100px;
+	display: block;
+	float: left;
+	border: 1px solid #ccc;
+	margin-left:15px
+}
+.imgupifdiv{
+	
+	float: left;
+	display: none;
+	height: 100px;
+	overflow: hidden;
+	border: solid 1px #ccc;
+	border-radius: 5px;
+	margin-left: 5px;
+}
+iframe {
+	border: none;
+}
+.label .name {
+	float: left;
+    margin: 5px 8px 0 -8px;
+    font-size: 14px;
+    color: #464e73;
+    width:210px;
+    text-align:right;
+}

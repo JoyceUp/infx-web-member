@@ -1,0 +1,43 @@
+#modifyPwdfrom ul{
+	text-align: left; 
+}
+
+#modifyPwdfrom li{
+	margin-left: 20%;
+}
+
+#modifyPwdfrom  input{
+	display:inline-block;
+	font-size: 18px;
+	padding:6px 6px 6px 6px;
+    width: 50%;
+   	border-top:none;
+   	border-left: none;
+   	border-right: none;
+ 	border-bottom: 1px solid #cbcbcb ;
+ 	margin: 10px 0 10px 0;
+
+}
+
+/*input提示*/
+::-moz-placeholder {
+    	color:#8c8a8a;
+    text-align: left;
+    opacity: 1!important;
+    font-size: 14px;
+}
+:-ms-input-placeholder {
+    	color:#8c8a8a;
+    text-align: left;
+    font-size: 14px;
+}
+::-webkit-input-placeholder {
+   	color:#8c8a8a;
+    text-align: left;
+    font-size: 14px;
+}
+#modifyPwdfrom span{
+	display:inline-block;
+	margin: 15px 0 15px 0;
+	width:45%;
+}

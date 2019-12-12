@@ -1,0 +1,62 @@
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td,select{margin:0;padding:0;}
+body,button,input,select,textarea{font:12px/1.5 tahoma,microsoft yahei,arial,5b8b4f53; color:#3C3C3C;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+address,cite,dfn,em,var{font-style:normal;}
+code,kbd,pre,samp{font-family:courier new,courier,monospace;}
+input,button,select,textarea{ outline:none;}
+textarea{resize:none;}
+ul,ol{list-style:none;}
+a{text-decoration:none;color:#70757d;}
+a:hover{text-decoration:none; color:#d8332d;outline:none;hide-focus:expression(this.hideFocus=true);}
+sup{vertical-align:text-top; vertical-align:super}sub{vertical-align:text-bottom;}
+fieldset,img{border:0;}
+button,input,select,textarea{font-size:100%;}
+table{border-collapse:collapse;border-spacing:0;}
+
+body{overflow-x: hidden;overflow-y: auto;}
+
+#wrapper {
+	margin: 0 auto;
+	position: relative;
+}
+
+#error_header .header_holder{
+	width:100%;
+	height:177px;
+	line-height:177px;
+	background: url("../img/logo2.png") no-repeat ;
+	background-color:#e8e9ee;
+	background-position: center;
+}
+
+#error .error_content{
+	margin: 0 auto;
+	max-height:783px;
+	text-align: center;
+}
+
+#error .error_img{
+	margin: 130px auto 0px;
+}
+
+#error .error_text{
+	margin: 30px auto;
+}
+
+#error .error_text>span{
+	padding-right: 13px;
+	color: #ae42c9;
+	font-size: 14px;
+}
+
+#error .btn-primary {
+	background-color: #ae42c9;
+	color: #fff;
+	font-size: 14px;
+	border-radius: 125px;
+	border: none;
+	font-weight: bold;
+	cursor: pointer;
+	width: 171px;
+	height: 31px;
+}

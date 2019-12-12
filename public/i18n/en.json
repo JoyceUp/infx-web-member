@@ -1,0 +1,1482 @@
+{
+  "lang":"en",
+  "btn_login": "Login",
+  "btn_sub": "Submit",
+  "btn_save": "Save",
+  "btn_true": "Confirm",
+  "btn_search": "Search",
+  "btn_reset": "Clear",
+  "btn_back": "Return",
+  "btn_copy": "Copy",
+  "btn_confirm": "OK",
+  "btn_cancel": "Cancel",
+  "btn_delete": "Delete",
+  "btn_update": "Modify",
+  "btn_QRCode": "QR Code",
+  "btn_manager_bank_card": "Manage Bank Card",
+  "btn_manager_transfer": "Manage T/T Information",
+  "btn_cancel_apply": "Cancel Application",
+  "btn_login_send_reset_password": "Send email to reset password",
+  "btn_getCode": "Get Verification Code",
+  "btn_code": "Verification code",
+  "btn_previous": "Last Step",
+  "btn_next": "Next Step",
+  "btn_upload": "Upload",
+  "btn_uploadImg": "Upload Image",
+  "btn_switch": "Yes | No",
+  "btn_create_link": "Create links",
+  "btn_gold_to_success": "Deposit succeed",
+  "btn_gold_to_fail": "Deposit Failed",
+  "btn_yes": "Yes",
+  "btn_no": "No",
+
+  "form_user_all_show":"User summary",
+  "form_my_customer_num":"My customer numbers:",
+  "form_person":"Person",
+  "form_current_month_customer_new":"New customer numbers this month",
+  "form_current_month_customer_deposit":"New deposits from agents this month ",
+  "form_current_month_customer_withdraw":"New withdrawals from agents this month ",
+  "form_current_month_customer_transaction":"New trades from customers this month",
+
+  "form_my_ib_num":"My agents numbers",
+  "form_current_month_ib_new":"New Agents of this month",
+  "form_current_month_ib_deposit":"New deposits from customers this month",
+  "form_current_month_ib_withdraw":"New Agents'withdrawl of this month",
+
+  "form_my_rebate_num":"My total commission & rebate",
+  "form_current_month_rebate_new":"New Commission & Rebate of this month",
+  "form_customer_balance_rebate":"Customer's balance rebate",
+  "form_customer_transaction_rebate":"Customer's trade commission",
+
+  "form_placeholder_login_email": "Email",
+  "form_placeholder_login_email_or_mt": "Email or MT account",
+  "form_placeholder_login_retrieve_email": "Please enter registered email",
+  "form_placeholder_login_password": "Password",
+  "form_placeholder_new_password": "New password",
+  "form_placeholder_old_password": "Old password",
+  "form_placeholder_confirm_password": "Re-enter password",
+  "form_placeholder_confirm_new_password": "Confirm new password",
+  "form_placeholder_msg_password": "6-18 characters including both alphabets and numbers, underline is accepted",
+  "form_placeholder_login_code": "Verification code",
+  "form_placeholder_name": "Name",
+  "form_placeholder_customer_name": "Customer name",
+  "form_placeholder_sales_name": "Sales name",
+  "form_placeholder_customer_account_no": "Customer account",
+  "form_placeholder_account_no": "Account",
+  "form_placeholder_account_no_from": "Transfer-out account",
+  "form_placeholder_account_no_to": "Transfer-in account",
+  "form_placeholder_account_type": "Account type",
+  "form_placeholder_account_balance": "Account balance (USD)",
+  "form_placeholder_account_state": "Account status",
+  "form_placeholder_start_time": "Start time",
+  "form_placeholder_end_time": "End time",
+  "form_placeholder_city": "please enter city of residence",
+  "form_placeholder_address": "please enter residential address",
+  "form_placeholder_zip_code": "please enter postal code",
+  "form_placeholder_mobile": "For seasonal blessing and promotion purpose",
+  "form_placeholder_mobile_yes": "For seasonal blessing and promotion purpose, suggest complete the form",
+
+  "form_label_trade_time": "Commission's date",
+  "form_label_balance_time": "Rebate date",
+  "form_label_invite_type": "Invitation type",
+  "form_label_card_no": "Bank card numbers",
+  "form_label_bank_account": "Bank of account",
+  "form_label_account_no": "Bank account",
+  "form_label_card_user_name": "Holder's name of Bank account",
+  "form_label_bank_name": "Bank name",
+  "form_label_bank_country": "Country of Bank",
+  "form_label_bank_province": "Region(province)",
+  "form_label_bank_city": "Region(city)",
+  "form_label_bank_province_": "Province of bank",
+  "form_label_bank_city_": "City of bank",
+  "form_label_branch_name_": "Bank branch name",
+  "form_label_branch_name": "Bank of account",
+  "form_label_branch_address": "Address of bank of account",
+  "form_label_branch_swift_code": "SWIFT code",
+  "form_label_rate": "Exchange rate",
+  "form_label_withdraw_rate": "Withdrawal exchange rate",
+  "form_label_application_amount": "Amount applied(USD)",
+  "form_label_application_amount_cny": "Amount applied(IDR)",
+  "form_label_fee": "Commission charge(USD)",
+  "form_label_pay_amount": "Payment amount(IDR)",
+  "form_label_pay_amount_usd": "Payment amount(USD)",
+  "form_label_transfer_amount": "Transfer amount(USD)",
+  "form_label_bankcard": "Receiving bank",
+  "form_label_bank_account_no": "Bank account",
+  "form_label_ib_account_no": "Agent account",
+  "form_label_ib_name": "Agent name",
+  "form_label_ib_type": "Agent type",
+  "form_label_order_no": "Order number",
+  "form_label_proof_photo": "Draft copy",
+  "form_label_remark": "process remark",
+  "form_label_state": "Status",
+  "form_label_invite_code": "Invitation code",
+  "form_label_leverage": "Trade Leverage",
+  "form_label_login_password": "Login password",
+  "form_label_job": "Employment status",
+  "form_label_capital_source": "Income source",
+  "form_label_annual_income": "Annual income",
+  "form_label_total_asset": "Total capital",
+  "form_label_card_front": "Front of card",
+  "form_label_address": "Address proof",
+  "form_label_close_time_gmt": "Close positions time (GMT)",
+  "form_label_open_time_gmt": "Open positions time (GMT)",
+  "form_a_retry": "Retry",
+
+  "form_select_invite_type": "please select",
+  "form_select_funds_type": "Capital type",
+  "form_select_order_state": "Order status",
+  "form_select_china": "China",
+  "form_select_other": "Others",
+  "form_text_personal_info": "Personal profile",
+  "form_text_use_info": "User information",
+  "form_text_base_info": "Basic information",
+  "form_text_base_info_": "Basic information",
+  "form_text_identity_info": "Identity information",
+  "form_text_address_info": "Residence information",
+  "form_text_bank_info": "Bank information",
+  "form_text_bank_card_info": "Bank card information",
+  "form_text_tt_info": "T/T info",
+  "form_text_transfer_info": "T/T info",
+  "form_text_transfer_info_two": "Online transfer information",
+  "form_text_account_info": "Login ID information",
+  "form_text_account_info_other": "Other information",
+  "form_text_account_info_trading": "Trade information",
+  "form_text_account_info_": "Account information",
+  "form_text_deposit_info": "Deposit/Withdrawal information",
+  "form_text_position_info": "Vocation information",
+  "form_text_customer_details": "Customer profile",
+  "form_text_invite_info": "Invitation information",
+  "form_text_password_info": "Password information",
+  "form_text_investment_info": "Investment information",
+  "form_text_withdraw_info": "Withdrawal info",
+  "form_text_rebate_info": "Rebate information",
+  "form_text_commission_info": "Commission information",
+  "form_text_bank_deposit": "Bank card deposit",
+  "form_text_transfer_gold": "T/T deposit",
+  "form_text_WeChat_fund": "WeChat deposit",
+  "form_text_other_info": "Other information",
+  "form_text_sponsored_links": "Referral Links",
+  "form_text_email": "Email",
+  "form_text_identity_type": "ID type",
+  "form_text_identity_no": "ID number",
+  "form_text_identity1_path": "ID's front side",
+  "form_text_identity2_path": "ID's back side",
+  "form_text_upload_files": "Click to upload, or drag file here",
+  "form_text_city": "City",
+  "form_text_country": "Country",
+  "form_text_address": "Residential address",
+  "form_text_gender": "Gender",
+  "form_text_gender_boy": "Man",
+  "form_text_gender_girl": "Woman",
+  "form_text_mobile": "Mobile number",
+  "form_text_account_transfer": "Transfer to other account",
+  "form_text_transfer": "Transfer",
+  "form_text_retry_seconds": "seconds later resend",
+  "form_text_experience": "Trading experience and knowledge ",
+  "form_text_experience_span": "I have experience of Forex, CFDs and other financial derivatives",
+  "form_text_assess_risk_span": "I understand financial derivatives is part of my investment. I can evaluate the risk involved with the trade, including the all possible risks to my capitals.",
+  "form_text_professional_span": "I have academic and professional knowledge about finance and investment in financial derivatives.",
+  "form_text_upload_img": "Upload ID image",
+  "form_text_upload_img_span": "（currently support only png and jpg,  file size < 2MB)",
+  "form_text_details_span": "I claim I have read carefully and understand about following  agreements",
+  "form_text_agree_span": " I understand completely and agree.",
+  "form_text_privacy_statement_span": "Privacy statement.",
+  "form_text_risk_warning_span": " Risk Warning",
+  "form_text_chp_span": " Complaints Handling Procedure ",
+  "form_text_legal_information_span": " Legal Information ",
+  "form_text_privacy_policy_span": " Privacy Policy ",
+  "form_text_three_minutes_span": "Registration process is estimated to takes 3 minutes",
+  "form_text_basic_span": "(Email is very important for us to send you future notices and trading details, please provide it accurately.)",
+  "form_text_order_no": "Order number",
+  "form_text_recharge_amount": "Deposit amount",
+  "form_text_success": "Congratulation, deposit succeed！",
+  "form_text_fail": "Sorry， deposit failed！ ",
+  "form_text_info_true": "Your transfer transaction is shown as below,  please confirm it is correct, then click Ok",
+  "form_text_withdraw_info_true": "Your withdrawal transaction is shown as below,  please confirm it is correct, then click Ok",
+  "form_text_upload_img_limit": "（currently support only png and jpg,  file size < 2MB)",
+  "form_text_history_transaction": "History transactions",
+  "form_text_agree_span_split": "Agree",
+  "form_text_ib_agreement": "Agent agreement",
+  "form_text_ib_submit_success": "Agent application submitted successfully!",
+  "form_text_ib_background_review_to_send": "We will review your application as soon as possible and notify you the result by email!",
+  "form_text_transaction_record": "Transaction record",
+  "form_text_beneficiary_account": "Recipient's account",
+  "form_text_beneficiary_name": "Recipient's name",
+  "form_text_beneficiary_address": "Recipient's address",
+  "form_text_beneficiary_branch_name": "Recipient bank's name",
+  "form_text_beneficiary_branch_address": "Recipient bank's address",
+  "form_text_zip_code": "Postal code",
+  "form_text_sales_no": "Sale's number",
+  "form_text_sales_account_no": "Sales's account",
+  "form_text_date_of_birth": "Date of birth",
+  "form_text_gmt_create": "Creation time",
+  "form_text_gmt_modified": "Update time",
+  "form_text_sex": "Gender",
+  "form_text_family_name": "Last name",
+  "form_text_given_name": "First name",
+  "form_text_available_balance": "Available balance",
+  "form_text_transfer_amount": "Transferable balance",
+  "form_text_add_bank_card": "Add bank card",
+  "form_text_edit_bank_card": "Update bank card",
+  "form_text_company": "Company",
+  "form_text_department": "Department",
+  "form_text_team": "Team",
+  "form_text_position_name": "Position",
+  "form_text_account_withdraw": "Withdraw from account",
+  "form_text_bank_card_withdraw": "Withdraw to bank card",
+  "form_text_transfer_withdraw": "T/T Withdraw",
+  "form_msg_account_no": "please select account",
+  "form_msg_account_no_to": "please select the account to transfer into",
+  "form_msg_account_no_from": "please select the account to transfer from",
+  "form_msg_account_type": "please select account type",
+  "form_msg_identity_type": "please select ID type",
+  "form_msg_card_user_name": "Bank account's name cannot be empty",
+  "form_msg_bank_name": "Bank name cannot be empty",
+  "form_msg_bank_country": "Bank's country cannot be empty",
+  "form_msg_bank_province": "Region(province) cannot be empty",
+  "form_msg_bank_city": "Region(city) cannot be empty",
+  "form_msg_branch_name": "Bank branch name cannot be empty",
+  "form_msg_branch_address": "Bank branch address cannot be empty",
+  "form_msg_branch_swift_code": "SWIFT code cannot be empty",
+  "form_msg_bankcard": "please select the recipient bank",
+  "form_msg_gender": "please enter your gender",
+  "form_msg_code": "please enter verification code",
+  "form_msg_date_of_birth": "Birth date cannot be empty",
+  "form_msg_country": "please select country",
+  "form_msg_city": "please enter city",
+  "form_msg_leverage": "please setup trade leverage",
+  "form_msg_job": "please select employment status",
+  "form_msg_capital_source": "please select source of income",
+  "form_msg_annual_income": "please select annual income",
+  "form_msg_total_asset": "please select total capital",
+  "alert_submit_success": "Submit succeed",
+  "alert_add_success": "Add succeed",
+  "alert_email_format_error": "Email format incorrect",
+  "alert_view_email": "please check your email",
+  "alert_start_time_more_than_the_end_time": "Start time should no later than end time",
+  "alert_update_lev_success": "Modify leverage succeed",
+  "alert_bank_no_not_null": "Bank account cannot be empty",
+  "alert_register_success1": "New account registered succeed, MT4 account: ",
+  "alert_register_success2": "Password is sent to your email",
+  "alert_balance_flush_balance_zero1": "Available balance: ",
+  "alert_balance_flush_balance_zero2": "Your account balance is positive, not qualified to apply for balance reset!",
+  "alert_balance_flush_submit_success": "Your balance reset request is received, we will process as soon as possible.",
+  "alert_deposit_submit_success": "Your T/T request is received, we will process as soon as possible.",
+  "alert_transfer_submit_success1": "Your transfer request is received, we will process as soon as possible.",
+  "alert_transfer_submit_success2": "If you want to cancel, please click here.",
+  "alert_return_to_balance_no_rebate": "This account has no transferable rebate",
+  "msg_keep_a_bank_card": "please keep at lease one bank card/;",
+  "msg_delete_success": "Delete succeed",
+  "msg_update_success": "Modify succeed",
+  "msg_upload_error": "Upload failed",
+  "msg_login_success": "Login succeed",
+  "msg_reset_login_password_re_login": "Password reset succeed, please login again",
+  "msg_retreat_safely": "Logout safely",
+  "msg_email_not_null": "please input email",
+  "msg_email_already_existed": "Email already existed",
+  "msg_verify_code_send_success": "Verification code is submit, please check in time",
+  "msg_request_timeout_back1": "Request time out, please return to step 1 ",
+  "msg_check_register_file": "please check registration protocol",
+  "msg_check_ib_register_file": "You need to check disclaimer",
+  "msg_reset_email_send_success": "Password reset email is sent, please check",
+  "msg_retister_error": "Registration failed",
+  "open_cancel_success": "Cancel succeed",
+  "open_confirm_delete_bank": "Are you sure to delete this bank card",
+  "open_confirm_logout": "Are you sure to logout?",
+  "open_deposit_guide": "please make payment in new opened page。When done, click one of following buttons based on payment status",
+  "validate_job_not_null": "please select employment status",
+  "validate_capital_source_not_null": "please select source of income",
+  "validate_annual_income_not_null": "please select annual income",
+  "validate_total_asset_not_null": "please select total capital",
+  "validate_card_no_not_null": "please input bank card number",
+  "validate_card_no_only_number": "Bank card number must be digits",
+  "validate_card_no_format_error": "please enter correct bank card numbers",
+  "validate_mobile_format_error": "Mobile format is incorrect",
+  "validate_country_not_null": "please select country of residence",
+  "validate_city_not_null": "please enter city",
+  "validate_address_not_null": "please enter residential address",
+  "validate_zip_code_not_null": "please enter postal code",
+  "validate_zip_format_error": "Postal code format incorrect",
+  "validate_bank_country_not_chose": "please select country of bank",
+  "validate_bank_province_not_chose": "please select bank's region (provicne)",
+  "validate_bank_city_not_chose": "please select bank's region (city)",
+  "validate_bank_name_not_chose": "please select bank's name",
+  "validate_bank_name_not_null_please": "please enter bank's name",
+  "validate_branch_name_not_null_please": "please enter bank's branch name",
+  "validate_bank_img_path_not_null": "please upload photo of bank card",
+  "validate_path_not_null": "please upload proof of residential address",
+  "validate_family_name_format_error": "Last name must be 1-50 alphabets or Chinese characters",
+  "validate_given_name_format_error": "First name must be 1-50 alphabets",
+
+  "validate_password_not_null": "please enter password",
+  "validate_login_password_not_null": "Login password is compulsory",
+  "validate_twice_password_error": "Two passwords are not the same",
+  "validate_old_password_not_null": "please enter old password",
+  "validate_new_password_not_null": "please enter new password",
+  "validate_confirm_password_not_null": "please enter new password again",
+  "validate_password_format_error": "Password format is incorrect, Use 6-18 characters, must include both alphabets and numbers, underline is accepted",
+
+  "validate_identity1_path_not_null": "Photo of ID's front side must be uploaded ",
+  "validate_identity2_path_not_null": "Photo of ID's back side must be uploaded ",
+  "validate_login_no_not_null": "please enter login account",
+  "validate_login_no_format_error": "please enter correct account",
+  "validate_captcha_not_null": "please enter verification code",
+  "validate_email_captcha_not_null": "please enter email verification code",
+  "validate_login_email_not_null": "please enter login account",
+  "validate_login_email_format_error": "please enter correct account",
+  "validate_title_format_error": "Subject must be no less than 5 chars",
+  "validate_unchinese": "please don't enter Chinese",
+
+  "validate_pay_amount_not_null": "please enter payment amount",
+  "validate_amount_not_null": "please enter applied amount",
+  "validate_amount_only_number": "Applied amount must be numbers",
+  "validate_amount_more_than_the_balance": "applied amount should not exceed account's available balance",
+  "validate_amount_more_than_the_fee": "applied amount must exceed commission charge",
+  "validate_amount_dollar": "USD",
+  "validate_amount_rmb": "rmb",
+  "validate_deopsit_amount_only_number": "Deposit amount must be numbers",
+  "validate_deopsit_amount_minimum": "Minimum deposit is",
+  "validate_deopsit_amount_max": "The maximum deposit amount from bank card is",
+  "validate_transfer_amount_not_null": "please enter transfer amount",
+  "validate_transfer_amount_only_number": "Transfer amount must be numbers",
+  "validate_transfer_amount_minimum": "Transfer amount should not be less than one USD",
+
+  "validate_transfer_amount_more_than_the_balance": "Transfer amount should not exceed account's available balance",
+  "validate_transfer_from_account_is_to_account": "Transfer-in account must be different with transfer-out account",
+  "validate_withdraw_amount_minimum": "Minimum withdrawal is",
+  "validate_acount_num_maximum": "Account numbers already reach the limit, cannot open new account",
+  "validate_identity_no_not_null": "ID number cannot be empty",
+  "validate_birthday_not_null": "DOB is compulsory",
+  "validate_card_user_name_not_null": "Bank account's name cannot be empty",
+  "validate_bank_name_not_null": "Bank name cannot be empty",
+  "validate_bank_country_not_null": "Bank's country cannot be empty",
+  "validate_bank_province_not_null": "Region(province) cannot be empty",
+  "validate_bank_city_not_null": "Region(city) cannot be empty",
+  "validate_branch_name_not_null": "Bank branch name cannot be empty",
+  "validate_branch_address_not_null": "Bank branch address cannot be empty",
+  "validate_branch_swift_code_not_null": "SWIFT code cannot be empty",
+  "validate_account_not_chose": "please select account",
+  "validate_account_type_not_chose": "please select account type",
+  "validate_account_leverage_not_chose": "please select leverage",
+  "validate_tt_path_not_null": "please upload draft copy",
+  "validate_family_name_not_null": "please enter your last name",
+  "validate_given_name_not_null": "please enter your first name",
+  "validate_identity_type_not_chose": "please enter your ID type",
+  "validate_gender_not_chose": "please enter your gender",
+  "validate_captcha_err": "Verification code incorrect",
+  "validate_transfer_account_to_not_chose": "please select the account to transfer into",
+  "validate_withdraw_bankcard_not_chose": "please select the recipient bank",
+  "validate_invite_type_not_chose":"please select invitation type",
+  "validate_ib_type_not_chose":"please select agent type",
+
+  "validate_is_identity_err":"Format of ID number is incorrect",
+  "validate_is_identity_zip":"Address code incorrect",
+  "validate_is_identity_no_reg":"Registration from this ID's region is forbidden",
+  "validate_is_identity_no_age":"Registration of user under 18 years old is forbidden",
+  "validate_is_identity_fail":"ID verification failed",
+  "validate_is_identity_null":"ID number cannot be empty",
+  "validate_is_identity_passport_err":"please enter correct passport number",
+
+  "header_modify_password":"Modify password"
+,"header_logout":"Logout"
+
+  ,"page_open_an_account":"Create account"
+  ,"page_customer_deposit_title":"T/T receiving information"
+,"page_customer_title":"Customer list"
+,"page_client_info_title":"Customer information"
+,"page_customer_info_title":"Customer profile"
+,"page_ib_title":"Agent list"
+  ,"page_ib_apply":"Apply for agent"
+,"page_ib_info_title":"Agent profile"
+,"page_rebate_trade_title":"Trading commission record"
+,"page_rebate_balance_title":"Balance rebate record"
+,"page_rebate_balance_info_title":"Balance rebate details"
+,"page_rebate_bonus_title":"Sales Percentage list"
+,"page_userinfo_title":"User information"
+,"page_account_list_title":"Account list"
+,"page_account_list_info_title":"Account information"
+,"page_account_append_info_title":"Create new account"
+,"page_account_modify_lev_title":"Modify leverage"
+,"page_account_balance_flush_title":"Balance Reset"
+,"page_account_info_title":"Personal profile"
+,"page_transaction_deposit_title":"Deposit into account"
+,"page_transaction_withdraw_title":"Withdraw from account"
+,"page_transaction_withdraw_order_title":"Withdraw order confirm"
+,"page_transaction_withdraw_order_sub_title":"Withdraw submit succeed"
+,"page_transaction_transfer_title":"Transfer to other account"
+,"page_funds_fundsrecord_title":"Capital record"
+,"page_funds_deposit_title":"Deposit/Withdraw record"
+,"page_funds_withdraw_record_title":"Withdraw record"
+,"page_funds_transfer_title":"Transfer record"
+,"page_funds_transfer_verify_title":"Transfer order confirm"
+,"page_funds_transfer_info_title":"Transfer record details"
+,"page_funds_transaction_info_title":"Trade record details"
+,"page_funds_blanceflush_title":"Balance reset record"
+,"page_funds_blanceflush_info_title":"Balance reset details"
+,"page_user_userinfo_title":"Personal profile"
+,"page_user_bankinfo_title":"Bank information"
+,"page_user_bankinfo_add_title":"Add bank card"
+,"page_user_bankinfo_up_title":"Update bank card"
+,"page_user_telinfo_title":"T/T information"
+,"page_user_workinfo_title":"Investor information"
+,"page_funds_return_to_balance_title":"Commission to balance"
+,"page_funds_return_to_balancelist_title":"Rebate to balance"
+,"page_ib_invite_title":"Create account link"
+,"page_login_title":"Customer Center"
+,"page_login_backpassword":"Forget password"
+,"page_login_register":"Register new account"
+,"page_login_oldversions":"Login with old version"
+,"page_backpassword_title":"Recover password"
+,"page_restpassword_title":"Reset password"
+,"page_register_step_title":"New account registration"
+,"page_register_dl_step_title":"Agent registration"
+,"page_register_step4_title4_1":"Congratulation! Registration succeed!"
+,"page_register_step4_title4_2":"New account registration"
+,"page_register_step4_tips1":"MT4 account: "
+,"page_register_step4_tips2":", trade password is sent to your email!"
+,"page_register_step4_tips3":"Sorry! Registration failed! Reason is "
+,"page_register_skip_tips":",  auto redirect after seconds"
+,"page_register_dl_tips_msg1":"Registration process estimates to takes 3 minutes"
+,"page_register_dl_tips_msg2":"Basic information"
+,"page_register_dl_tips_msg3":"(Email is very important for us to send you future notices and trading details, please provide it accurately.)"
+,"page_register_dl_tips_msg4":""
+,"page_register_dl_tips_msg5":"(enter sales or agents'invitation code will setup level relations with him/her;  Leave it empty if no invitation code)"
+,"page_register_dl_tips_msg":"Account information"
+,"page_register_dl_tips_msg7":"Password information"
+,"page_register_dl_tips_msg8":"Upload ID image"
+,"page_register_dl_tips_msg9":"（currently support only png and jpg,  file size < 2MB) "
+,"page_createinvite_dl_title":"Create account link"
+,"page_reg_signup_dl_title":"Agent registration"
+,"page_reg_signup_dl_registered_title":"Agent registration"
+,"page_reg_signup_dl_tips1":"Congratulation! Registration succeed!"
+,"page_reg_signup_dl_tips2":"please wait for approval , check email later"
+,"page_reg_signup_dl_tips3":"Sorry! Registration failed! "
+,"page_reg_signup_dl_tips4":"Failure reason is"
+,"page_transfer_depositresult_tips":"Deposit result"
+,"page_transaction_deposit_yhk_msg_h3":"Bank card deposit steps: "
+,"page_transaction_deposit_dh_msg_h3":"T/T deposit operation guides: "
+,"page_transaction_deposit_wx_msg_h3":"WeChat deposit operation guides: "
+,"page_transaction_withdraw_dh_msg_h3":"T/T withdraw operation guides: "
+,"page_transaction_transfer_msg_h3":"Account transfer operation guides: "
+,"page_sale_title":"Forex 2.0 - Sales Center"
+,"page_member_title":"Forex 2.0 - Customer Center"
+,"page_dl_title":"Forex 2.0 - Agent Center"
+,"page_msg_h3":"Tips: "
+,"page_msg_login":"Login"
+  ,"page_text_submit_success":"Submit done"
+,"page_text_upsuccessfully":"Submit succeed: "
+,"page_text_info":"Information : "
+,"page_deposit_dhzh":"Company's account for telegraphic transfer: "
+,"page_disclaimers":"Disclaimer: "
+,"page_account_append_msg_txt":"We will use your first time registered profile to create a new account, please make sure your keep enough capital for the new account” "
+,"page_ib_account_append_msg_txt":"We will use your first time registered profile to create a new account” "
+
+,"page_transaction_deposit_yhk_msg_txt1":"1. Deposit: minimum deposit each time is no less than [deposit_min_limit] US dollar,  system will convert to RMB automatically."
+,"page_transaction_deposit_yhk_msg_txt2":"2.Accepted currency - RMB （please use only own bank card to deposit, 3rd party deposit will not be able to withdraw)."
+,"page_transaction_deposit_yhk_msg_txt3":"3. Payment usually takes effect immediately. Note: there may have delay due to system issue, thus deposit for Cover had better be planned ahead with enough time margin)."
+
+,"page_transaction_deposit_dh_msg_txt1":"1. Minimum deposit each time is no less than [deposit_min_limit] US dollar"
+,"page_transaction_deposit_dh_msg_txt2":"2. please T/T to [-- Company's account for telegraphic transfer --] then upload the draft copy"
+
+,"page_transaction_deposit_dh_msg_txt3":"3. For T/T deposit, we will not take any charge, however bank may take certain commission charges."
+,"page_transaction_deposit_wx_msg_txt1_1":"1. Minimum deposit each time is no less than[deposit_min_limit] US dollar"
+,"page_transaction_deposit_wx_msg_txt2":"2. WeChat deposit is free of charge, the deposit will be accounted into your MT4 account immediately."
+,"page_disclaimers_msg_txt1":"1. please read the withdrawal statement carefully. After you submit withdraw application, we will send email to your registered email box (please make sure your email is correct );"
+,"page_disclaimers_msg_txt2_1":"2. 2.When you apply for withdrawal, please make sure your bank card and other related information are accurate, bank card holder must be the same with the registered account profile."
+,"page_disclaimers_msg_txt2_2":"3. Customer has to bear the mistake outcome incurred by inaccurate information or wrong operations. If the submitted information is incomplete, we reserve the rights to decline the application, and ask for re-submission."
+
+,"page_disclaimers_msg_txt4":"4. Please check withdrawal amount carefully, avoid insufficient deposit in your trading account. Otherwise, you need to bear the outcome lost by yourself."
+,"page_disclaimers_msg_txt5":"5. Minimum withdrawal each time is no less than [withdraw_min_limit] US dollar"
+,"page_disclaimers_msg_txt6":"6. Withdraw to bank card is free of charge。"
+
+,"page_transaction_withdraw_dh_msg_txt1":"1.For successful withdraw, please correctly enter your bank information, e.g., T/T account. Please use English or digits, not Chinese;;"
+,"page_transaction_withdraw_dh_msg_txt2":"2. Withdrawal by T/T will incur charges of  [withdraw_poundage]$ per time. If the withdrawl capital is rejected by bank due to customer's reason, any incurred charges during the course, if any, will have to be borne by the customer. Thanks for your understanding."
+,"page_transaction_withdraw_dh_msg_txt3":"3.Minimum withdraw amount each time is no less than [withdraw_min_limit] USD,  the process takes 3-5 working days."
+
+,"page_transaction_transfer_msg_txt1":"1. Before your capital transfer, please make sure the transfer-out account has no trade related risks , e.g., no close position order, or pending order etc.  If your capital transfer incurs any lost, we will not bear the responsibility.。"
+,"page_transaction_transfer_msg_txt2":"2. After you submit transfer request, we will process your order as soon as possible."
+,"page_user_userinfo_basics_msg_txt":"For the safety of your capital, we don't allow you to modify your personal profile, e.g., name, DOB,etc.  If you do have such request, please provide necessary support documents, e.g., marriage certificate，name change certificate or divorce certificate, etc. Send the copy to our customer service's email: service@rtfgroups.com. The subject of the email is “Account profile modification + your account number”,  or your may call our service hotline: 400-002-8180. "
+,"page_user_userinfo_id_msg_txt":"For the safety of your capital, we don't allow you to modify your ID information. If you do have such request, please provide necessary support documents, e.g., marriage certificate，name change certificate or divorce certificate, etc. Send the copy to our customer service's email: service@rtfgroups.com. The subject of the email is “Account profile modification + your account number”,  or your may call our service hotline: 400-002-8180. "
+,"page_user_userinfo_location_msg_txt1":"1. Real Time Future requests you to provide an address proof, otherwise the withdrawal may fail."
+,"page_user_userinfo_location_msg_txt2":"2. Address proof can be(any of the followings): valid drive license, passport , social security card, or PUB bill within last 3 months with address on it."
+,"page_user_bankinfo_add_msg_txt1":"1. For successful withdrawal, please input your bank branch's name accurately."
+,"page_user_bankinfo_add_msg_txt2":"2. I understand the importance of bank information. These information may be checked during my withdrawal process. I hereby claim that all above information provided are real and accurate."
+
+,"page_account_info_basics_msg_txt":"For the safety of your capital, we don't allow you to modify your personal profile, like name , DOB, social security #, etc. If you do have such request, please provide necessary support documents, e.g., ID，passport, social security card, etc. Send the copy to our customer service's email: service@rtfgroups.com. The subject of the email is “Account profile modification + your account number”,  or your may call our service hotline: 400-002-8180. "
+,"page_account_info_id_msg_txt":"For the safety of your capital, we don't allow you to modify your ID information. If you do have such request, please provide necessary support documents, e.g., ID，passport, social security card, etc. Send the copy to our customer service's email: service@rtfgroups.com. The subject of the email is “Account profile modification + your account number”,  or your may call our service hotline: 400-002-8180. "
+,"page_account_info_dh_msg_txt":"Please correctly input your bank information, e.g., T/T account. Input with English or digits, not Chinese please. "
+,"page_transfer_msg_txt":"Your transfer transaction is as below,  please confirm it is correct, then click 'Ok'。 "
+,"page_withdraw_msg_txt":"Your withdrawal transaction is as below,  please confirm it is correct, then click 'Ok'"
+,"page_member_withdraw_bankcard_msg_txt":"Your deposit information is as below, please confirm they are correct. Then click “Ok” to goto Internet Banking page."
+,"page_member_withdraw_dh_msg_txt":"Your deposit information is as below, please confirm they are correct. Then click “Confirm”."
+,"page_member_withdraw_wx_msg_txt":"Your deposit information is as below, please confirm they are correct. Then click “Ok” to goto WeChat payment page."
+,"page_404":"The page you visit is not existed or has been deleted"
+,"page_update_browser_title":"please upgrade your internet browser"
+,"page_update_browser_msg_txt":"Dear customer, your IE browser version is too low, we suggest you upgrade to IE 9 above or other browsers, e.g, Chrome, Firefox, etc."
+
+, "table_order_no":"Order number"
+, "table_sum_trade_volume_ib":"Agent's customers total transaction numbers"
+, "table_total_customer_balance":"Agent's customers total account balances"
+, "table_total_customer":"Agent's customers numbers"
+, "table_balance":"Account balance"
+, "table_balance_2":"Balance"
+, "table_gmt_create":"Registration time"
+, "table_gmt_create_1":"Creation time"
+, "table_gmt_create_2":"Creation date"
+, "table_customer_name":"Name"
+, "table_customer_name_1":"Customer name"
+, "table_mobile":"Mobile phone"
+, "table_email":"Email"
+, "table_total_balance":"Account's total balance"
+, "table_sum_deposit":"Total deposits"
+, "table_sum_withdraw":"Total withdrawals"
+, "table_net_deposit":"Total net deposits"
+, "table_sum_trade_volume":"Customer total transactions"
+, "table_change_time":"Percentage date"
+, "table_common_sales_amount":"Customer manager's commission (USD)"
+, "table_department_leader_amount":"Customer director's commission (USD)"
+, "table_amount":"Total sales commission (USD)"
+, "table_change_time_1":"Commission's date"
+, "table_source_account_no":"Account"
+, "table_source_account_no_1":"Customer account"
+, "table_source_account_type":"Account type"
+, "table_source_account_type_1":"Customer account type"
+, "table_trading_symbol":"Transaction variety"
+, "table_trading_volume":"Transaction volume"
+, "table_commission_amount":"Commission amount(USD)"
+, "table_rate":"Annual rebate rate"
+, "table_rebate_date":"Rebate date"
+, "table_account_no":"Transfer-out account"
+, "table_target_account_no":"Transfer-in account"
+, "table_amount_1":"Rebate amount(USD)"
+, "table_amount_2":"Transfer amount(USD)"
+, "table_amount_3":"Applied amount(USD)"
+, "table_amount_4":"Rebate amount"
+, "table_amount_5":"Sales Percentage amount(USD)"
+, "table_sum_deposit_1":"Deposit"
+, "table_sum_withdraw_1":"Withdraw"
+, "table_net_deposit_1":"Net deposit"
+, "table_rebate":"Transferable rebate(USD)"
+, "table_account_state":"Account status"
+, "table_account_state_1":"Status"
+, "table_state":"Order status"
+, "table_cause":"Capital type"
+, "table_difference":"Amount(USD)"
+, "table_account_balance":"Balance before transfer(USD)"
+, "table_account_balance_1":"Balance after transfer(USD)"
+, "table_account_no_1":"Agent account"
+, "table_open_time":"Open position time"
+, "table_type":"Trade type"
+, "table_open_price":"Open position price"
+, "table_close_price":"Close position price"
+, "table_close_time":"Close position time"
+, "table_fee":"Commission charge(USD)"
+, "table_swaps":"Overnight interest"
+, "table_profit":"Profit or Loss"
+, "table_leverage":"Leverage ratio"
+, "table_leverage_1":"Leverage"
+, "table_mt4_account":"MT4 account "
+, "table_content_state":"Processing"
+, "table_remark":"process remark"
+, "table_belong_IB":"Superior IB"
+, "table_company":"Company"
+, "table_department":"Department"
+, "table_team":"Team"
+, "table_position":"Position"
+, "table_unknown":"Unknown"
+, "table_ib_name": "Agent name"
+
+,"table_earning_rate":"commission ratio"
+,"table_layui_paging_goto":"To"
+,"table_layui_paging_page":"Page"
+,"table_layui_paging_total":"Total"
+,"table_layui_paging_item":"Entries"
+,"table_layui_paging_page_size":"Entries/Page"
+,"table_layui_data_null":"Empty data"
+,"table_layui_data_request":"Loading"
+
+
+,"msg_withdraw_success":"Your withdraw request is received and we will process as soon as possible. It will take 2 working days to complete the transaction."
+,"msg_withdraw_error":"Your withdraw request is received and we will process as soon as possible. It will take 3-5 working days to complete the transaction."
+,"msg_retry":"Retry"
+,"msg_ing":"Processing"
+,"msg_cancel_success":"Canceled"
+,"btn_reset_email_retry":"Re-submit"
+,"dialog_title_reset":"Modify password"
+,"dialog_account_details":"Account information"
+,"dialog_transfer_confirm":"Transfer order confirm"
+,"dialog_transfer_details":"Transfer record details"
+,"dialog_withdraw_confirm":"Withdraw order confirm"
+,"dialog_xx_details":"Details"
+,"dialog_rebate_details":"Balance rebate details"
+,"dialog_bonus_details":"Sales commission details"
+,"dialog_bonus_details_department":"Sales commission details"
+,"alert_content_submit_success":"Submit succeed"
+,"alert_content_withdraw_cancel":"if needs to cancel withdrawal, please click here"
+,"table_total_text":"Total"
+,"alert_title_info":"Information"
+,"tips_copy_success":"Copy succeed"
+,"dropdown_choose_city":"please select county/district"
+
+,"menu_member_account":"My account"
+,"menu_member_account_list":"Account list"
+,"menu_member_account_create":"Create new account"
+,"menu_member_account_modify_lev":"Modify leverage"
+,"menu_member_account_balance_flush":"Balance Reset"
+
+,"menu_member_transaction":"Capital trading"
+,"menu_member_transaction_deposit":"Deposit into account"
+,"menu_member_transaction_withdraw":"Withdraw from account"
+,"menu_member_transaction_transfer":"Transfer to other account"
+
+,"menu_member_funds":"Capital information"
+,"menu_member_funds_fundsrecord":"Capital record"
+,"menu_member_funds_deposit":"Deposit/Withdraw record"
+,"menu_member_funds_transfer":"Transfer record"
+,"menu_member_funds_blanceflush":"Balance reset record"
+
+,"menu_member_user":"Customer information"
+,"menu_member_user_userinfo":"Personal profile"
+,"menu_member_user_bankinfo":"Bank information"
+,"menu_member_user_telinfo":"T/T information"
+,"menu_member_user_workinfo":"Investor information"
+
+,"menu_ib_account":"My account"
+,"menu_ib_account_list":"Account list"
+,"menu_ib_account_append":"Create new account"
+,"menu_ib_account_info":"Personal profile"
+
+,"menu_ib_funds":"My capital"
+,"menu_ib_funds_withdraw":"Withdraw"
+,"menu_ib_funds_transfer":"Transfer to other account"
+,"menu_ib_funds_balance":"Commission to balance"
+,"menu_ib_funds_fundsrecord":"Capital record"
+,"menu_ib_funds_withdraw_record":"Withdraw record"
+,"menu_ib_funds_transfer_record":"Transfer record"
+,"menu_ib_funds_balance_record":"Rebate to balance"
+,"menu_ib_client":"My customers"
+,"menu_ib_client_list":"Customer information"
+,"menu_ib_rebates":"My commission"
+,"menu_ib_rebates_trade":"Trading commission record"
+,"menu_ib_rebates_balance":"Balance rebate record"
+,"menu_ib_invite":"Create account link"
+
+,"menu_sale_customer":"Customer information"
+,"menu_sale_customer_list":"Customer list"
+,"menu_sale_ib":"Agent information"
+,"menu_sale_ib_list":"Agent list"
+,"menu_sale_rebate":"Commission and Rebate information"
+,"menu_sale_rebate_trade":"Trading commission record"
+,"menu_sale_rebate_balance":"Balance rebate record"
+,"menu_sale_bonus":"Sales Percentage information"
+,"menu_sale_bonus_list":"Sales Percentage list"
+,"menu_sale_userinfo":"User info"
+,"menu_sale_invitation":"Invitation manage"
+,"menu_real_accounts":"Open account"
+
+
+,"layui_data_api_err":"data interface abnormal"
+
+,"================================喻英芝":"新增国际化 start-------------------------------"
+  ,"table_buy_amount":"Total lots of holding positions"
+,"table_sell_amount":"Total lots of close positions"
+,"table_amount_01":"Rebate(USD)"
+,"table_amount_04":"Commission(USD)"
+,"table_year_month":"Year/Month"
+,"table_amount_6":"Allowance(USD)"
+,"form_text_year_month": "Year/Month"
+,"page_rebate_benefit_title":"Allowance management"
+,"table_account_no_next":"Sub-level's account"
+, "table_balance_3":"Balance(USD)"
+,"table_balance_date":"Commission's date"
+,"table_trade_number":"Trading lots"
+,"table_referral":"Name of referee"
+,"form_referral":"Name of referee"
+
+,"table_date":"Date"
+,"table_sales_account_no":"Sales account"
+,"table_sales_name":"Sales name"
+,"table_sales_type":"Sales type"
+,"table_sales_amount":"Sales'commission"
+,"table_sales_benefit":"Allowance(USD)"
+,"dialog_benefit_detail":"Details of allowance"
+,"dialog_bonus_details_2":"Details of sales commission"
+, "table_rate_rebate":"Ratio of trading commission"
+,"form_text_cutomer_type":"Direct customer"
+,"form_text_cutomer_type_no":"Indirect customer"
+,"form_hand":"lot"
+,"================================喻英芝":"新增国际化 end-------------------------------"
+
+
+
+  ,"================================宋志涛":"新增国际化 start-------------------------------",
+  "page_idr_deposit_dh_msg_txt1":"1. Each time's deposit is no less than [deposit_min_limit] USD, please input the amount of Rupiah, we will transfer to USD automatically for you based on the exchange rate of the day;",
+
+  "form_text_invite_": "（Fill in invitation code, if don't have, leave it blank）",
+  "page_transaction_deposit_dh_msg_h3_idr":"T/T deposit(IDR) operation guides:",
+  "page_transaction_deposit_dh_msg_txt1_2_idr":"USD, please input the amount of Rupiah, we will transfer to USD automatically for you based on the exchange rate of the day;",
+  "page_transaction_deposit_dh_msg_h3_usd":"T/T deposit(USD) operation guides:",
+  "form_label_application_amount_idr": "Applied amount (IDR)",
+  "page_transaction_withdraw_dh_msg_txt4":"4.please input the applied amount(USD), we will transfer to Rupiah automatically based on the exchange rate of the day (IDR)",
+  "page_transaction_withdraw_dh_msg_h3_idr":"T/T Withdraw (IDR) operation guides：",
+  "page_transaction_withdraw_dh_msg_h3_usd":"T/T Withdraw (USD) operation guides：",
+  "menu_member_lower_level_management": "Sub-level management",
+  "menu_member_rebate":"Commission/Rebate",
+  "menu_member_rebate_trade":"Commission record",
+  "menu_member_rebate_balance":"Rebate record",
+
+  "table_serial_number": "S/N",
+  "table_account_number": "Account",
+  "table_currency": "Currency",
+  "table_lower_level_account": "sub-level's account",
+  "table_lower_level_name": "Sub-level's name",
+
+  "open_confirm_delete_tt": "Confirm to delete T/T information ",
+
+  "button_add_to": "Add",
+
+  "form_text_superior_account": "Up-level's account",
+  "form_text_superior_name": "Up-level's name",
+
+  "title_my_lower_level": "My sub-levels",
+
+  "tt_detail_idr_title": "T/T (IDR) recipient's info",
+  "tt_detail_usd_title": "T/T (USD) recipient's info",
+  "================================宋志涛":"新增国际化 end------------------------------"
+
+
+,"================================新注册流程2018-05":"新注册流程 start-------------------------------"
+,"form_user_name":"Full Name"
+,"form_UserBirthPlace":"Place Of Birth"
+,"form_birth_date":"Date Of Birth"
+,"form_user_identity_number":"Identity Number"
+,"form_user_identity_type_id":"Certificate Type"
+,"form_user_investment_experience":"Investment experience"
+,"form_user_account_purpose":"Purpose of Account Opening"
+,"form_phone_number":"Telephone Number"
+,"form_user_npwp_flag":"Personal Tax Number"
+,"form_user_gender":"Gender"
+,"form_user_marital_status":"Marital Status"
+,"form_user_spouse":"Name of Husband / Wife"
+,"form_user_have_family_in":"Having a family member who worked in BAPPEBTI / Futures Exchange / Clearing House?"
+,"form_user_bankruptcy":"Do you have been declared bankrupt by the court?"
+,"form_user_emergency_contact_relationship":"Relationship"
+,"form_user_emergency_contact_address":"Home Address"
+,"form_user_emergency_contact_zip_code":"Postal Code"
+,"form_user_work_work":"Occupation"
+,"form_user_work_company_name":"Name of Company"
+,"form_user_work_line_of_business":"Business Field"
+,"form_user_work_position":"Title"
+,"form_user_work_working_period":"Length of Services(years)"
+,"form_user_work_ex_working_period":"Length of Services in Previous Office(years)"
+,"form_user_work_office_address":"Company Address"
+,"form_user_work_zip_code":"Postal Code"
+,"form_user_work_phone_number":"Office Phone Number"
+,"form_user_work_facsimile_number":"Office Fax Number"
+,"form_user_list_of_asset_income_per_year_id":"Annual Income(IDR)"
+,"form_user_list_of_asset_home_location":"Location of House"
+,"form_user_list_of_asset_value_svto":"House Tax Value(IDR)"
+,"form_user_list_of_asset_bank_deposits":"Time Deposit(IDR)"
+,"form_user_list_of_asset_total":"Total(IDR)"
+,"form_user_list_of_asset_other":"Others(IDR)"
+,"form_user_bank_name":"Bank Name"
+,"form_user_bank_branch":"Branch"
+,"form_user_bank_phone_number":"Phone Number"
+,"form_user_bank_account_number":"Account Number"
+,"form_user_bank_account_type":"Account Type"
+,"form_user_bank_account_name":"Account Name"
+,"form_user_info":"PERSONAL DATA"
+,"form_user_emergency_contact_info":"CONTACT THE PARTY IN AN EMERGENCY"
+,"form_user_work_info":"JOBS INFORMATIONS"
+,"form_user_list_asset_info":"WEALTH INFOMATION"
+,"form_user_bank_info":"BANK INFORMATION"
+,"button_back":"back"
+,"button_save":"save"
+,"form_user_mother":"Mother's Maiden Name"
+,"form_user_home_ownership":"House Ownership"
+,"form_user_home_fax_number":"No. Faksimili Rumah"
+,"form_handphone_number":"Mobile Number"
+,"form_house_number":"House Phone Number"
+,"validate_tax_number":"Please input your TAX number"
+,"form_alert_rate":"please setup trade rate"
+,"validate_spouse_name":"Spouse's name cannot be empty"
+,"page_real_account_type_title":"Please select account type"
+,"form_photos_title":"Document attachment"
+,"form_recent_photo":"Latest photo"
+,"form_account_others":"Bank statement (last 3 months) /  Billing statement of credit card/ Electricity Bill / Telephone  account"
+,"form_document":"Additional Documents"
+,"form_photos_required":"JPG or PNG format, each file is no more than 2M"
+,"form_bill_photo":"Please upload the photo of bank account's statement"
+  ,"form_select":"Please select"
+,"form_user_work_fax_number":"Fax number"
+,"================================新注册流程":"新注册流程 end-------------------------------"
+
+
+
+
+
+, "===================2018-05-18-v0.2==============------------------":""
+
+,"form_user_bank_swift_code":"Swift Code"
+,"page_register_submit_succ_msg":"Submit succeed, please check your email to activate your account"
+,"page_register_active_succ_msg":"Congratulation! Your account is activated successfully, please login"
+,"page_register_active_err_msg":"Error, activation fails"
+,"page_register_active_succ_goto":"seconds later will go to the login page"
+,"page_real_account_list_title":"Open account"
+,"table_source_real_account_date":"Submission time"
+,"table_source_real_account_state":"Status"
+,"real_account_apply_btn":"Apply to open account"
+,"validate_investment_experience":"Investment experience cannot be empty"
+,"validate_occupation":"Occupation cannot be empty"
+,"validate_place":"Place of birth cannot be empty"
+,"form_title_customer_bank":"Client's bank information"
+,"form_title_company_bank":"Company's bank information"
+,"validate_bank_name_chose": "Please select bank"
+,"validate_bank_name_account_chose": "Please select bank account"
+,"validate_bank_name_account_name": "Bank account holder's name"
+,"validate_bank_name_account_swift": "Swift Code"
+,"demo_accounts_title":"Demo account"
+,"real_accounts_title":"Real account"
+,"real_accounts_type":"Type"
+,"dialog_account_history":"Account history"
+,"validate_full_name_not_null":"Full name cannot be empty"
+,"validate_country_code":"Country_code must be numbers"
+,"validate_services_years":"Working experience must be years, can include one decimal"
+,"validate_previous_services_years":"Previous working experience must be years, can include one decimal"
+,"validate_country_code_not_null":"Please choose Country Code"
+,"validate_bank_mobile_not_null":"Please input mobile number"
+,"validate_bank_mobile_is_number":"Mobile number must be digits"
+,"form_country_name":"Nationality"
+,"form_have_family_in":"Having a family member who worked in BAPPEBTI / Futures Exchange / Clearing House?"
+,"form_have_family_in2":"Do you have been declared bankrupt by the court?"
+,"validate_office_telephone":"Please input office phone number"
+,"validate_user_work_facsimile_number":"Please input office fax number"
+,"validate_user_account_purpose":"Please input the purpose of opening account"
+,"validate_tax_number_regular":"Individual TAX number must be digits, alphabets or both"
+,"validate_recent_photo":"Please upload your latest photo"
+,"validate_identity_photo":"Please upload your ID"
+,"validate_bill_photo":"Please upload your latest bank statement"
+,"validate_select_rate":"Please choose the rate"
+,"validate_select_leverage":"Please choose the leverage"
+,"validate_mobile_numble":"Mobile number cannot be blank"
+,"validate_previous_services_years_max":"Working experience is no more than 100 years"
+  ,"validate_house_ownership":"please enter house ownership"
+,"validate_user_work_facsimile_is_number":"Office fax number must be digits"
+,"form_confirm_succee_tips_ok":"Successful! Please wait for review."
+,"form_confirm_succee_tips_failed":"Failed, Please resubmit."
+,"validate_identity_style":"ID must be the combination of digits and/or alphabets"
+,"validate_time_deposit":"please input the fix deposit amount"
+,"validate_wealth_total":"please input the total asset amount"
+,"validate_wealth_total_regular":"The total asset amount must be positive numbers or zero"
+,"validate_house_tax_value":"Please input the property tax"
+,"validate_house_tax_value_regular":"The property tax must must be positive numbers or zero"
+,"validate_time_deposit_regular":"The fox deposit amount must be positive numbers or zero"
+,"validate_wealth_others":"Please input other asset amount"
+,"validate_wealth_others_regular":"The other asset amount must be positive numbers or zero"
+,"nationality_not_null":"Nationality is a required field"
+,"location_of_house":"Please input house property address"
+,"identity_type_not_null":"ID type is a required field"
+,"investment_experience_select":"Please choose whether you have investment experience"
+,"marital_status_select":"Please choose marriage status"
+,"mother_maiden_name":"Please input mother's name"
+,"home_address":"Please input residence address"
+,"ec_full_name":"Please input the name of your urgent contact"
+,"ec_relation_ship":"Please input the relationship with your urgent contact"
+,"ec_home_address":"Please input the residence address of your urgent contact"
+,"annual":"Please choose the range of yearly income"
+,"validate_zip_format_number": "The postal code must be numbers"
+,"validate_bank_name_account_swift_number": "Swift code must be numbers"
+,"tips_no_info_yet":"No information for now"
+,"validate_money_regular":"The amount of capital is no more than 18 digits"
+,"validate_required_empty":"The required fields cannot be empty"
+,"validate_wealth_other_regular":"Telephone number must be digits"
+,"validate_phone_is_number":"Asset amount must be non negative numbers"
+,"sales_demo":"Virtual Sale"
+,"upload_img_suffix_not_contain":"选择的图片中包含不支持的格式"
+,"upload_img_size_max":"文件不能超过2MB"
+,"upload_img_interface_error":"请求上传接口出现异常"
+,"upload_img_response_error":"获取上传后的响应信息出现异常"
+,"validate_other_account_type":"请输入其他帐户类型"
+,"real_account_info":"Info"
+,"form_text_MT4_acc_no":"MT4账号"
+,"form_label_bank_type":"Account Type"
+
+
+, "select": {
+  "common":{
+    "address": {
+      "countries": [
+        ["CN", "China"],
+        ["AO", "Angola"],
+        ["AF", "Afghanistan"],
+        ["AL", "Albania"],
+        ["DZ", "Algeria"],
+        ["AD", "Andorra"],
+        ["AI", "Anguilla"],
+        ["AG", "Antigua and Barbuda"],
+        ["AR", "Argentina"],
+        ["AM", "Armenia"],
+        ["AU", "Australia"],
+        ["AT", "Austria"],
+        ["AZ", "Azerbaijan"],
+        ["BS", "Bahamas"],
+        ["BH", "Bahrain"],
+        ["BD", "Bangladesh"],
+        ["BB", "Barbados"],
+        ["BY", "Belarus"],
+        ["BE", "Belgium"],
+        ["BZ", "Belize"],
+        ["BJ", "Benin"],
+        ["BM", "Bermuda Is."],
+        ["BO", "Bolivia"],
+        ["BW", "Botswana"],
+        ["BR", "Brazil"],
+        ["BN", "Brunei"],
+        ["BG", "Bulgaria"],
+        ["BF", "Burkina Faso"],
+        ["MM", "Burma"],
+        ["BI", "Burundi"],
+        ["CM", "Cameroon"],
+        ["CA", "Canada"],
+        ["CF", "Central African Republic"],
+        ["TD", "Chad"],
+        ["CL", "Chile"],
+        ["CO", "Colombia"],
+        ["CG", "Congo"],
+        ["CK", "Cook Is."],
+        ["CR", "Costa Rika"],
+        ["CU", "Cuba"],
+        ["CY", "Cyprus"],
+        ["CZ", "Czech Republic"],
+        ["DK", "Denmark"],
+        ["DJ", "Djibouti"],
+        ["DO", "Dominica Rep."],
+        ["EC", "Ecuador"],
+        ["EG", "Egypt"],
+        ["SV", "El Salvador"],
+        ["EE", "Estonia"],
+        ["ET", "Ethiopia"],
+        ["FJ", "Fiji"],
+        ["FI", "Finland"],
+        ["FR", "France"],
+        ["GF", "French Guiana"],
+        ["GA", "Gabon"],
+        ["GM", "Gambia"],
+        ["GE", "Georgia"],
+        ["DE", "Germany"],
+        ["GH", "Ghana"],
+        ["GI", "Gibraltar"],
+        ["GR", "Greece"],
+        ["GD", "Grenada"],
+        ["GU", "Guam"],
+        ["GT", "Guatemala"],
+        ["GN", "Guinea"],
+        ["GY", "Guyana"],
+        ["HT", "Haiti"],
+        ["HN", "Honduras"],
+        ["HK", "Hong Kong"],
+        ["HU", "Hungary"],
+        ["IS", "Island"],
+        ["IN", "India"],
+        ["ID", "Indonesia"],
+        ["IR", "Iran"],
+        ["IQ", "Irak"],
+        ["IE", "Ireland"],
+        ["IL", "Israel"],
+        ["IT", "Italia"],
+        ["JM", "Ivory Coaast"],
+        ["JP", "Japan"],
+        ["JO", "Jordan"],
+        ["KH", "Cambodia"],
+        ["KZ", "Kazakhstan"],
+        ["KE", "Kenya"],
+        ["KR", "Korea"],
+        ["KW", "Kuwait"],
+        ["KG", "Kyrgyzstan"],
+        ["LA", "Laos"],
+        ["LV", "Latvia"],
+        ["LB", "Lebanon"],
+        ["LS", "Lesotho"],
+        ["LR", "Liberia"],
+        ["LY", "Libya"],
+        ["LI", "Liechtenstein"],
+        ["LT", "Lituania"],
+        ["LU", "Luxembourg"],
+        ["MO", "Macao"],
+        ["MG", "Madagascar"],
+        ["MW", "Malawi"],
+        ["MY", "Malaysia"],
+        ["MV", "Maldives"],
+        ["ML", "Mali"],
+        ["MT", "Malta"],
+        ["MU", "Mauritius"],
+        ["MX", "Mexico"],
+        ["MD", "Moldova"],
+        ["MC", "Monaco"],
+        ["MN", "Mongolia"],
+        ["MS", "Montserrat Is."],
+        ["MA", "Marocco"],
+        ["MZ", "Mozambique"],
+        ["NA", "Namibia"],
+        ["NR", "Nauru"],
+        ["NP", "Nepal"],
+        ["NL", "Netherlands"],
+        ["NZ", "New Zealand"],
+        ["NI", "Nikaragua"],
+        ["NE", "Niger"],
+        ["NG", "Nigeria"],
+        ["KP", "North Korea"],
+        ["NO", "Norway"],
+        ["OM", "Oman"],
+        ["PK", "Pakistan"],
+        ["PA", "Panama"],
+        ["PG", "Papua New Guinea"],
+        ["PY", "Paraguay"],
+        ["PE", "Peru"],
+        ["PH", "Philippines"],
+        ["PL", "Poland"],
+        ["PF", "French Polynesia"],
+        ["PT", "Portugal"],
+        ["PR", "Puerto Rico"],
+        ["QA", "Qatar"],
+        ["RO", "Romania"],
+        ["RU", "Russia"],
+        ["LC", "Saint Lucia"],
+        ["VC", "Saint Vincent"],
+        ["SM", "San Marino"],
+        ["ST", "Sao Tome and Principe"],
+        ["SA", "Saudi Arab"],
+        ["SN", "Senegal"],
+        ["SC", "Seychelles"],
+        ["SL", "Sierra Leone"],
+        ["SG", "Singapore"],
+        ["SK", "Slovakia"],
+        ["SI", "Slovenia"],
+        ["SB", "Solomon Is."],
+        ["SO", "Somali"],
+        ["ZA", "South Africa"],
+        ["ES", "Spain"],
+        ["LK", "Sri Lanka"],
+        ["SD", "Sudan"],
+        ["SR", "Suriname"],
+        ["SZ", "Swaziland"],
+        ["SE", "Sweden"],
+        ["CH", "Switzerland"],
+        ["SY", "Syria"],
+        ["TW", "Taiwan"],
+        ["TJ", "Tajikistan"],
+        ["TZ", "Tanzania"],
+        ["TH", "Thailand"],
+        ["TG", "Togo"],
+        ["TO", "Tonga"],
+        ["TT", "Trinidad dan Tobago"],
+        ["TN", "Tunisia"],
+        ["TR", "Turkey"],
+        ["TM", "Turkmenistan"],
+        ["UG", "Uganda"],
+        ["UA", "Ukraina"],
+        ["AE", "United Arab Emirates"],
+        ["GB", "United Kingdom"],
+        ["US", "United States of America"],
+        ["UY", "Uruguay"],
+        ["UZ", "Uzbekistan"],
+        ["VE", "Venezuela"],
+        ["VN", "Vietnam"],
+        ["YE", "Yeman"],
+        ["YU", "Yugoslavia"],
+        ["ZW", "Zimbabwe"],
+        ["ZR", "Zaire"],
+        ["ZM", "Zambia"]
+      ]
+    }
+  },
+  "member":{
+    "real_account":{
+      "state":[
+        {"value": 1, "label": "Waiting"},
+        {"value": 2, "label": "Confirm"},
+        {"value": 3, "label": "Approved"},
+        {"value": 4, "label": "Processed"},
+        {"value": 5, "label": "Rejected"}
+      ]
+
+    },
+    "account": {
+      "account_type": [
+        {"value": 1, "label": "STANDARD"},
+        {"value": 2, "label": "MINI"},
+        {"value": 3, "label": "STANDARD"},
+        {"value": 4, "label": "MINI"},
+        {"value": 5, "label": "MINI"},
+        {"value": 6, "label": "MINI"},
+        {"value": 9, "label": "Virtual"},
+        {"value": 10, "label": "Virtual Sale"}
+      ],
+      "account_type_map": {
+        "1": {"value": 1, "label": "Standard Account"}
+      },
+      "state": [
+        {"value": 1, "label": "Normal"},
+        {"value": 50, "label": "Read Only"},
+        {"value": 51, "label": "Forbidden"}
+      ]
+    },
+    "register": {
+      "identity_type": [
+        {"value": 1, "label": "ID Card"},
+        {"value": 2, "label": "Driving License"},
+        {"value": 3, "label": "Passport"}
+      ],
+      "identity_type_map": {
+        "1": {"value": 1, "label": "ID Card"},
+        "2": {"value": 2, "label": "Driving License"},
+        "3": {"value": 3, "label": "Passport"}
+      },
+      "open_account_type": [
+        {"value": 1, "label": "STANDARD"},
+        {"value": 2, "label": "MINI"}
+      ],
+      "open_account_type_map": {
+        "1": "STANDARD",
+        "2": "MINI"
+      },
+      "demo_account_type": [
+        {"value": 1, "label": "STANDARD"},
+        {"value": 2, "label": "MINI"}
+      ],
+      "demo_account_state": [
+        {"value": 1, "label": "Processed"}
+      ],
+      "open_rate": [
+        {"value": 1, "label": "FLoating Rate"},
+        {"value": 2, "label": "IDR 10,000"},
+        {"value": 3, "label": "IDR 12,000"}
+      ],
+      "open_rate_map": {
+        "1": "Floating Rate",
+        "2": "IDR 10,000",
+        "3": "IDR 12,000"
+      },
+      "gender": [
+        {"value": 1, "label": "Male"},
+        {"value": 2, "label": "Female"}
+      ],
+      "account_type": [
+        {"value": 1, "label": "Standard Account"}
+      ],
+      "leverage": [
+        {"value": 100, "label": "1:100"},
+        {"value": 200, "label": "1:200"},
+        {"value": 400, "label": "1:400"}
+      ],
+      "leverage_map": {
+        "100": "1:100",
+        "200": "1:200",
+        "400": "1:400"
+      },
+      "job": [
+        {"value": 1, "label": "Employed"},
+        {"value": 2, "label": "Self employed"},
+        {"value": 3, "label": "Retired"},
+        {"value": 4, "label": "Unemployed"},
+        {"value": 5, "label": "Student"},
+        {"value": 6, "label": "House Wife"}
+      ],
+      "capital_source": [
+        {"value": 1, "label": "No sources of fund"},
+        {"value": 2, "label": "Savings"},
+        {"value": 3, "label": "Retirement pension"},
+        {"value": 4, "label": "Government subsidy"},
+        {"value": 5, "label": "Gift giving"},
+        {"value": 6, "label": "Heritage"},
+        {"value": 7, "label": "Property Sales"},
+        {"value": 8, "label": "Investment income"}
+      ],
+      "annual_income": [
+        {"value": 0, "label": "Between 100-250 Million"},
+        {"value": 1, "label": "Between 250-500 Million"},
+        {"value": 2, "label": "Above 500 Million"}
+      ],
+      "total_asset": [
+        {"value": 1, "label": "Less than $25,000"},
+        {"value": 2, "label": "$25,000-$49,999"},
+        {"value": 3, "label": "$50,000-$99,999"},
+        {"value": 4, "label": "$100,000-$249,999"},
+        {"value": 5, "label": "$250,000-$999,999"},
+        {"value": 6, "label": "More than $1,000,000"}
+
+      ],
+      "experience": [
+        {"value": 1, "label": "Yes"},
+        {"value": 2, "label": "No"}
+      ],
+      "assess_risk": [
+        {"value": 1, "label": "Yes"},
+        {"value": 2, "label": "No"}
+      ],
+      "professional": [
+        {"value": 1, "label": "Yes"},
+        {"value": 2, "label": "No"}
+      ],
+      "purpose_of_account_opening":[
+        {"value":0,"label":"gain"},
+        {"value":1,"label":"hedging"},
+        {"value":2,"label":"speculation"},
+        {"value":3,"label":"others"}
+      ],
+      "is_exist_personal_tax_number": [
+        {"value": 2, "label": "Available"},
+        {"value": 1, "label": "Unavailable"}
+      ],
+      "bank_account_type":[
+        {"value":0,"label":"Giro"},
+        {"value":1,"label":"Savings"},
+        {"value":2,"label":"Others"}
+      ],
+      "occupation":[
+        {"value":0,"label":"employee"},
+        {"value":1,"label":"businessman"},
+        {"value":2,"label":"housewife"},
+        {"value":3,"label":"professional"},
+        {"value":4,"label":"government employee"},
+        {"value":5,"label":"student"},
+        {"value":6,"label":"others"}
+      ],
+      "marital_status":[
+        {"value":0,"label":"Unmarried"},
+        {"value":1,"label":"married"},
+        {"value":2,"label":"widow"},
+        {"value":3,"label":"widower"}
+      ],
+      "house_ownership":[
+        {"value":0,"label":"own house"},
+        {"value":1,"label":"family"},
+        {"value":2,"label":"rent"},
+        {"value":3,"label":"others"}
+      ]
+    },
+    "funds": {
+      "funds_type": [
+        {"value": 41, "label": "Depoist TT IDR"},
+        {"value": 40, "label": "Depoist TT USD"},
+        {"value": 10, "label": "Deposit From Withdraw Returned"},
+        {"value": 1021, "label": "Withdraw TT IDR"},
+        {"value": 1020, "label": "Withdraw TT USD"},
+        {"value": 8, "label": "Commission"},
+        {"value": 201, "label": "Rebate"}
+      ],
+      "in_out_type": [
+        {"value":1,"label":"Withdraw"},
+        {"value":2,"label":"Deposit"},
+        {"value":0,"label":"Deposit/Withdraw"}
+      ],
+
+      "channel_type": [
+        {"value": 41, "label": "Deposit-Telegraphic Transfer-IDR"},
+        {"value": 40, "label": "Deposit-Telegraphic Transfer-USD"},
+        {"value": 1021, "label": "Withdraw-Telegraphic Transfer-IDR"},
+        {"value": 1020, "label": "Withdraw-Telegraphic Transfer-USD"}
+      ],
+
+      "order_state":[
+        {"value": 1000, "label": "processing"},
+        {"value": 201, "label": "Ignored"},
+        {"value": 202, "label": "Rejected"},
+        {"value": 203, "label": "Canceled"},
+        {"value": 204, "label": "Finished"}
+      ],
+      "transfer_order_state":[
+        {"value": 1000, "label": "Processing"},
+        {"value": 201, "label": "Ignored"},
+        {"value": 203, "label": "Canceled"},
+        {"value": 204, "label": "Finished"}
+      ],
+      "balance_flush_order_state":[
+        {"value": 1000, "label": "Processing"},
+        {"value": 201, "label": "Ignored"},
+        {"value": 204, "label": "Finished"}
+      ],
+      "mt4_transfer_type": [
+        {"value": 1, "label": "Buy"},
+        {"value": 2, "label": "Sell"}
+      ],
+      "currency_type": [
+        {"value": 2, "label": "IDR"},
+        {"value": 1, "label": "USD"}
+      ]
+    }
+  },
+  "ib":{
+    "register": {
+      "gender": [
+        {"value": 1, "label": "Male."},
+        {"value": 2, "label": "Female."}
+      ],
+      "identity_type": [
+        {"value": 1, "label": "ID Card"},
+        {"value": 3, "label": "Passport"
+        }
+      ],
+      "account_type": [
+        {"value": 1, "label": "Standard Account"
+        },
+        {"value": 3, "label": "ECN Account"
+        }
+      ],
+      "account_type_map": {
+        "1": {"value": 1, "label": "Standard Account"},
+        "3": {"value": 3, "label": "ECN Account"}
+      },
+      "state": [
+        {"value": 1, "label": "Normal"},
+        {"value": 50, "label": "Read Only"},
+        {"value": 51, "label": "Forbidden"}
+      ]
+    },
+    "funds": {
+      "funds_type": [
+        {"value": 6, "label": "Transfer - In "},
+        {"value": 8, "label": "Trading commission"},
+        {"value": 9, "label": "Rebate to Balance "},
+        {"value": 10, "label": "Deposit - Withdraw Rejected"},
+        {"value": 101, "label": "Withdraw - Bank Card"},
+        {"value": 102, "label": "Withdraw - T/T"},
+        { "value": 103, "label": "Transfer - Out "}
+
+      ],
+      "withdraw_funds_type": [
+        {"value": 101, "label": "Withdraw - Bank Card"},
+        {"value": 102, "label": "Withdraw - T/T"}
+      ],
+
+      "out_channel_type": [
+        {"value": 101, "label": "Withdraw - Bank Card"},
+        {"value": 102, "label": "Withdraw - Telegraphic Transfer"},
+        {"value": 103, "label": "Withdrawl - Online Transfer"}
+      ],
+
+      "order_state": [
+        {"value": 1000, "label": "Processing"},
+        {"value": 201, "label": "Ignored"},
+        {"value": 202, "label": "Rejected"},
+        {"value": 203, "label": "Canceled"},
+        {"value": 204, "label": "Finished"}
+      ],
+
+      "transfer_order_state": [
+        {"value": 1000, "label": "Processing"},
+        {"value": 201, "label": "Ignored"},
+        {"value": 203, "label": "Canceled"},
+        {"value": 204, "label": "Finished"}
+      ]
+    },
+    "transaction": {
+      "type": [
+        {"value": 0, "label": "Buy"},
+        {"value": 1, "label": "Sell"}
+      ],
+      "symbol": [
+        {"value": 1, "label": "xauusd"},
+        {"value": 2, "label": "audusd"}
+      ]
+    }
+
+  },
+  "sale":{
+    "invite_type":[
+      {"value": 1, "label": "Customer Registration Invitation"},
+      {"value": 2, "label": "Agent Registration Invitation"}
+    ],
+
+    "position":[
+      {"value" : 1,"label": "Customer Director"},
+      {"value" : 2,"label": "Team Manager"},
+      {"value" : 3,"label": "Customer Manager"}
+    ],
+
+    "order_state":[
+      {"value": 1, "label": "Waiting for Payment"},
+      {"value": 2, "label": "Waiting for Approval"},
+      {"value": 3, "label": "Waiting for Confirmation"},
+      {"value": 4, "label": "Waiting for System process"},
+      {"value": 5, "label": "Waiting for Bank process"},
+      {"value": 6, "label": "Waiting for Commission process"},
+      {"value": 7, "label": "Waiting for reading Balance"},
+      {"value": 101, "label": "System process failure"},
+      {"value": 102, "label": "Read balance failure"},
+      {"value": 201, "label": "Ignored"},
+      {"value": 202, "label": "Rejected"},
+      {"value": 203, "label": "Canceled"},
+      {"value": 204, "label": "Finished"},
+      {"value": 205, "label": "Payment failure"}
+    ],
+    "funds_type": [
+      {"value": 1, "label": "Deposit - Bank Card"},
+      {"value": 2, "label": "Deposit - WeChat"},
+      {"value": 4, "label": "Deposit - T/T"},
+      {"value": 5, "label": "Deposit - Counter"},
+      {"value": 6, "label": "Deposit - Online Transfer"},
+
+      {"value": 10, "label": "Deposit - Withdraw Rejected"},
+      {"value": 41, "label": "Deposit-Telegraphic Transfer-IDR"},
+      {"value": 40, "label": "Deposit-Telegraphic Transfer-USD"},
+      {"value": 101, "label": "Withdraw - Bank Card"},
+      {"value": 102, "label": "Withdraw - Telegraphic Transfer"},
+      {"value": 103, "label": "Transfer - Out "},
+      {"value": 1021, "label": "Withdraw-Telegraphic Transfer-IDR"},
+      {"value": 1020, "label": "Withdraw-Telegraphic Transfer-USD"}
+    ],
+    "funds_order_status_map":[
+      { "value":0, "label":"Holding position"},
+      { "value":1, "label":"Close position"}
+    ],
+    "account_type": [
+      {"value": 1, "label": "Standard Account"},
+      {"value": 3, "label": "ECN Account"},
+      {"value": 4, "label": "Bonus Account"},
+      {"value": 9, "label": "Other Account"},
+      {"value": 10, "label": "Sales Account"}
+    ],
+    "account_state": [
+      {"value": 50, "label": "Read Only"},
+      {"value": 1, "label": "Normal"},
+      {"value": 51, "label": "Forbidden"}
+    ],
+
+    "account_state_map":{
+      "50":"Read Only",
+      "1":"Normal",
+      "51":"Forbidden"
+    },
+
+    "agent_account_state": [
+      {"value": 50, "label": "Read Only"},
+      {"value": 1, "label": "Normal"},
+      {"value": 51, "label": "Forbidden"}
+    ],
+    "agent_account_state_map":{
+      "50": "Read Only",
+      "1": "Normal",
+      "51": "Forbidden"
+    },
+    "identity_type": {
+      "1": "ID Card",
+      "3": "Passport"
+    },
+    "gender": {
+      "1": "Male.",
+      "2": "Female."
+    },
+    "position_name":{
+      "1": "Customer Director",
+      "2": "Team Manager",
+      "3": "Customer Manager"
+    }
+  }
+}
+
+
+
+}
+

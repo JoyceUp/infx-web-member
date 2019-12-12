@@ -1,0 +1,1485 @@
+{
+  "lang":"ind",
+  "btn_login": "Login",
+  "btn_sub": "Kirim",
+  "btn_save": "Simpan",
+  "btn_true": "OK",
+  "btn_search": "Search",
+  "btn_reset": "Reset",
+  "btn_back": "Langkah Terakhir",
+  "btn_copy": "Copy",
+  "btn_confirm": "OK",
+  "btn_cancel": "Batal",
+  "btn_delete": "Hapus",
+  "btn_update": "Edit",
+  "btn_QRCode": "QR Code",
+  "btn_manager_bank_card": "Manage Informasi Bank",
+  "btn_manager_transfer": "Manage Informasi Transfer",
+  "btn_cancel_apply": "Batalkan Permohonan",
+  "btn_login_send_reset_password": "kirim email , setel ulang kata sand",
+  "btn_getCode": "Dapatkan Kode Verifikasi",
+  "btn_code": "Kode verifikasi",
+  "btn_previous": "Langkah Terakhir",
+  "btn_next": "Selanjutnya",
+  "btn_upload": "Upload",
+  "btn_uploadImg": "Upload gambar",
+  "btn_switch": "Ya | Tidak",
+  "btn_create_link": "Buat refferal link",
+  "btn_gold_to_success": "Deposit Sukses",
+  "btn_gold_to_fail": "Deposit Gagal",
+  "btn_yes": "Ya",
+  "btn_no": "Tidak",
+
+  "form_user_all_show":"Melihat semua User",
+  "form_my_customer_num":"Jumlah total Nasabah saya:",
+  "form_person":"Orang",
+  "form_hand":"lot",
+  "form_current_month_customer_new":"Jumlah Nasabah baru bulan ini",
+  "form_current_month_customer_deposit":"Jumlah setoran dana Nasabah baru bulan ini ",
+  "form_current_month_customer_withdraw":"Jumlah pernarikan dana Nasabah baru bulan ini",
+  "form_current_month_customer_transaction":"Volume transaksi Nasabah baru bulan ini",
+
+  "form_my_ib_num":"Jumlah agen saya",
+  "form_current_month_ib_new":"Jumlah agen baru bulan ini",
+  "form_current_month_ib_deposit":"Jumlah setoran agen baru bulan ini",
+  "form_current_month_ib_withdraw":"Jumlah penarikan agen baru bulan ini",
+
+  "form_my_rebate_num":"Total komisi dan rebate saya",
+  "form_current_month_rebate_new":"komisi dan rebate baru bulan ini",
+  "form_customer_balance_rebate":"Rebate saldo Nasabah",
+  "form_customer_transaction_rebate":"komisi transaksi Nasabah",
+
+  "form_placeholder_login_email": "Email",
+  "form_placeholder_login_email_or_mt": "Email atau  Nomor Akun MT4",
+  "form_placeholder_login_retrieve_email": "Silakan masukan alamat email yang terdaftar",
+  "form_placeholder_login_password": "Kata Sandi",
+  "form_placeholder_new_password": "Kata sandi baru",
+  "form_placeholder_old_password": "Kata sandi lama",
+  "form_placeholder_confirm_password": "OK kata sandi",
+  "form_placeholder_confirm_new_password": "OK kata sandi baru",
+  "form_placeholder_msg_password": "Kombinasi alfanumerik 6-18-digit, termasuk garis bawah dan spasi",
+  "form_placeholder_login_code": "Kode verifikasi",
+  "form_placeholder_name": "Nama",
+  "form_placeholder_customer_name": "Nama Pelanggan",
+  "form_placeholder_sales_name": "Nama Sales",
+  "form_placeholder_customer_account_no": "Akun pelanggan",
+  "form_placeholder_account_no": "Akun",
+  "form_placeholder_account_no_from": "Transfer keluar dari akun",
+  "form_placeholder_account_no_to": "Transfer ke akun",
+  "form_placeholder_account_type": "Jenis akun",
+  "form_placeholder_account_balance": "Saldo Akun (USD)",
+  "form_placeholder_account_state": "Status Akun",
+  "form_placeholder_start_time": "Waktu mulai",
+  "form_placeholder_end_time": "Waktu selesai",
+  "form_placeholder_city": "Silakan masukan kota tempat tinggal",
+  "form_placeholder_address": "Silakan masukkan alamat tempat tinggal",
+  "form_placeholder_zip_code": "Silakan masukkan kode pos",
+  "form_placeholder_mobile": "Untuk mengirimkan salam pada saat hari raya dan kegiatan acara terbaru",
+  "form_placeholder_mobile_yes": "Untuk mengirimkan salam pada saat hari raya dan kegiatan acara terbaru, dianjurkan untuk mengisi",
+
+  "form_label_trade_time": "Tanggal komisi",
+  "form_label_balance_time": "Tanggal Rebate",
+  "form_label_invite_type": "Jenis undangan",
+  "form_label_card_no": "Nomor Rekening",
+  "form_label_bank_account": "Register akun bank",
+  "form_label_account_no": "Akun",
+  "form_label_card_user_name": "Nama Pemilik Rekening",
+  "form_label_bank_name": "Nama bank",
+  "form_label_bank_country": "Negara",
+  "form_label_bank_province": "Wilayah (provinsi)",
+  "form_label_bank_city": "Regional (kota)",
+  "form_label_bank_province_": "Provinsi",
+  "form_label_bank_city_": "Kota",
+  "form_label_branch_name_": "Bank Cabang",
+  "form_label_branch_name": "Pembukaan Rekening Bank",
+  "form_label_branch_address": "Alamat Kantor Cabang",
+  "form_label_branch_swift_code": "Kode SWIFT Internasional",
+  "form_label_rate": "Nilai tukar",
+  "form_label_withdraw_rate": "Nilai tukar penarikan",
+  "form_label_application_amount": "Jumlah yang di ajukan (USD)",
+  "form_label_application_amount_cny": "Jumlah Aplikasi (IDR)",
+  "form_label_fee": "Komisi Charge (USD)",
+  "form_label_pay_amount": "Jumlah pembayaran (IDR)",
+  "form_label_pay_amount_usd": "jumlah pembayaran (USD)",
+  "form_label_transfer_amount": "Jumlah yang di transfer (USD)",
+  "form_label_bankcard": "Bank Penerima",
+  "form_label_bank_account_no": "Rekening Bank",
+  "form_label_ib_account_no": "Nomor Akun  agen",
+  "form_label_ib_name": "Nama Agen",
+  "form_label_ib_type": "Nama Agen",
+  "form_label_order_no": "Nomor Order",
+  "form_label_proof_photo": "Bukti draft",
+  "form_label_remark": "Catatan Proses",
+  "form_label_state": "Status",
+  "form_label_invite_code": "Kode undangan",
+  "form_label_leverage": "Leverage Transaksi Perdagangan",
+  "form_label_login_password": "Login kata sandi",
+  "form_label_job": "Situasi posisi",
+  "form_label_capital_source": "Sumber pendanaan",
+  "form_label_annual_income": "Penghasilan tahunan",
+  "form_label_total_asset": "Total aset",
+  "form_label_card_front": "KTP Bagian Depan",
+  "form_label_address": "Bukti alamat",
+  "form_label_close_time_gmt": "Waktu Penutupan posisi (GMT)",
+  "form_label_open_time_gmt": "Waktu Pembukaan (GMT)",
+  "form_a_retry": "Retry",
+
+  "form_select_invite_type": "Silakan pilih",
+  "form_select_funds_type": "Jenis dana",
+  "form_select_order_state": "Status Pesan",
+  "form_select_china": "China",
+  "form_select_other": "Lainnya",
+  "form_text_personal_info": "Informasi pribadi",
+  "form_text_use_info": "Informasi User",
+  "form_text_base_info": "Informasi dasar",
+  "form_text_base_info_": "Informasi dasar",
+  "form_text_identity_info": "Informasi identitas",
+  "form_text_address_info": "Informasi tempat tinggal",
+  "form_text_bank_info": "Informasi bank",
+  "form_text_bank_card_info": "Informasi Kartu Bank",
+  "form_text_tt_info": "Informasi Telegraphic Transfer",
+  "form_text_transfer_info": "Informasi Telegraphic Transfer",
+  "form_text_transfer_info_two": "Informasi transfer Online",
+  "form_text_account_info": "Informasi akun",
+  "form_text_account_info_other": "Informasi lainnya",
+  "form_text_account_info_trading": "Informasi transaksi",
+  "form_text_account_info_": "Informasi akun",
+  "form_text_deposit_info": "Informasi setoran dan penarikan dana",
+  "form_text_position_info": "Informasi posisi",
+  "form_text_customer_details": "Detail tentang Pelanggan",
+  "form_text_invite_info": "Informasi undangan",
+  "form_text_password_info": "Informasi kata sandi",
+  "form_text_investment_info": "Informasi investasi",
+  "form_text_withdraw_info": "Informasi penarikan   ",
+  "form_text_rebate_info": "Informasi bonus",
+  "form_text_commission_info": "Informasi komisi sales",
+  "form_text_bank_deposit": "Penyetoran dana",
+  "form_text_transfer_gold": "penarikan Telegraphic Transfer",
+  "form_text_WeChat_fund": "Penarikan melalui wechat",
+  "form_text_other_info": "Informasi lainnya",
+  "form_text_sponsored_links": "Link romosi",
+  "form_text_email": "email",
+  "form_text_identity_type": "Jenis Dokumen",
+  "form_text_identity_no": "Nomor dokumen",
+  "form_text_identity1_path": "Tampak depan dokumen",
+  "form_text_identity2_path": "Tampak belakang dokumen",
+  "form_text_upload_files": "Klik untuk upload, atau drag file ke sini",
+  "form_text_city": "Kota",
+  "form_text_country": "Negara",
+  "form_text_address": "Alamat tempat tinggal",
+  "form_text_gender": "Panggilan",
+  "form_text_gender_boy": "Pria",
+  "form_text_gender_girl": "Wanita",
+  "form_text_mobile": "Nomor ponsel",
+  "form_text_account_transfer": "Transfer ke akun lainnya",
+  "form_text_transfer": "Transfer",
+  "form_text_retry_seconds": "Coba lagi setelah beberapa detik ",
+  "form_text_experience": "Pengetahuan dan Pengalaman Transaksi ",
+  "form_text_experience_span": "Forex, Contract For Difference (CFDs), serta pengalaman derivatif keuangan lainnya",
+  "form_text_assess_risk_span": "Saya mengerti bahwa transaksi derivatif bagian dari tujuan investasi saya dan investasi resiko saya, jadi saya dapat menilai risiko yang terlibat dalam perdagangan, termasuk hilangnya semua dana investasi saya.",
+  "form_text_professional_span": "Saya memiliki pengetahuan akademis / profesional yang relevan tentang derivatif keuangan investasi.",
+  "form_text_upload_img": "Upload foto Dokumen",
+  "form_text_upload_img_span": "Saat ini hanya mendukung png, format jpg, besarnya file dibawah 2 MB",
+  "form_text_details_span": "Saya menyatakan bahwa saya telah membaca dengan seksama dan memahami peraturan berikutnya",
+  "form_text_agree_span": "Saya sudah memahami sepenuhnya dan menyetujui. " ,
+  "form_text_privacy_statement_span": "Pernyataan Pribadi",
+  "form_text_risk_warning_span": " Risk Warning",
+  "form_text_chp_span": " Complaints Handling Procedure ",
+  "form_text_legal_information_span": " Legal Information ",
+  "form_text_privacy_policy_span": " Privacy Policy ",
+  "form_text_three_minutes_span": "proses pendaftaran hanya memerlukakn 3 menit",
+  "form_text_basic_span": "(E-mail adalah saluran penting bagi Anda untuk menerima pemberitahuan dan informasi transaksi, silakan isi dengan hati-hati.)",
+  "form_text_order_no": "Nomor Order",
+  "form_text_recharge_amount": "Jumlah Deposit",
+  "form_text_success": "Selamat, deposit sukses!",
+  "form_text_fail": "Maaf! Deposit gagal!",
+  "form_text_info_true": "Informasi transfer Online Anda sebagai berikut, mohon konfirmasi informasinya ,jika benar,silakan klik tombol 'OK'",
+  "form_text_withdraw_info_true": "Informasi penarikan Anda sebagai berikut, mohon konfirmasi informasinya ,jika benar,silakan klik tombol 'OK'",
+  "form_text_upload_img_limit": "Saat ini hanya mendukung png, format jpg, besarnya file dibawah 2 MB",
+  "form_text_history_transaction": "Riwayat Transaksi",
+  "form_text_agree_span_split": "Persetujuan",
+  "form_text_ib_agreement": "IB agreement",
+  "form_text_ib_submit_success": "Aplikasi pendaftaran agen sukses diajukan!",
+  "form_text_ib_background_review_to_send": "Background system akan memeriksa sesegera mungkin, dan akan memberi tahu hasil audit melalui email!",
+  "form_text_transaction_record": "Riwayat transaksi",
+  "form_text_beneficiary_account": "Akun Penerima",
+  "form_text_beneficiary_name": "Nama Penerima",
+  "form_text_beneficiary_address": "Alamat Penerima",
+  "form_text_beneficiary_branch_name": "Nama rekening bank payee",
+  "form_text_beneficiary_branch_address": "Alamat Rekening Bank Payee",
+  "form_text_zip_code": "Kode pos",
+  "form_text_sales_no": "Nomor Sales",
+  "form_text_sales_account_no": "Akun Sales",
+  "form_text_date_of_birth": "tanggal lahir",
+  "form_text_gmt_create": "Waktu Pembuatan",
+  "form_text_gmt_modified": "Perbarui waktu",
+  "form_text_sex": "Jenis kelamin",
+  "form_text_family_name": "Nama keluarga",
+  "form_text_given_name": "Nama belakang",
+  "form_text_available_balance": "Saldo yang bisa digunakan",
+  "form_text_transfer_amount": "Jumlah yang bisa ditransfer",
+  "form_text_add_bank_card": "Tambahkan kartu bank",
+  "form_text_edit_bank_card": "Ubah kartu bank",
+  "form_text_company": "Perusahaan",
+  "form_text_department": "Departemen",
+  "form_text_team": "Team",
+  "form_text_position_name": "posisi",
+  "form_text_account_withdraw": "Penarikan dari Akun ",
+  "form_text_bank_card_withdraw": "Penarikan kartu bank",
+  "form_text_transfer_withdraw": "Penarikan Telegraphic Transfer",
+  "form_msg_account_no": "Silakan pilih akun Anda",
+  "form_msg_account_no_to": "Silakan pilih transfer ke akun",
+  "form_msg_account_no_from": "Silakan pilih akun transfer",
+  "form_msg_account_type": "Silakan pilih jenis akun",
+  "form_msg_identity_type": "Silakan pilih jenis dokumen",
+  "form_msg_card_user_name": "Nama akun bank tidak boleh tidak diisi",
+  "form_msg_bank_name": "Nama bank tidak boleh tidak diisi",
+  "form_msg_bank_country": "Negara bank tidak boleh tidak diisi",
+  "form_msg_bank_province": "Wilayah (provinsi) tidak boleh tidak diisi",
+  "form_msg_bank_city": "Regional (kota) tidak boleh tidak diisi",
+  "form_msg_branch_name": "Pembukaan rekening bank tidak boleh tidak diisi",
+  "form_msg_branch_address": "Alamat bank tidak boleh tidak diisi",
+  "form_msg_branch_swift_code": "Swift Code tidak boleh tidak diisi",
+  "form_msg_bankcard": "Silakan pilih bank penerima",
+  "form_msg_gender": "Silakan pilih nama Anda",
+  "form_msg_code": "Mohon masukan kode verifikasi",
+  "form_msg_date_of_birth": "Tanggal lahir tidak boleh tidak diisi",
+  "form_msg_country": "Silakan pilih negara",
+  "form_msg_city": "Silakan masukkan kota",
+  "form_msg_leverage": "Silakan set up leverage perdagangan",
+  "form_msg_job": "Silakan pilih situasi pekerjaan",
+  "form_msg_capital_source": "Silakan pilih sumber dana",
+  "form_msg_annual_income": "Silakan pilih pendapatan tahunan",
+  "form_msg_total_asset": "Silakan pilih total aset",
+  "alert_submit_success": "Pengajuan Sukses",
+  "alert_add_success": "Sukses menambah",
+  "alert_email_format_error": "Format email salah",
+  "alert_view_email": "Silakan memeriksa email",
+  "alert_start_time_more_than_the_end_time": "Waktu mulai tidak boleh melebihidari waktu akhir",
+  "alert_update_lev_success": "Sukses modifikasi leverage",
+  "alert_bank_no_not_null": "Rekening bank tidak boleh tidak diisi",
+  "alert_register_success1": "Pendaftaran akun baru berhasil, akun MT4 adalah:",
+  "alert_register_success2": "Kata sandi telah dikirim ke email Anda",
+  "alert_balance_flush_balance_zero1": "Saldo yang bisa digunakan:",
+  "alert_balance_flush_balance_zero2": "Total Saldo akun Anda tidak kurang dari 0, Anda tidak bisa mengajukan permohonan untuk menghapus saldo Anda!",
+  "alert_balance_flush_submit_success": "Permintaan yang jelas dari saldo Anda telah diterima oleh sistem dan staf kami akan menanganinya sesegera mungkin. Harap tunggu dengan sabar.",
+  "alert_deposit_submit_success": "Permintaan yang jelas dari saldo Anda telah diterima oleh sistem dan staf kami akan menanganinya sesegera mungkin. Harap tunggu dengan sabar.",
+  "alert_transfer_submit_success1": "Permintaan transfer Anda telah diterima oleh sistem. Staf kami akan menanganinya sesegera mungkin. Harap tunggu dengan sabar.",
+  "alert_transfer_submit_success2": "Jika Anda perlu membatalkan, silakan klik di sini untuk mengoperasikan.",
+  "alert_return_to_balance_no_rebate": "Akun ini tidak ada bonus yang bisa ditransfer",
+  "msg_keep_a_bank_card": "Tolong simpan setidaknya satu kartu bank",
+  "msg_delete_success": "Berhasil dihapus",
+  "msg_update_success": "Dimodifikasi dengan sukses",
+  "msg_upload_error": "Ggagal upload",
+  "msg_login_success": "SuksesLogin",
+  "msg_reset_login_password_re_login": "Sukses setting ulang kata sandi, harap login lagi",
+  "msg_retreat_safely": "Keluar dengan aman",
+  "msg_email_not_null": "Silakan masukkan alamat email",
+  "msg_email_already_existed": "Email sudah terdaftar",
+  "msg_verify_code_send_success": "Kode verifikasi telah dikirim, tolong periksa tepat waktu!",
+  "msg_request_timeout_back1": "Permintaan sudah time out. Silakan kembali ke langkah pertama.",
+  "msg_check_register_file": "Silakan memilih file perjanjian pendaftaran",
+  "msg_check_ib_register_file": "Anda perlu memilih pernyataannya",
+  "msg_reset_email_send_success": "Email tentang settings kata sandi susah sukses dikirim, silakan periksa",
+  "msg_retister_error": "Pendaftaran gagal",
+  "open_cancel_success": "Batalkan sukses",
+  "open_confirm_delete_bank": "Apakah sudah memastikan untuk menghapus kartu bank ini?",
+  "open_confirm_logout": "Apakah sudah memastikan untuk logout?",
+  "open_deposit_guide": "Silakan menyelesaikan proses setoran pada halaman yang baru dibuka. Setelah sudah selesainya, klik tombol di bawah sesuai dengan situasi pembayaran yang sebenarnya.",
+  "validate_job_not_null": "Silakan pilih situasi pekerjaan",
+  "validate_capital_source_not_null": "Silakan pilih sumber dana",
+  "validate_annual_income_not_null": "Silakan pilih pendapatan tahunan",
+  "validate_total_asset_not_null": "Silakan pilih total aset",
+  "validate_card_no_not_null": "Silakan isi nomor kartu bank",
+  "validate_card_no_only_number": "Nomor Rekening hanya bisa memasukkan angka-angka",
+  "validate_card_no_format_error": "Harap isi nomor kartu bank yang benar",
+  "validate_mobile_format_error": "Format nomor ponsel salah",
+  "validate_country_not_null": "Silakan pilih negara tempat tinggal",
+  "validate_city_not_null": "Silakan masukkan kota",
+  "validate_address_not_null": "Silakan masukkan alamat tempat tinggal",
+  "validate_zip_code_not_null": "Silakan masukkan kode pos",
+  "validate_zip_format_error": "Kode pos salah",
+  "validate_bank_country_not_chose": "Silakan pilih negara bank",
+  "validate_bank_province_not_chose": "Silakan pilih Provinsi ",
+  "validate_bank_city_not_chose": "Silakan pilih kota Bank",
+  "validate_bank_name_not_chose": "Silakan pilih nama bank",
+  "validate_bank_name_not_null_please": "Silakan mengisi nama bank",
+  "validate_branch_name_not_null_please": "Silakan mengisi nama cabang",
+  "validate_bank_img_path_not_null": "Silakan upload foto kartu bank",
+  "validate_path_not_null": "Silakan upload bukti alamat",
+  "validate_family_name_format_error": " Maksimal bisa mengisi 50 huruf di nama keluarga",
+
+  "validate_password_not_null": "Mohon masukan kata sandi",
+  "validate_login_password_not_null": "Kata sandi login diperlukan",
+  "validate_twice_password_error": "dua kali kata sandi yang dimasukan tidak sama",
+  "validate_old_password_not_null": "Silakan masukkan kata sandi lama",
+  "validate_new_password_not_null": "Silakan masukkan kata sandi baru",
+  "validate_confirm_password_not_null": "Silakan masukkan konfirmasi kata sandi baru",
+  "validate_password_format_error": "Format kata sandi salah, 6-18 digit, dapat mencakup garis bawah",
+
+  "validate_identity1_path_not_null": "Dokumen harus di upload untuk tampak depan",
+  "validate_identity2_path_not_null": "Dokumen harus diupload untuk tampak belakang",
+  "validate_login_no_not_null": "Mohon masukan akun login",
+  "validate_login_no_format_error": "Mohon masukan akun yang benar",
+  "validate_captcha_not_null": "Mohon masukan kode verifikasi",
+  "validate_email_captcha_not_null": "Mohon masukan kode verifikasi email",
+  "validate_login_email_not_null": "Mohon masukan akun login",
+  "validate_login_email_format_error": "Mohon masukan akun yang benar",
+  "validate_title_format_error": "Judul setidaknya 5 karakter.",
+  "validate_unchinese": "mohon masukan non bahasa china",
+
+  "validate_pay_amount_not_null": "Silakan isi jumlah pembayaran",
+  "validate_amount_not_null": "Silakan isi jumlah aplikasi",
+  "validate_amount_only_number": "Saldo aplikasi harus berupa angka",
+  "validate_amount_more_than_the_balance": "Saldo aplikasi tidak boleh lebih besar dari saldo akun yang tersedia",
+  "validate_amount_more_than_the_fee": "Saldo aplikasi harus lebih besar daripada biaya admin",
+  "validate_amount_dollar": "Dollar",
+  "validate_deopsit_amount_only_number": "Jumlah setoran harus berupa angka",
+  "validate_deopsit_amount_minimum": "Penyetoran minimum adalah",
+  "validate_transfer_amount_not_null": "Mohon isi jumlah transfer",
+  "validate_transfer_amount_only_number": "Jumlah transfer harus berupa angka!",
+  "validate_transfer_amount_minimum": "Jumlah transfer tidak boleh kurang dari 1 dolar AS",
+
+  "validate_transfer_amount_more_than_the_balance": "Jumlah transfer tidak boleh lebih besar dari saldo akun yang tersedia",
+  "validate_transfer_from_account_is_to_account": "Akun setoran tidak bisa sama dengan akun penarikan.",
+  "validate_withdraw_amount_minimum": "Jumlah Minimum  penarikan adalah",
+  "validate_acount_num_maximum": "Jumlah akun telah mencapai batas dan tidak dapat lagi membuka akun baru",
+  "validate_identity_no_not_null": "Nomor dokumen tidak boleh tidak diisi",
+  "validate_birthday_not_null": "tanggal lahir harus diisi",
+  "validate_card_user_name_not_null": "Nama akun bank tidak boleh tidak diisi",
+  "validate_bank_name_not_null": "Nama bank tidak boleh tidak diisi",
+  "validate_bank_country_not_null": "Negara bank tidak boleh tidak diisi",
+  "validate_bank_province_not_null": "Wilayah (provinsi) tidak boleh tidak diisi",
+  "validate_bank_city_not_null": "Regional (kota) tidak boleh tidak diisi",
+  "validate_branch_name_not_null": "Pembukaan rekening bank tidak boleh tidak diisi",
+  "validate_branch_address_not_null": "Alamat bank tidak boleh tidak diisi",
+  "validate_branch_swift_code_not_null": "Swift Code tidak boleh tidak diisi",
+  "validate_account_not_chose": "Silakan pilih akun Anda",
+  "validate_account_type_not_chose": "Silakan pilih jenis akun",
+  "validate_account_leverage_not_chose": "Silakan pilih rasio leverage",
+  "validate_tt_path_not_null": "Tolong upload bukti draft",
+  "validate_family_name_not_null": "Silakan masukkan nama belakang Anda",
+  "validate_given_name_not_null": "Silakan masukkan nama Anda",
+  "validate_identity_type_not_chose": "Silakan pilih tipe dokumen Anda",
+  "validate_gender_not_chose": "Silakan pilih nama Anda",
+  "validate_captcha_err": "Kesalahan kode verifikasi",
+  "validate_transfer_account_from_not_chose": "Silakan pilih akun transfer",
+  "validate_transfer_account_to_not_chose": "Silakan pilih transfer ke akun",
+  "validate_withdraw_bankcard_not_chose": "Silakan pilih bank penerima",
+  "validate_invite_type_not_chose":"Silakan pilih jenis undangan",
+  "validate_ib_type_not_chose":"Silakan pilih jenis agent",
+
+  "validate_is_identity_err":"Format nomor KTP salah.",
+  "validate_is_identity_zip":"Pengodean alamat salah",
+  "validate_is_identity_no_reg":"Dokumen di area ini dilarang mendaftar",
+  "validate_is_identity_no_age":"Pengguna yang umur di bawah 18 dilarang mendaftar",
+  "validate_is_identity_fail":"Verifikasi KTP gagal",
+  "validate_is_identity_null":"Nomor dokumen tidak boleh tidak diisi",
+  "validate_is_identity_passport_err":"Harap mengisi nomor paspor yang benar",
+
+  "header_modify_password":"Mengubah kata sandi"
+,"header_logout":"logout"
+
+  ,"page_open_an_account":"Pembukaan Akun"
+  ,"page_customer_deposit_title":"Informasi penerimaan telegraphic transfer"
+,"page_customer_title":"Daftar Pelanggan"
+,"page_client_info_title":"Informasi pelanggan"
+,"page_customer_info_title":"Detail tentang Pelanggan"
+,"page_ib_title":"Daftar agen"
+  ,"page_ib_apply":"Apply for  agent"
+,"page_ib_info_title":"Detail tentang Agen"
+,"page_rebate_trade_title":"Catatan  komisi trading"
+,"page_rebate_balance_title":"Catatan  bonus saldo"
+,"page_rebate_balance_info_title":"Rincian pengembalian bonus saldo"
+,"page_rebate_bonus_title":"Daftar komisi sales"
+,"page_userinfo_title":"Informasi User"
+,"page_account_list_title":"Daftar Akun"
+,"page_account_list_info_title":"Informasi Akun"
+,"page_account_append_info_title":"Buat akun baru"
+,"page_account_modify_lev_title":"Mengatur  Leverage"
+,"page_account_balance_flush_title":""
+,"page_account_info_title":"Data pribadi"
+,"page_transaction_deposit_title":"Penyetoran Akun"
+,"page_transaction_withdraw_title":"Penarikan dari Akun "
+,"page_transaction_withdraw_order_title":"OK pesanan penarikan"
+,"page_transaction_withdraw_order_sub_title":"Sukses permohonan Penarikan"
+,"page_transaction_transfer_title":"Transfer ke akun lainnya"
+,"page_funds_fundsrecord_title":"Pencatatan Dana"
+,"page_funds_deposit_title":"Catatan Penyetoran dan penarikan"
+,"page_funds_withdraw_record_title":"Pencatatan penarikan"
+,"page_funds_transfer_title":"Pencatatan transfer"
+,"page_funds_transfer_verify_title":"OK pesanan transfer"
+,"page_funds_transfer_info_title":"Detail catatan Transfer"
+,"page_funds_transaction_info_title":"Detail catatan transaksi"
+,"page_funds_blanceflush_title":"Rekam keseimbangan yang jelas"
+,"page_funds_blanceflush_info_title":"Detail penghapusan saldo"
+,"page_user_userinfo_title":"Informasi pribadi"
+,"page_user_bankinfo_title":"Informasi bank"
+,"page_user_bankinfo_add_title":"Tambahkan kartu bank"
+,"page_user_bankinfo_up_title":"Ubah kartu bank"
+,"page_user_telinfo_title":"Informasi Telegraphic Transfer"
+,"page_user_workinfo_title":"Informasi Investor"
+,"page_funds_return_to_balance_title":"komisi dari saldo"
+,"page_funds_return_to_balancelist_title":"Catatan komisi dari saldo"
+,"page_ib_invite_title":"Link pembukaan akun"
+,"page_login_title":"Pusat sentra Akun"
+,"page_login_backpassword":"Lupa kata sandi Anda?"
+,"page_login_register":" Melakukan pendaftaran akun"
+,"page_login_oldversions":"Menggunakan versi lama untuk login "
+,"page_backpassword_title":"Mencari  kembali  kata sandi Anda"
+,"page_restpassword_title":"Set up ulang kata sandi"
+,"page_register_step_title":"Pendaftaran akun nyata"
+,"page_register_dl_step_title":"Pendaftaran Agen"
+,"page_register_step4_title4_1":"Selamat! Pendaftaran berhasil!"
+,"page_register_step4_title4_2":"Pendaftaran akun nyata"
+,"page_register_step4_tips1":"Akun MT4:"
+,"page_register_step4_tips2":"Kata sandi transaksi telah dikirim ke Email Anda!"
+,"page_register_step4_tips3":"Maaf! Pendaftaran gagal! Alasan kegagalannya adalah"
+
+,"page_register_skip_tips":" Melompat Secara otomatis setelah _detik"
+,"page_register_dl_tips_msg1":"proses pendaftaran hanya memerlukakn 3 menit"
+,"page_register_dl_tips_msg2":"Informasi dasar"
+,"page_register_dl_tips_msg3":"(E-mail adalah saluran penting bagi Anda untuk menerima pemberitahuan dan informasi transaksi, silakan isi dengan hati-hati.)"
+,"page_register_dl_tips_msg4":"Informasi undangan"
+,"page_register_dl_tips_msg5":"(Masukkan kode undangan penjualan akan membangun hubungan Anda dengannya; jika tidak, jangan mengisi)"
+,"page_register_dl_tips_msg":"Informasi akun"
+,"page_register_dl_tips_msg7":"Informasi kata sandi"
+,"page_register_dl_tips_msg8":"Upload foto Dokumen"
+,"page_register_dl_tips_msg9":"(Saat ini hanya mendukung format png dan jpg , dan dikontrol dalam 2 MB)"
+,"page_createinvite_dl_title":"Link pembukaan akun"
+,"page_reg_signup_dl_title":"Pendaftaran Agen"
+,"page_reg_signup_dl_registered_title":"Pendaftaran Agen"
+,"page_reg_signup_dl_tips1":"Selamat, pendaftaran berhasil!"
+,"page_reg_signup_dl_tips2":"Mohon menunggu OK, informasi lebih lanjut akan dikirim via email"
+,"page_reg_signup_dl_tips3":"Maaf, pendaftaran gagal! "
+,"page_reg_signup_dl_tips4":"Alasan kegagalan:"
+,"page_transfer_depositresult_tips":"Hasil Deposit"
+,"page_transaction_deposit_yhk_msg_h3":"Instruksi Deposit menggunakan  Kartu Bank:"
+,"page_transaction_deposit_dh_msg_h3":"Petunjuk Pengoperasian Penyetoran Telegraphic Transfer:"
+,"page_transaction_deposit_wx_msg_h3":"Petunjuk Pengoperasian setoran Wechat:"
+,"page_transaction_withdraw_dh_msg_h3":"Petunjuk Pengoperasian penarikan Telegraphic Transfer:"
+,"page_transaction_transfer_msg_h3":"Petunjuk Pengoperasian transaksi akun:"
+,"page_sale_title":"Forex 2.0 - Sales center"
+,"page_member_title":"Forex 2.0 - Customer Center"
+,"page_dl_title":"Forex 2.0 - Agent Center"
+,"page_msg_h3":"Tips"
+,"page_msg_login":"Login"
+  ,"page_text_submit_success":"Pengajuan  Selesai"
+,"page_text_upsuccessfully":"Pengajuan Berhasil"
+,"page_text_info":"Informasi:"
+,"page_deposit_dhzh":"Akun Telegraphic Transfer perusahaan:"
+,"page_disclaimers":"Perhatian"
+,"page_account_append_msg_txt":"kami akan menggunakan informasi yang pertama kali anda daftarkan untuk membuat akun baru, Harap pastikan Anda memiliki cukup dana untuk mempertahankan akun baru Anda."
+,"page_ib_account_append_msg_txt":"Kami akan menggunakan informasi yang Anda pertama kalinya saat daftarkan untuk mebuat akun baru"
+
+,"page_transaction_deposit_yhk_msg_txt1":"1.Jumlah setoran: Setiap jumlah setoran tidak boleh lebih rendah dari [deposit_min_limit] USD, sistem akan secara otomatis menukar USD menjadi RMB."
+,"page_transaction_deposit_yhk_msg_txt2":"2. Renminbi Mata Uang yang Dapat Diterima (mohon konfirmasi hanya menggunakan deposit kartu bank saya, deposit pihak ketiga tidak akan dapat menarik uang)."
+,"page_transaction_deposit_yhk_msg_txt3":"3. Waktu uang masuk ke rekening (kira-kira) Kedatangan segera (Catatan: Kemungkinan karena masalah sistem dapat menyebabkan penundaan setoran, harap melakukan setoran anda lebih awal ketika Anda ingin melakukan setoran )."
+
+,"page_transaction_deposit_dh_msg_txt1":"1. Setiap setoran  tidak boleh kurang dari [deposit_min_limit}] USD"
+
+
+,"page_transaction_deposit_dh_msg_txt2":"2. Silakan malakukan telegraphic transfer ke [-- company wire transfer account --] dan setelah itu, upload bukti exchange bill ke halaman"
+,"page_transaction_deposit_dh_msg_txt3":"3. Penarikan melalui Telegraphic Transfer,  tidak akan membebankan biaya apa pun di platform, tetapi ada kemungkinan akan membebankan biaya layanan tertentu di bank ."
+,"page_transaction_deposit_wx_msg_txt1_1":"1. Setiap setoran tidak boleh rendah "
+,"page_transaction_deposit_wx_msg_txt2":"2. Tidak ada biaya admin melalui WeChat. Jumlahnya akan langsung ditransfer ke akun MT4 Anda."
+,"page_disclaimers_msg_txt1":"1. Harap baca dengan seksama surat pernyataan pengiriman dana. Setelah Anda mengajukan permohonan penarikan, kami akan mengirimkan e-mail yang sesuai ke alamat e-mail yang anda daftarkan pada saat pembukaan akun Anda. Pastikan alamat e-mail itu benar dan valid;"
+,"page_disclaimers_msg_txt2_1":"2. Selama proses pengisian aplikasi penarikan Anda, mohon konfirmasi dengan hati-hati bahwa kartu bank Anda dan informasi terkait lainnya akurat dan valid. Pemegang kartu bank harus sesuai dengan informasi yang di besikan pada saat pembukaan akun."
+,"page_disclaimers_msg_txt2_2":"3. Jika informasi diisi atau operasi salah, pelanggan akan bertanggung jawab. Jika informasi pengajuan tidak lengkap, platform memiliki hak untuk menolak penarikan. sehingga anda mengajukan kembali, platform akan melakukan proses kembali ."
+,"page_disclaimers_msg_txt3_1":"3. Untuk menghemat biaya keuangan, platform hanya menerima bulanan."
+,"page_disclaimers_msg_txt3_2":"Aplikasi gratis sekunder, pertama"
+,"page_disclaimers_msg_txt3_3":"Penarikan sekunder akan dikurangi"
+,"page_disclaimers_msg_txt3_4":"Biaya admin USD; penarikan biasanya dikurangi pembiayaran di system background dalam 1-2 hari kerja;"
+,"page_disclaimers_msg_txt4":"4. Harap hati-hati dalam memasukan jumlah dana dari saldo anda saat melakukan penarikan , untuk menghindari dampak pada akun saat melakukan trading. Jika tidak, kerugian yang disebabkan oleh margin tidak cukup setelah penarikan emas akan ditanggung oleh Anda."
+,"page_disclaimers_msg_txt5":"5. Setiap jumlah penarikan tidak boleh kurang dari [withdraw_min_limit] USD"
+,"page_disclaimers_msg_txt6":"6. Penarikan melalui kartu bank akan gratis pembayaran。"
+,"page_transaction_withdraw_dh_msg_txt2":"Setiap proses penarikan dana akan memungut biaya [withdraw_poundage] dollar, jikalau dana nasabah yang ditransfer, dikembalikan ke bank awal karena kesalahan nasabah, sehingga menimbulkan biaya tambahan lainnya, maka nasabah sendiri menanggung biaya tambahan tersebut. Terima kasih atas pengertian Anda."
+
+,"page_transaction_withdraw_dh_msg_txt2_1":"2.Sistem ini melakukan penarikan gratis untuk setiap pelanggan individu (satu sertifikat identitas yang valid sesuai dengan satu pelanggan)"
+
+,"page_transaction_withdraw_dh_msg_txt3":"Jumlah setiap penarikan tidak boleh kurang dari [withdraw_min_limit] USD, dan proses pengiriman dana membutuhkan waktu  3-5 hari waktu kerja."
+
+,"page_transaction_transfer_msg_txt1":"1. Sebelum Anda melakukan proses transfer, pastikan bahwa tidak ada risiko trading (termasuk tidak ada Open Position, atau tidak ada order yang tertunda, dll.) platform ini tidak bertanggung jawab atas kerugian apa pun akibat proses transfer."
+,"page_transaction_transfer_msg_txt2":"2. Setelah memberikan permintaan untuk melakukan transfer, kami akan memproses permintaan anda dengan segera."
+,"page_user_userinfo_basics_msg_txt":"Untuk melindungi keamanan dan hak-hak dana Anda, kami tidak mengizinkan Anda merevisi nama dan tanggal lahir Anda secara sukarela. Jika Anda perlu memperbaiki hal-hal berikut, harap berikan dokumen pendukung yang diperlukan (seperti surat nikah, perubahan nama pemberitahuan atau perceraian , dll.), Kirim dokumen pendukung tersebut ke layanan email pelanggan kami,  service@rtfgroups.com, tuliskan judul pesan sebagai: Modifikasi data pribadi akun + nomor akun Anda, atau hubungi hotline layanan pelanggan kami: 400-002-8180 Staf customer service kami akan membantu Anda dalam menyelesaikan proses tersebut. "
+,"page_user_userinfo_id_msg_txt":"Untuk melindungi keamanan dan hak-hak dana Anda, kami tidak mengizinkan Anda merevisi informasi identitas Anda secara sukarela. Jika Anda perlu merevisi konten berikut, harap berikan dokumen pendukung yang diperlukan (seperti surat nikah, pemberitahuan perubahan nama atau putusan cerai, dll.) Kirim bukti ke layanan pelanggan kami email service@rtfgroups.com. Silakan tandai judul email sebagai Modifikasi data pribadi akun + nomor akun Anda atau hubungi hotline layanan pelanggan kami: 400-002-8180, staff customer service kami  akan membantu Anda dalam menyelesaikan proses tersebut. "
+,"page_user_userinfo_location_msg_txt1":"1. Peraturan Real Time Futures mengharuskan Anda memberikan informasi alamat yang valid, jika tidak , Anda tidak akan dapat menarik uang secara normal."
+,"page_user_userinfo_location_msg_txt2":"2. Bukti alamat termasuk (opsional): Passport atau SIM atau kartu jaminan sosial dalam buku rekening / periode valid / tagihan air dan atau kartu bank dalam 3 bulan terakhir."
+,"page_user_bankinfo_add_msg_txt1":"1. Untuk memastikan penarikan normal, silakan isi nama cabang yang tepat; jika tidak ada cabang, silakan isi nama cabang."
+,"page_user_bankinfo_add_msg_txt2":"2. Saya memahami pentingnya memberikan informasi bank karena dalam proses penarikan dana saya, informasi ini akan digunakan. Dengan ini saya menyatakan bahwa informasi yang diberikan di atas adalah dengan sebenar benarnya."
+
+,"page_account_info_basics_msg_txt":"Untuk melindungi keamanan dan hak dana Anda, kami tidak mengizinkan Anda mengubah nama dan tanggal lahir Anda secara sukarela. Jika Anda benar-benar perlu merevisi hal-hal berikut, harap berikan dokumen pendukung yang diperlukan (seperti kartu ID, paspor atau kartu jaminan sosial, dll.) ), kirim dokumen pendukung  ke layanan email layanan pelanggan kami service@rtfgroups.com, sebutkan judul email: Modifikasi data pribadi akun + nomor akun Anda, atau hubungi hotline layanan pelanggan kami: 400-002-8180, Staf customer service kami akan membantu Anda dalam menyelesaikan proses tersebut. "
+,"page_account_info_id_msg_txt":"Untuk melindungi keamanan dan hak dana Anda, kami tidak mengizinkan Anda untuk secara aktif merevisi informasi identitas Anda. Jika Anda benar-benar perlu melakukan perubahan pada konten berikut, berikan dokumen pendukung yang diperlukan (seperti kartu ID, paspor atau kartu jaminan sosial, dll.) Kirimkan dokumen pendukung tersebut ke email layanan pelanggan kami di Service@rtfgroups.com. Tuliskan judul email sebagai Modifikasi data pribadi akun + nomor akun Anda atau hubungi hotline layanan pelanggan kami: 400-002-8180. Staf customer service  kami akan Bantu Anda menyelesaikan proses tersebut. "
+,"page_account_info_dh_msg_txt":"Silakan isi informasi bank termasuk nomor Telegraphic Transfer Anda sendiri, biasanya adalah bahasa Inggris atau angka-angka. Jangan menulis bahasa Mandarin."
+,"page_transfer_msg_txt":"Informasi transfer Online Anda sebagai berikut, mohon konfirmasi informasinya ,jika benar,silakan klik tombol 'ok'"
+,"page_withdraw_msg_txt":"Informasi penarikan Anda sebagai berikut, mohon konfirmasi informasinya ,jika benar,silakan klik tombol 'ok' "
+,"page_member_withdraw_bankcard_msg_txt":"Informasi setoran Anda adalah sebagai berikut, harap konfirmasikan informasinya sudah benar, klik tombol OK 'untuk melompat ke perbankan online.'"
+,"page_member_withdraw_dh_msg_txt":"Informasi setoran Anda adalah sebagai berikut. Harap konfirmasikan bahwa informasi sudah benar dan klik tombol OK "
+,"page_member_withdraw_wx_msg_txt":"Informasi setoran Anda adalah sebagai berikut, harap konfirmasikan informasinya sudah benar, klik tombol OK 'untuk beralih ke antarmuka pembayaran WeChat.'"
+,"page_404":"halaman yang Anda kunjungi tidak terdaftar atau telah dihapus"
+,"page_update_browser_title":"Silakan perbaharui browser Anda"
+,"page_update_browser_msg_txt":" Pengguna yang terhormat, Internet Explorer yang saat ini  anda gunakan masih dalam versi lama. Sebaiknya tingkatkan internet explorer anda ke Internet 9+ atau gunakan halaman browser lain (mis., Google Chrome atau Mozilla Firefox).update halaman browser anda untuk melanjutkan penggunaan layanan Real Time Futures."
+
+, "table_order_no":"Nomor Order"
+, "table_sum_trade_volume_ib":""
+, "table_total_customer_balance":""
+, "table_total_customer":"Jumlah pelanggan Agen"
+, "table_balance":"Total Saldo akun"
+, "table_balance_2":"saldo"
+, "table_gmt_create":"Waktu pendaftaran"
+, "table_gmt_create_1":"Waktu Pembuatan"
+, "table_gmt_create_2":"Tanggal pembuatan"
+, "table_customer_name":"Nama"
+, "table_customer_name_1":"Nama Pelanggan"
+, "table_mobile":"Nomor ponsel"
+, "table_email":"email"
+, "table_total_balance":"Total Saldo akun"
+, "table_sum_deposit":"Penyetoran total"
+, "table_sum_withdraw":"Total Penarikan"
+, "table_net_deposit":"Total Net Deposit"
+, "table_sum_trade_volume":"Total Transaksi Pelanggan"
+, "table_change_time":"Tanggal Komisi sales"
+, "table_common_sales_amount":"Komisi Customer Manager (USD)"
+, "table_department_leader_amount":"Komisi Team Manager (USD)"
+, "table_amount":"Total komisi sales (USD)"
+, "table_change_time_1":"Tanggal komisi"
+, "table_source_account_no":"Akun"
+, "table_source_account_no_1":"Akun pelanggan"
+, "table_source_account_type":"Jenis akun"
+, "table_source_account_type_1":"Jenis Akun Klien"
+, "table_trading_symbol":"Ragam Transaksi"
+, "table_trading_volume":"Volume transaksi"
+, "table_commission_amount":"Saldo komisi (USD)"
+, "table_rate":"Presentase pengembalian  tahunan "
+, "table_rebate_date":"Tanggal Rebate"
+, "table_account_no":"Transfer keluar dari akun"
+, "table_target_account_no":"Transfer ke akun"
+, "table_amount_1":"Jumlah Rebate (USD)"
+, "table_amount_2":"Jumlah yang di transfer (USD)"
+, "table_amount_3":"Jumlah yang di ajukan (USD)"
+, "table_amount_4":"Jumlah Rebate"
+, "table_amount_5":"Jumlah komisi sales (USD)"
+, "table_sum_deposit_1":"Penyetoran"
+, "table_sum_withdraw_1":"Penarikan"
+, "table_net_deposit_1":"Saldo Bersih"
+, "table_rebate":"bonus yang dapat di transfer (USD)"
+, "table_account_state":"Status Akun"
+, "table_account_state_1":"Status"
+, "table_state":"Status Pesan"
+, "table_cause":"Jenis dana"
+, "table_difference":"Jumlah (USD)"
+, "table_account_balance":"Saldo Sebelum Transfer (USD)"
+, "table_account_balance_1":"Saldo setelah Transfer (USD)"
+, "table_account_no_1":"Nomor Akun  agen"
+, "table_open_time":"Waktu pembukaan posisi"
+, "table_type":"Jenis transaksi"
+, "table_open_price":"Harga pembukaan posisi"
+, "table_close_price":"Harga Penutupan Posisi"
+, "table_close_time":"Waktu Penutupan posisi"
+, "table_fee":"Komisi Charge (USD)"
+, "table_swaps":"Bunga Semalam / swap"
+, "table_profit":"Untuk Rugi"
+, "table_leverage":"Rasio leverage"
+, "table_leverage_1":"Leverage"
+, "table_mt4_account":"Akun MT4"
+, "table_content_state":"Sedang Diproses"
+, "table_remark":"Catatan Proses"
+, "table_belong_IB":"Superior IB"
+, "table_company":"Perusahaan"
+, "table_department":"Departemen"
+, "table_team":"Team"
+, "table_position":"posisi"
+, "table_unknown":"Tidak diketahui"
+, "table_ib_name": "Nama Agen"
+, "table_ib_account": "代理账户"
+, "table_ib_income":"代理收益"
+,"table_earning_rate":"persentase komisi"
+,"table_layui_paging_goto":"kembali ke "
+,"table_layui_paging_page":"Halaman"
+,"table_layui_paging_total":"Total "
+,"table_layui_paging_item":" Artikel"
+,"table_layui_paging_page_size":" Artikel / Halaman"
+,"table_layui_data_null":"Tidak ada data"
+,"table_layui_data_request":"Loading"
+
+,"msg_withdraw_success":"Permintaan penarikan Anda telah diterima oleh sistem. Staf kami akan menanganinya sesegera mungkin. Harap tunggu dengan sabar. Dana biasanya akan ditransfer ke rekening bank Anda yang terdaftar dalam 2 hari kerja.          "
+,"msg_withdraw_error":"Permintaan penarikan Anda telah diterima oleh sistem. Staf kami akan menanganinya sesegera mungkin. Harap tunggu dengan sabar. Dana biasanya akan ditransfer ke rekening bank Anda yang terdaftar dalam 3-5 hari kerja.          "
+,"msg_retry":"Retry"
+,"msg_ing":"Sedang Diproses"
+,"msg_cancel_success":"Dibatalkan"
+,"btn_reset_email_retry":"Kirim ulang"
+,"dialog_title_reset":"Mengubah kata sandi"
+,"dialog_account_details":"Informasi Akun"
+,"dialog_transfer_confirm":"OK pesanan transfer"
+,"dialog_transfer_details":"Detail catatan Transfer"
+,"dialog_withdraw_confirm":"OK pesanan penarikan"
+,"dialog_xx_details":"Details"
+,"dialog_rebate_details":"Rincian pengembalian bonus saldo"
+
+,"dialog_bonus_details":"客户经理提成明细"
+,"dialog_bonus_details_department":"客户总监提成明细"
+
+,"alert_content_submit_success":"Pengajuan Sukses"
+,"alert_content_withdraw_cancel":"Jika Anda ingin melakukan pembatalkan penarikan, silakan klik di sini "
+,"table_total_text":"Total"
+,"alert_title_info":"Informasi"
+,"tips_copy_success":"Sukses disalin"
+,"dropdown_choose_city":"Silakan pilih daerah/ area"
+
+,"menu_member_account":"Akun saya"
+,"menu_member_account_list":"Daftar Akun"
+,"menu_member_account_create":"Buat akun baru"
+,"menu_member_account_modify_lev":"Mengatur  Leverage"
+,"menu_member_account_balance_flush":"Hapus saldo menjadi nol"
+
+,"menu_member_transaction":"Dana trading"
+,"menu_member_transaction_deposit":"Penyetoran Akun"
+,"menu_member_transaction_withdraw":"Penarikan dari Akun "
+,"menu_member_transaction_transfer":"Transfer ke akun lainnya"
+
+,"menu_member_funds":"Informasi dana"
+,"menu_member_funds_fundsrecord":"Pencatatan Dana"
+,"menu_member_funds_deposit":"Catatan Penyetoran dan penarikan"
+,"menu_member_funds_transfer":"Pencatatan transfer"
+,"menu_member_funds_blanceflush":"Rekam keseimbangan yang jelas"
+
+,"menu_member_user":"Informasi pelanggan"
+,"menu_member_user_userinfo":"Informasi pribadi"
+,"menu_member_user_bankinfo":"Informasi bank"
+,"menu_member_user_telinfo":"Informasi Telegraphic Transfer"
+,"menu_member_user_workinfo":"Informasi Investor"
+
+,"menu_ib_account":"Akun saya"
+,"menu_ib_account_list":"Daftar Akun"
+,"menu_ib_account_append":"Buat akun baru"
+,"menu_ib_account_info":"Data pribadi"
+
+,"menu_ib_funds":"Dana saya"
+,"menu_ib_funds_withdraw":"Penarikan"
+,"menu_ib_funds_transfer":"Transfer ke akun lainnya"
+,"menu_ib_funds_balance":"komisi dari saldo"
+,"menu_ib_funds_fundsrecord":"Pencatatan Dana"
+,"menu_ib_funds_withdraw_record":"Pencatatan penarikan"
+,"menu_ib_funds_transfer_record":"Pencatatan transfer"
+,"menu_ib_funds_balance_record":"Catatan komisi dari saldo"
+,"menu_ib_client":"Klien saya"
+,"menu_ib_client_list":"Informasi pelanggan"
+,"menu_ib_rebates":"Komisi saya"
+,"menu_ib_rebates_trade":"Catatan  komisi trading"
+,"menu_ib_rebates_balance":"Catatan  bonus saldo"
+,"menu_ib_invite":"Link pembukaan akun"
+
+,"menu_sale_customer":"Informasi pelanggan"
+,"menu_sale_customer_list":"Daftar Pelanggan"
+,"menu_sale_ib":"Informasi Agen"
+,"menu_sale_ib_list":"Daftar agen"
+,"menu_sale_rebate":"Informasi komisi sales dan bonus"
+,"menu_sale_rebate_trade":"Catatan  komisi trading"
+,"menu_sale_rebate_balance":"Catatan  bonus saldo"
+,"menu_sale_bonus":"Informasi komisi sales"
+,"menu_sale_bonus_list":"Daftar komisi sales"
+,"menu_sale_userinfo":"Informasi User"
+,"menu_sale_invitation":"Pengelolaan invitasi Link"
+
+,"layui_data_api_err":"interface data anomali "
+
+,"================================喻英芝":"新增国际化 start-------------------------------"
+,"table_buy_amount":"Total lot dari  holding positions"
+,"table_sell_amount":"Total lot dari close positions"
+,"table_amount_01":"Rebate(USD)"
+,"table_amount_04":"komisi(USD)"
+,"table_year_month":"Year/Month"
+,"table_amount_6":"Tunjangan(USD)"
+,"form_text_year_month": "Year/Month"
+,"page_rebate_benefit_title":"tunjangan managemen"
+,"table_account_no_next":"akun level bawah"
+, "table_balance_3":"saldo (USD)"
+,"table_balance_date":"tanggal komisi"
+,"table_trade_number":"Trading lots"
+,"table_referral":"Nama rujukan"
+,"form_referral":"Nama rujukan"
+
+,"table_date":"tanggal"
+,"table_sales_account_no":"nomor akun sales"
+,"table_sales_name":"nama sales"
+,"table_sales_type":"tipe sales"
+,"table_sales_amount":"komisi sales"
+,"table_sales_benefit":"saldo rebate"
+,"dialog_benefit_detail":"detail tunjangan"
+,"dialog_bonus_details_2":"detail komisi sales"
+, "table_rate_rebate":"rasio komisi trading "
+,"form_text_cutomer_type":"nasabah langsung"
+,"form_text_cutomer_type_no":"nasabah tidak langsung"
+,"================================喻英芝":"新增国际化 end-------------------------------"
+
+
+
+,"================================宋志涛":"新增国际化 start-------------------------------",
+  "page_idr_deposit_dh_msg_txt1":"1. setiap kali setoran kurang dari USD [deposit_min_limit], mohon isi jumlah dalam Rupiah,  kami akan transfer ke dalam bentuk USD secara automatis, berdasarkan nilai tukar pada hari ini",
+
+  "form_text_invite_": "（isi kode invitasi, jika tidak ada, silahkan kosongkan ）",
+  "page_transaction_deposit_dh_msg_h3_idr":"petunjuk cara melakukan setoran T/T (IDR):",
+  "page_transaction_deposit_dh_msg_txt1_2_idr":"USD, silahkan masukan jumlah dalam bentuk rupiah, kami akan transfer ke dalam USD secara automatis kepada anda berdasarkan nilai tukar pada hari ini",
+  "page_transaction_deposit_dh_msg_h3_usd":"petunjuk cara melakukan setoran T/T (USD):",
+  "form_label_application_amount_idr": "Jumlah Aplikasi (IDR)",
+  "page_transaction_withdraw_dh_msg_txt1":"1. agar penarikan berhasil, mohon isi informasi data bank dengan benar, contoh, akun T/T. isi dengan bahasa inggris atau  angka.",
+  "page_transaction_withdraw_dh_msg_txt4":"4.mohon isi jumlah aplikasi (usd), kami akan transfer ke dalam rupiash secara automatis berdasarkan nilai tukar hari ini (IDR)",
+  "page_transaction_withdraw_dh_msg_h3_idr":"petunjuk cara melakukan penarikan T/T (IDR)：",
+  "page_transaction_withdraw_dh_msg_h3_usd":"petunjuk cara melakukan penarikan T/T (USD)：",
+  "menu_member_lower_level_management": "management level bawah",
+  "menu_member_rebate":"komisi/rebate saya",
+  "menu_member_rebate_trade":"catatan komisi",
+  "menu_member_rebate_balance":"catatan rebate",
+
+  "table_serial_number": "Nomor",
+  "table_account_number": "akun",
+  "table_currency": "kurs",
+  "table_lower_level_account": "akun level bawah",
+  "table_lower_level_name": "nama level bawah",
+
+  "open_confirm_delete_tt": "konfirmasi untuk menghapus informasi T/T",
+
+  "button_add_to": "tambah",
+
+  "form_text_superior_account": "akun level atas",
+  "form_text_superior_name": "nama level atas",
+
+  "title_my_lower_level": "tingkatan saya",
+
+  "tt_detail_idr_title": "Info penerima T / T (IDR)",
+  "tt_detail_usd_title": "Info penerima T / T (USD)",
+  "================================宋志涛":"新增国际化 end------------------------------"
+
+
+
+,"================================新注册流程":"新注册流程 start-------------------------------"
+,"form_user_name":"Nama Lengkap"
+,"form_UserBirthPlace":"Tempat"
+,"form_birth_date":"Tgl Lahir"
+,"form_user_identity_number":"No. Identitas"
+,"form_user_investment_experience":"Pengalaman Investasi"
+,"form_user_account_purpose":"Tuj. Buka Rekening"
+,"form_user_npwp_flag":"NPWP"
+,"form_user_gender":"Jenis Kelamin"
+,"form_user_marital_status":"Status Perkawinan"
+,"form_user_spouse":"Nama Suami/Istri"
+,"form_user_have_family_in":"Memiliki anggota keluarga yang bekerja di BAPPEBTI/Bursa Berjangka/Kliring Berjangka?"
+,"form_user_bankruptcy":"Apakah anda telah dinyatakan pailit oleh pengadilan?"
+,"form_user_emergency_contact_relationship":"Hubungan"
+,"form_user_emergency_contact_address":"Alamat Rumah"
+,"form_user_emergency_contact_zip_code":"Kode Pos"
+,"form_user_work_work":"Pekerjaan"
+,"form_user_work_company_name":"Nama Perusahaan"
+,"form_user_work_line_of_business":"Bidang Usaha"
+,"form_user_work_position":"Jabatan"
+,"form_user_work_working_period":"Lama Bekerja(years)"
+,"form_user_work_ex_working_period":"Di Kantor Sebelumnya(years)"
+,"form_user_work_office_address":"Alamat"
+,"form_user_work_zip_code":"Kode Pos"
+,"form_user_work_phone_number":"Telepon Kantor"
+,"form_user_work_facsimile_number":"Fax kantor"
+,"form_user_list_of_asset_income_per_year_id":"Penghasilan Per Tahun"
+,"form_user_list_of_asset_home_location":"Rumah Lokasi"
+,"form_user_list_of_asset_value_svto":"Nilai NJOP"
+,"form_user_list_of_asset_bank_deposits":"Deposit Bank"
+,"form_user_list_of_asset_total":"Jumlah"
+,"form_user_list_of_asset_other":"Lainnya"
+,"form_user_bank_name":"Nama Bank"
+,"form_user_bank_branch":"Cabang"
+,"form_user_bank_phone_number":"Nomor Telepon"
+,"form_user_bank_account_number":"Nomor Account"
+,"form_user_bank_account_type":"Jenis Tabungan"
+,"form_user_bank_account_name":"Atas Nama"
+,"form_user_bank_swift_code":"Swift Code"
+,"form_user_info":"DATA PRIBADI"
+,"form_user_emergency_contact_info":"PIHAK YANG DIHUBUNGI DALAM KEADAAN DARURAT"
+,"form_user_work_info":"PEKERJAAN"
+,"form_user_list_asset_info":"Daftar Kekayaan"
+,"form_user_bank_info":"Bank"
+,"button_back":"Back"
+,"button_save":"Save"
+,"form_user_mother":"Nama Ibu Kandung"
+,"form_user_home_ownership":"Status Rumah"
+,"form_user_home_fax_number":"No. Faksimili Rumah "
+,"form_handphone_number":"No. Handphone"
+,"form_house_number":"No. Telp Rumah"
+,"validate_spouse_name":"Nama suami/istri wajib di sini"
+,"page_real_account_type_title":"Pilih tipe akun "
+,"validate_tax_number":"mohon masukan nomor NPWP"
+,"form_photos_title":"Attachment "
+,"form_recent_photo":"Pas foto terbaru"
+,"form_account_others":"Cover depan buku tabungan yang terdapat Nama dan Nomor Rekening/NPWP"
+,"form_document":"Dokumen Tambahan"
+,"form_country_name":"Kebangsaan"
+,"form_have_family_in":"Memiliki anggota keluarga yang bekerja di BAPPEBTI/Bursa Berjangka/Kliring Berjangka?"
+,"form_have_family_in2":"Apakah anda telah dinyatakan pailit oleh pengadilan? "
+
+  ,"form_photos_required":"JPG atau PNG tipe file, setiap file tidak melebihi 2M."
+,"form_bill_photo":"Upload buku rekening bank"
+  ,"form_select":"Silahkan pilih"
+,"form_user_work_fax_number":"Nomor Faximile"
+,"================================新注册流程":"新注册流程 end-------------------------------"
+
+, "===================2018-05-18-v0.2==============------------------":""
+
+,"page_register_submit_succ_msg":"Pengajuan berhasil, silahkan periksa email untuk aktivasi akun"
+,"page_register_active_succ_msg":"Selamat! Aktivasi akun berhasil, silahkan login akun "
+,"page_register_active_err_msg":"Gagal diaktifkan"
+,"page_register_active_succ_goto":"Mohon tunggu beberapa saat untuk login"
+,"page_real_account_list_title":"Buka akun"
+,"table_source_real_account_date":"Waktu pengajuan"
+,"table_source_real_account_state":"Status"
+,"real_account_apply_btn":"Pengajuan pembukaan rekening transaksi"
+,"validate_investment_experience":"Pengalaman investasi wajib di isi"
+,"validate_occupation":"Informasi pekerjaan wajib di isi"
+,"validate_place":"Tempat lahir wajib di isi"
+,"form_title_customer_bank":"Informasi bank nasabah"
+,"form_title_company_bank":"Informasi bank perusahaan "
+,"validate_bank_name_chose": "Pilih Bank "
+,"validate_bank_name_account_chose": "Pilih nomor rekening"
+,"validate_bank_name_account_name": "Nama pemilik rekening"
+,"validate_bank_name_account_swift": "Swift Code"
+,"demo_accounts_title":"Akun demo"
+,"real_accounts_title":"Akun transaksi"
+,"real_accounts_type":"Tipe"
+,"dialog_account_history":"Riwayat transaksi"
+,"validate_full_name_not_null":"Nama lengkap tidak boleh kosong."
+,"validate_country_code":"Kode negara harus menggunakan angka"
+,"validate_services_years":"Periode kerja harus berupa angka dan dapat berupa desimal"
+,"validate_previous_services_years":"Periode kerja sebelumnya harus berupa angka dan dapat berupa desimal"
+,"validate_country_code_not_null":"Silakan memilih kode Negara"
+,"validate_bank_mobile_not_null":"Silakan masukan nomor HP"
+,"validate_bank_mobile_is_number":"Nomor HP harus berupa angka"
+,"validate_given_name_format_error": "Nama harus berisi 1-50 huruf, Case Sensitive"
+,"validate_office_telephone":"Silakan masukan nomor Telepon Kantor"
+,"validate_user_work_facsimile_number":"Silakan masukan nomor Fax Kantor"
+,"validate_user_account_purpose":"Silakan masukan tujuan pembukaan akun"
+,"validate_tax_number_regular":"NPWP harus berupa Angka"
+,"validate_recent_photo":"Silakan upload foto terbaru"
+,"validate_identity_photo":"Silakan upload foto KTP/Paspor/SIM"
+,"validate_bill_photo":"Silakan upload Rekening Koran/Tagihan Kartu Kredit/Telepon/NPWP"
+,"validate_select_rate":"Silakan memilih nilai tukar"
+,"validate_select_leverage":"Silakan memilih Leverage"
+,"validate_mobile_numble":"Nomor telepon wajib diisi"
+,"validate_previous_services_years_max":"Periode kerja tidak boleh lebih dari 100"
+,"validate_house_ownership":"please enter house ownership"
+,"menu_real_accounts":"Pembukaan Akun"
+,"validate_user_work_facsimile_is_number":"Nomor Fax harus berupa Angka"
+,"form_confirm_succee_tips_ok":"Permintaan pembukaan Akun Sukses, mohon menunggu untuk persetujuan"
+,"form_confirm_succee_tips_failed":"Permintaan pembukaan Akun Gagal, Silahkan mengajukan kembali!"
+,"validate_identity_style":"Identitas harus dikombinasikan dengan angka dan/atau huruf alphabet"
+,"validate_time_deposit":"mohon masukan jumlah deposit sebenarnya"
+,"validate_wealth_total":"mohon masukan total jumlah aset"
+,"validate_wealth_total_regular":"total jumlah aset harus berupa angka positif atau angka nol"
+,"validate_house_tax_value":"mohon masukan nilai jual objek pajak"
+,"validate_house_tax_value_regular":"Nilai jual objek pajak harus berupa angka positif atau angka nol"
+,"validate_time_deposit_regular":"Nilai deposit harus berupa angka positif atau angka nol"
+,"validate_wealth_others":"mohon masukan jumlah aset lainnya"
+,"validate_wealth_others_regular":"Nilai aset lainnya harus berupa angka positif atau angka nol"
+,"location_of_house":"Masukan alamat properti"
+,"nationality_not_null":"Kolom warga negara wajib terisi"
+,"identity_type_not_null":"kolom tipe identitas wajib terisi"
+,"investment_experience_select":"mohon pilih apakah anda mempunyai pengalaman dalam berinvestasi"
+,"marital_status_select":"mohon pilih status pernikahan anda"
+,"mother_maiden_name":"mohon masukan nama ibu kandung anda"
+,"home_address":"mohon masukan alamat domisili anda"
+,"ec_full_name":"mohon masukan nama orang yang dapat dihubungi dalam keadaan darurat"
+,"ec_relation_ship":"mohon jelaskan hubungan anda dengan orang yang dapat dihubungi dalam keadaan darurat"
+,"ec_home_address":"mohon masukan alamat domisili orang yang dapat dihubungi dalam keadaan darurat"
+,"annual":"mohon memilih kirsaran pendapatan tahunan anda"
+,"validate_zip_format_number": "Kode pos harus berupa angka"
+,"validate_bank_name_account_swift_number": "Kode Swift harus berupa angka"
+,"validate_money_regular":"Aset tidak boleh melebihi 18 angka"
+,"validate_required_empty":"Wajib di isi, tidak boleh kosong"
+,"tips_no_info_yet":"Untuk sementara tidak ada informasi tersedia"
+,"validate_phone_is_number":"Nomor Telepone harus berupa angka digit"
+,"validate_wealth_other_regular":"Jumlah aset harus bukan berupa angka negatif"
+,"sales_demo":"Sales Demo"
+
+
+,"upload_img_suffix_not_contain":"选择的图片中包含不支持的格式"
+,"upload_img_size_max":"文件不能超过2MB"
+,"upload_img_interface_error":"请求上传接口出现异常"
+,"upload_img_response_error":"获取上传后的响应信息出现异常"
+,"validate_other_account_type":"请输入其他帐户类型"
+,"real_account_info":"Info"
+,"form_text_MT4_acc_no":"MT4账号"
+,"form_label_bank_type":"Jenis Tabungan"
+,"select": {
+  "common":{
+    "address": {
+      "countries": [
+        ["CN", "China"],
+        ["AO", "Angola"],
+        ["AF", "Afghanistan"],
+        ["AL", "Albania"],
+        ["DZ", "Aljazair"],
+        ["AD", "Republik Andorra"],
+        ["AI", "Anguilla"],
+        ["AG", "Antigua and Barbuda"],
+        ["AR", "Argentina"],
+        ["AM", "Armenia"],
+        ["AU", "Australia"],
+        ["AT", "Austria"],
+        ["AZ", "Azerbaijan"],
+        ["BS", "Bahama"],
+        ["BH", "Bahrain"],
+        ["BD", "Bangladesh"],
+        ["BB", "Barbados"],
+        ["BY", "Belarus"],
+        ["BE", "Belgia"],
+        ["BZ", "Belize"],
+        ["BJ", "Benin"],
+        ["BM", "Kepulauan Bermuda"],
+        ["BO", "Bolivia"],
+        ["BW", "Botswana"],
+        ["BR", "Brasil"],
+        ["BN", "Brunei"],
+        ["BG", "Bulgaria"],
+        ["BF", "Burkina Faso"],
+        ["MM", "Burma"],
+        ["BI", "Burundi"],
+        ["CM", "Kamerun"],
+        ["CA", "Kanada"],
+        ["CF", "Republik Afrika Tengah"],
+        ["TD", "Chad"],
+        ["CL", "Chile"],
+        ["CO", "Kolombia"],
+        ["CG", "Kongo"],
+        ["CK", "Kepulauan Cook"],
+        ["CR", "Kosta Rika"],
+        ["CU", "Kuba"],
+        ["CY", "Cyprus"],
+        ["CZ", "Republik Ceko"],
+        ["DK", "Denmark"],
+        ["DJ", "Djibouti"],
+        ["DO", "Republik Dominika"],
+        ["EC", "Ekuador"],
+        ["EG", "Mesir"],
+        ["SV", "El Salvador"],
+        ["EE", "Estonia"],
+        ["ET", "Ethiopia"],
+        ["FJ", "Fiji"],
+        ["FI", "Finlandia"],
+        ["FR", "Prancis"],
+        ["GF", "Guyana Prancis"],
+        ["GA", "Gabon"],
+        ["GM", "Gambia"],
+        ["GE", "Georgia"],
+        ["DE", "Jerman"],
+        ["GH", "Ghana"],
+        ["GI", "Gibraltar"],
+        ["GR", "Yunani"],
+        ["GD", "Grenada"],
+        ["GU", "Guam"],
+        ["GT", "Guatemala"],
+        ["GN", "Guinea"],
+        ["GY", "Guyana"],
+        ["HT", "Haiti"],
+        ["HN", "Honduras"],
+        ["HK", "Hong Kong"],
+        ["HU", "Hungaria"],
+        ["IS", "Islandia"],
+        ["IN", "India"],
+        ["ID", "Indonesia"],
+        ["IR", "Iran"],
+        ["IQ", "Irak"],
+        ["IE", "Irlandia"],
+        ["IL", "Israel"],
+        ["IT", "Italia"],
+        ["JM", "Jamaika"],
+        ["JP", "Jepang"],
+        ["JO", "Jordan"],
+        ["KH", "Kamboja"],
+        ["KZ", "Kazakhstan"],
+        ["KE", "Kenya"],
+        ["KR", "Korea Selatan"],
+        ["KW", "Kuwait"],
+        ["KG", "Kyrgyzstan"],
+        ["LA", "Laos"],
+        ["LV", "Latvia"],
+        ["LB", "Lebanon"],
+        ["LS", "Lesotho"],
+        ["LR", "Liberia"],
+        ["LY", "Libya"],
+        ["LI", "Liechtenstein"],
+        ["LT", "Lituania"],
+        ["LU", "Luksemburg"],
+        ["MO", "Macao"],
+        ["MG", "Madagascar"],
+        ["MW", "Malawi"],
+        ["MY", "Malaysia"],
+        ["MV", "Maldives"],
+        ["ML", "Mali"],
+        ["MT", "Malta"],
+        ["MU", "Mauritius"],
+        ["MX", "Meksiko"],
+        ["MD", "Moldova"],
+        ["MC", "Monaco"],
+        ["MN", "Mongolia"],
+        ["MS", "Montserrat"],
+        ["MA", "Maroko"],
+        ["MZ", "Mozambik"],
+        ["NA", "Namibia"],
+        ["NR", "Nauru"],
+        ["NP", "Nepal"],
+        ["NL", "Belanda"],
+        ["NZ", "Selandia Baru"],
+        ["NI", "Nikaragua"],
+        ["NE", "Niger"],
+        ["NG", "Nigeria"],
+        ["KP", "Korea Utara"],
+        ["NO", "Norwegia"],
+        ["OM", "Oman"],
+        ["PK", "Pakistan"],
+        ["PA", "Panama"],
+        ["PG", "Papua New Guinea"],
+        ["PY", "Paraguay"],
+        ["PE", "Peru"],
+        ["PH", "Filipina"],
+        ["PL", "Polandia"],
+        ["PF", "Polinesia Prancis"],
+        ["PT", "Portugal"],
+        ["PR", "Puerto Rico"],
+        ["QA", "Qatar"],
+        ["RO", "Romania"],
+        ["RU", "Rusia"],
+        ["LC", "Saint Lucia"],
+        ["VC", "Pulau Saint Vincent"],
+        ["SM", "San Marino"],
+        ["ST", "Sao Tome and Principe"],
+        ["SA", "Arab Saudi"],
+        ["SN", "Senegal"],
+        ["SC", "Seychelles"],
+        ["SL", "Sierra Leone"],
+        ["SG", "Singapura"],
+        ["SK", "Slovakia"],
+        ["SI", "Slovenia"],
+        ["SB", "Kepulauan Solomon"],
+        ["SO", "Somalia"],
+        ["ZA", "Afrika Selatan"],
+        ["ES", "Spanyol"],
+        ["LK", "Sri Lanka"],
+        ["SD", "Sudan"],
+        ["SR", "Suriname"],
+        ["SZ", "Swaziland"],
+        ["SE", "Swedia"],
+        ["CH", "Swiss"],
+        ["SY", "Syria"],
+        ["TW", "Provinsi Taiwan"],
+        ["TJ", "Tajikistan"],
+        ["TZ", "Tanzania"],
+        ["TH", "Thailand"],
+        ["TG", "Togo"],
+        ["TO", "Tonga"],
+        ["TT", "Trinidad dan Tobago"],
+        ["TN", "Tunisia"],
+        ["TR", "Turki"],
+        ["TM", "Turkmenistan"],
+        ["UG", "Uganda"],
+        ["UA", "Ukraina"],
+        ["AE", "Uni Emirat Arab"],
+        ["GB", "Kerajaan Inggris"],
+        ["US", "Amerika Serikat"],
+        ["UY", "Uruguay"],
+        ["UZ", "Uzbekistan"],
+        ["VE", "Venezuela"],
+        ["VN", "Vietnam"],
+        ["YE", "Yaman"],
+        ["YU", "Yugoslavia"],
+        ["ZW", "Zimbabwe"],
+        ["ZR", "Zaire"],
+        ["ZM", "Zambia"]
+      ]
+    }
+  },
+  "member":{
+    "real_account":{
+      "state":[
+        {"value": 1, "label": "Waiting"},
+        {"value": 2, "label": "Confirm"},
+        {"value": 3, "label": "Approved"},
+        {"value": 4, "label": "Processed"},
+        {"value": 5, "label": "Rejected"}
+      ]
+
+    },
+    "account": {
+      "account_type": [
+        {"value": 1, "label": "STANDARD"},
+        {"value": 2, "label": "MINI"},
+        {"value": 3, "label": "STANDARD"},
+        {"value": 4, "label": "MINI"},
+        {"value": 5, "label": "MINI"},
+        {"value": 6, "label": "MINI"},
+        {"value": 9, "label": "Akun Demo"},
+        {"value": 10, "label": "Sales Demo"}
+      ],
+      "account_type_map": {
+        "1": {"value": 1, "label": "Akun standar"}
+      },
+      "state": [
+        {"value": 1, "label": "Normal"},
+        {"value": 50, "label": "Read Only "},
+        {"value": 51, "label": "Ditangguhkan"}
+      ]
+    },
+    "register": {
+      "identity_type": [
+        {"value": 1, "label": "KTP"},
+        {"value": 2, "label": "SIM"},
+        {"value": 3, "label": "Passport"}
+      ],
+      "identity_type_map": {
+        "1": {"value": 1, "label": "KTP"},
+        "2": {"value": 2, "label": "SIM"},
+        "3": {"value": 3, "label": "Passport"}
+      },
+      "open_account_type": [
+        {"value": 1, "label": "STANDARD"},
+        {"value": 2, "label": "MINI"}
+      ],
+      "open_account_type_map": {
+        "1": "STANDARD",
+        "2": "MINI"
+      },
+      "demo_account_type": [
+        {"value": 1, "label": "STANDARD"},
+        {"value": 2, "label": "MINI"}
+      ],
+      "demo_account_state": [
+        {"value": 1, "label": "Processed"}
+      ],
+      "open_rate": [
+        {"value": 1, "label": "Floating Rate"},
+        {"value": 2, "label": "IDR 10,000"},
+        {"value": 3, "label": "IDR 12,000"}
+      ],
+      "open_rate_map": {
+        "1": "Floating Rate",
+        "2": "IDR 10,000",
+        "3": "IDR 12,000"
+      },
+      "gender": [
+        {"value": 1, "label": "Laki-Laki"},
+        {"value": 2, "label": "Perempuan"}
+      ],
+      "account_type": [
+        {"value": 1, "label": "Akun standar"}
+      ],
+      "leverage": [
+        {"value": 100, "label": "1:100"},
+        {"value": 200, "label": "1:200"},
+        {"value": 400, "label": "1:400"}
+      ],
+      "leverage_map": {
+        "100": "1:100",
+        "200": "1:200",
+        "400": "1:400"
+      },
+      "job": [
+        {"value": 1, "label": "Karyawan"},
+        {"value": 2, "label": "Wiraswasta"},
+        {"value": 3, "label": "pensiun"},
+        {"value": 4, "label": "Tidak bekerja"},
+        {"value": 5, "label": "Pelajar"},
+        {"value": 6, "label": "Ibu Rumah Tangga"}
+      ],
+      "capital_source": [
+        {"value": 1, "label": "Tidak ada sumber pendanaan"},
+        {"value": 2, "label": "Tabungan"},
+        {"value": 3, "label": "Dana Pensiun"},
+        {"value": 4, "label": "Bantuan pemerintah"},
+        {"value": 5, "label": "hadiah"},
+        {"value": 6, "label": "Warisan "},
+        {"value": 7, "label": "Penjualan Aset"},
+        {"value": 8, "label": "Keuntungan Investasi"}
+      ],
+      "annual_income": [
+        {"value": 0, "label": "Antara 100-250 juta"},
+        {"value": 1, "label": "Antara 250-500 juta"},
+        {"value": 2, "label": "Di atas 500 juta"}
+      ],
+      "total_asset": [
+        {"value": 1, "label": "Kurang dari $25,000"},
+        {"value": 2, "label": "$25,000-$49,999"},
+        {"value": 3, "label": "$50,000-$99,999"},
+        {"value": 4, "label": "$100,000-$249,999"},
+        {"value": 5, "label": "$250,000-$999,999"},
+        {"value": 6, "label": "Lebih besar dari $1,000,000"}
+
+      ],
+      "experience": [
+        {"value": 1, "label": "Ya"},
+        {"value": 2, "label": "Tidak"}
+      ],
+      "assess_risk": [
+        {"value": 1, "label": "Ya"},
+        {"value": 2, "label": "Tidak"}
+      ],
+      "professional": [
+        {"value": 1, "label": "Ya"},
+        {"value": 2, "label": "Tidak"}
+      ],
+      "purpose_of_account_opening":[
+        {"value":0,"label":"Gain"},
+        {"value":1,"label":"Lindung Nilai"},
+        {"value":2,"label":"Spekulasi"},
+        {"value":3,"label":"Lainnya"}
+      ],
+      "is_exist_personal_tax_number": [
+        {"value": 1, "label": "Tidak"},
+        {"value": 2, "label": "Ada"}
+      ],
+      "bank_account_type":[
+        {"value":0,"label":"Giro"},
+        {"value":1,"label":"Tabungan"},
+        {"value":2,"label":"Lainnya"}
+      ],
+      "occupation":[
+        {"value":0,"label":"Swasta"},
+        {"value":1,"label":"Wiraswasta"},
+        {"value":2,"label":"Ibu Rumah Tangga"},
+        {"value":3,"label":"Profesional"},
+        {"value":4,"label":"Pegawai Negeri"},
+        {"value":5,"label":"Mahasiswa"},
+        {"value":6,"label":"Lainnya"}
+      ],
+      "marital_status":[
+        {"value":0,"label":"Tidak Kawin"},
+        {"value":1,"label":"Kawin"},
+        {"value":2,"label":"Janda"},
+        {"value":3,"label":"Duda"}
+      ],
+      "house_ownership":[
+        {"value":0,"label":"Pribadi"},
+        {"value":1,"label":"Keluarga"},
+        {"value":2,"label":"Sewa/Kontrak"},
+        {"value":3,"label":"Lainnya"}
+      ]
+    },
+    "funds": {
+      "funds_type": [
+        {"value": 41, "label": "Penyetoran-Telegraphic Transfer-IDR"},
+        {"value": 40, "label": "Penyetoran-Telegraphic Transfer-USD"},
+        {"value": 10, "label": "Penyetoran-penarikan ditolak"},
+        {"value": 1021, "label": "Penarikan-Telegraphic Transfer-IDR"},
+        {"value": 1020, "label": "Penarikan-Telegraphic Transfer-USD"},
+        {"value": 8, "label": "Komisi Transaksi"},
+        {"value": 201, "label": "Rebate"}
+      ],
+      "in_out_type": [
+        {"value":1,"label":"Penarikan"},
+        {"value":2,"label":"Penyetoran"},
+        {"value":0,"label":"Penyetoran dan Penarikan"}
+      ],
+
+      "channel_type": [
+        {"value": 41, "label": "Penyetoran-Telegraphic Transfer-IDR"},
+        {"value": 40, "label": "Penyetoran-Telegraphic Transfer-USD"},
+        {"value": 1021, "label": "Penarikan-Telegraphic Transfer-IDR"},
+        {"value": 1020, "label": "Penarikan-Telegraphic Transfer-USD"}
+      ],
+
+      "order_state":[
+        {"value": 1000, "label": "Sedang Diproses"},
+        {"value": 201, "label": "Diabaikan"},
+        {"value": 202, "label": "Dikembalikan"},
+        {"value": 203, "label": "Dibatalkan"},
+        {"value": 204, "label": "Selesai"}
+      ],
+      "transfer_order_state":[
+        {"value": 1000, "label": "Sedang Diproses"},
+        {"value": 201, "label": "Diabaikan"},
+        {"value": 203, "label": "Dibatalkan"},
+        {"value": 204, "label": "Selesai"}
+      ],
+      "balance_flush_order_state":[
+        {"value": 1000, "label": "Sedang Diproses"},
+        {"value": 201, "label": "Diabaikan"},
+        {"value": 204, "label": "Selesai"}
+      ],
+      "mt4_transfer_type": [
+        {"value": 1, "label": "Beli"},
+        {"value": 2, "label": "Jual"}
+      ],
+      "currency_type": [
+        {"value": 2, "label": "IDR"},
+        {"value": 1, "label": "USD"}
+      ]
+    }
+  },
+  "ib":{
+    "register": {
+      "gender": [
+        {"value": 1, "label": "Laki-Laki"},
+        {"value": 2, "label": "Perempuan"}
+      ],
+      "identity_type": [
+        {"value": 1, "label": "KTP"},
+        {"value": 3, "label": "Passport"
+        }
+      ],
+      "account_type": [
+        {"value": 1, "label": "Akun standar"
+        },
+        {"value": 3, "label": "Akun ECN"
+        }
+      ],
+      "account_type_map": {
+        "1": {"value": 1, "label": "Akun standar"},
+        "3": {"value": 3, "label": "Akun ECN"}
+      },
+      "state": [
+        {"value": 1, "label": "Normal"},
+        {"value": 50, "label": "Read Only "},
+        {"value": 51, "label": "Ditangguhkan"}
+      ]
+    },
+    "funds": {
+      "funds_type": [
+        {"value": 6, "label": "Transfer - Dana Masuk "},
+        {"value": 8, "label": "Komisi Transaksi"},
+        {"value": 9, "label": "Bonus Dari Saldo"},
+        {"value": 10, "label": "Penyetoran -penarikan ditolak"},
+        {"value": 101, "label": "penarikan - kartu bank"},
+        {"value": 102, "label": "Penarikan - Telegraphic Transfer "},
+        { "value": 103, "label": "Transfer - Dana Keluar "}
+
+      ],
+      "withdraw_funds_type": [
+        {"value": 101, "label": "penarikan - kartu bank"},
+        {"value": 102, "label": "Penarikan - Telegraphic Transfer "}
+      ],
+
+      "out_channel_type": [
+        {"value": 101, "label": "penarikan - kartu bank"},
+        {"value": 102, "label": "Penarikan - Telegraphic Transfer "},
+        {"value": 103, "label": "Penarikan - Online transfer"}
+      ],
+
+      "order_state": [
+        {"value": 1000, "label": "Sedang Diproses"},
+        {"value": 201, "label": "Diabaikan"},
+        {"value": 202, "label": "Dikembalikan"},
+        {"value": 203, "label": "Dibatalkan"},
+        {"value": 204, "label": "Selesai"}
+      ],
+
+      "transfer_order_state": [
+        {"value": 1000, "label": "Sedang Diproses"},
+        {"value": 201, "label": "Diabaikan"},
+        {"value": 203, "label": "Dibatalkan"},
+        {"value": 204, "label": "Selesai"}
+      ]
+    },
+    "transaction": {
+      "type": [
+        {"value": 0, "label": "Beli"},
+        {"value": 1, "label": "Jual"}
+      ],
+      "symbol": [
+        {"value": 1, "label": "xauusd"},
+        {"value": 2, "label": "audusd"}
+      ]
+    }
+
+  },
+  "sale":{
+    "invite_type":[
+      {"value": 1, "label": "Link Undangan Untuk Registrasi Nasabah"},
+      {"value": 2, "label": "Link Undangan Untuk Registrasi Agen"}
+    ],
+
+    "position":[
+      {"value" : 1,"label": "Team Manager"},
+      {"value" : 2,"label": "Team Leader"},
+      {"value" : 3,"label": "Customer Manager"}
+    ],
+
+    "order_state":[
+      {"value": 1, "label": "Menunggu Pembayaran "},
+      {"value": 2, "label": "Menunggu Persetujuan "},
+      {"value": 3, "label": "Menunggu konfirmasi "},
+      {"value": 4, "label": "Menunggu pemerosesan sistem"},
+      {"value": 5, "label": "Menunggu Proses bank"},
+      {"value": 6, "label": "Menunggu Proses Komisi "},
+      {"value": 7, "label": "Menunggu Informasi Saldo"},
+      {"value": 101, "label": "Proses sistem gagal"},
+      {"value": 102, "label": "Gagal Mendapatkan Informasi Saldo"},
+      {"value": 201, "label": "Diabaikan"},
+      {"value": 202, "label": "Dikembalikan"},
+      {"value": 203, "label": "Dibatalkan"},
+      {"value": 204, "label": "Selesai"},
+      {"value": 205, "label": "Pembayaran gagal"}
+    ],
+    "funds_type": [
+      {"value": 1, "label": "Penyetoran- kartu bank"},
+      {"value": 2, "label": "Penyetoran-Pembayaran WeChat"},
+      {"value": 4, "label": "Penyetoran-Telegraphic Transfer"},
+      {"value": 5, "label": "Penyetoran- pengisian offline"},
+      {"value": 6, "label": "Penyetoran - Transfer"},
+
+      {"value": 10, "label": "Penyetoran -penarikan ditolak"},
+      {"value": 101, "label": "penarikan - kartu bank"},
+      {"value": 102, "label": "Penarikan - Telegraphic Transfer "},
+      {"value": 103, "label": "Transfer - Dana Keluar "},
+      {"value": 41, "label": "Penyetoran-Telegraphic Transfer-IDR"},
+      {"value": 40, "label": "Penyetoran-Telegraphic Transfer-USD"},
+      {"value": 1021, "label": "Penarikan-Telegraphic Transfer-IDR"},
+      {"value": 1020, "label": "Penarikan-Telegraphic Transfer-USD"}
+    ],
+    "funds_order_status_map":[
+      { "value":0, "label":"Holding position"},
+      { "value":1, "label":"Close position"}
+    ],
+    "account_type": [
+      {"value": 1, "label": "Akun standar"},
+      {"value": 3, "label": "Akun ECN"},
+      {"value": 4, "label": "Akun Bonus"},
+      {"value": 9, "label": "Akun lainnya"},
+      {"value": 10, "label": "Akun Sales"}
+    ],
+    "account_state": [
+      {"value": 50, "label": "Read Only "},
+      {"value": 1, "label": "Normal"},
+      {"value": 51, "label": "Ditangguhkan"}
+    ],
+
+    "account_state_map":{
+      "50":"Read Only ",
+      "1":"Normal",
+      "51":"Ditangguhkan"
+    },
+
+    "agent_account_state": [
+      {"value": 50, "label": "Read Only "},
+      {"value": 1, "label": "Normal"},
+      {"value": 51, "label": "Ditangguhkan"}
+    ],
+    "agent_account_state_map":{
+      "50": "Read Only ",
+      "1": "Normal",
+      "51": "Ditangguhkan"
+    },
+    "identity_type": {
+      "1": "KTP",
+      "3": "Passport"
+    },
+    "gender": {
+      "1": "Laki-Laki",
+      "2": "Perempuan"
+    },
+
+    "position_name": {
+      "1": "Team Manager",
+      "2": "Team Leader",
+      "3": "Customer Manager"
+    }
+  }
+}
+
+
+
+}
+

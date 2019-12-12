@@ -1,0 +1,23 @@
+@charset "utf-8";
+body,html{margin:0;padding:0;font-family:Arial,'Times New Roman','Microsoft YaHei',SimHei;}
+img{border:none;}
+#contentDiv a:link,#contentDiv a:visited{text-decoration:none!important;color:#333}
+.login a{text-decoration:none!important;color:#fff;font-size:14px}
+.texts a{text-decoration:underline!important;color:#0062b5;font-size:14px}
+.top{width:100%;height:65px;position:absolute;background:Black;_position:absolute;_top:expression(eval(document.documentElement.scrollTop));z-index:1000;left:0;top:0;border-bottom:1px solid #49addb;background:rgba(255, 255, 255, 0.6)!important;filter:Alpha(opacity=60);background:#fff;/*　使用IE专属滤镜实现IE背景透明*/}
+.top a{color:#fff;text-decoration:none;}
+.top a:hover{color:#99ffff;}
+.middle{height:497px;}
+.middle img{width:100%;height:100%;}
+.middle_ch{background:#efefef;}
+.pa40{padding:20px 0;}
+.middle_eg{background:#d4d4d4;}
+.bottom_01 table tr{width:30%;}
+.bottom_02{background:url(../img2/email_add_ib_as_02.jpg) no-repeat center 0;}
+.bottom_03{background:#3a3b3f;}
+.bottom_wor{font-size:12px;color:#333333;margin-top:20px;}
+.bottom_wor a{color:#333333;text-decoration:none;}
+.bottom_04{margin-top:20px;}
+.icon img{-webkit-transition: 1s ease all;-moz-transition: 1s ease all;-ms-transition: 1s ease all;-o-transition: 1s ease all;transition: 1s ease all;}
+.icon:hover img{webkit-transform: scale(1.1,1.1);-moz-transform: scale(1.1,1.1);-ms-transform: scale(1.1,1.1);-o-transform: scale(1.1,1.1);transform: scale(1.1,1.1);}
+.te_de a{color:#363948;}

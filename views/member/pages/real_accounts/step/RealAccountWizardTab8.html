@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+</head>
+<body>
+<div class="tab-pane" id="RealAccountWizardTab8">
+    <div class="row">
+        <div class="col-md-8 col-sm-6">
+            <p><strong>Formulir Nomor 107.BPK.07</strong></p>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <table class="table">
+                <tbody>
+                <tr>
+                    <td>Lampiran</td>
+                    <td>:</td>
+                    <td>Peraturan Kepala Badan Pengawas</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>Perdagangan Berjangka Komoditi</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>Nomor: 107/BAPPEBTI/PER/11/2013</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-md-12 col-sm-12">
+            <p class="text-center">
+                <strong>PERNYATAAN BERTANGGUNG JAWAB ATAS</strong>
+            </p>
+            <p class="text-center">
+                <strong>
+                    KODE AKSES TRANSAKSI NASABAH
+                    <i>(Personal Access Password)</i>
+                </strong>
+            </p>
+            <p>
+                Yang mengisi formulir di bawah ini:
+            </p>
+            <div class="step-2-formulir-items">
+                <label class="col-md-2 col-sm-12 control-label">
+                    Nama Lengkap
+                </label>
+                <div class="col-md-10 col-sm-12">:
+                    <p class="form-control-static">
+                        {{ userDatas.account_name }}
+                    </p>
+                </div>
+            </div>
+            <div class="step-2-formulir-items">
+                <label class="col-md-2 col-sm-12 control-label">
+                    Tempat, Tgl Lahir
+                </label>
+                <div class="col-md-10 col-sm-12">:
+                    <p class="form-control-static">
+                        {{userDatas.open_account_info.place }} {{ userDatas.open_account_info.birthday | date('Y-m-d') }}
+                    </p>
+                </div>
+            </div>
+            <div class="step-2-formulir-items">
+                <label class="col-md-2 col-sm-12 control-label">
+                    Alamat Rumah
+                </label>
+                <div class="col-md-10 col-sm-12">:
+                    <p class="form-control-static">
+                        {{ userDatas.open_account_info.home_address }}
+                    </p>
+                </div>
+            </div>
+            <div class="step-2-formulir-items">
+                <label class="col-md-2 col-sm-12 control-label">
+                    Kode Pos
+                </label>
+                <div class="col-md-10 col-sm-12">:
+                    <p class="form-control-static">
+                        {{ userDatas.open_account_info.postal_code }}
+                    </p>
+                </div>
+            </div>
+            <div class="step-2-formulir-items">
+                <label class="col-md-2 col-sm-12 control-label">
+                    ID
+                </label>
+                <div class="col-md-10 col-sm-12">:
+                    <p class="form-control-static">
+                        {% set marStatus = {} %}
+                        {% for item in Lang.select.member.register.identity_type_map  %}
+                        {% set marStatus[item.value] = item.label %}
+                        {% endfor %}
+                        {{ marStatus[ userDatas.open_account_info.identity_type ] }}
+                        /
+                        {{ userDatas.open_account_info.identity_number }}
+                    </p>
+                </div>
+            </div>
+            <div class="step-2-formulir-items">
+                <label class="col-md-2 col-sm-12">
+                    Real Acc.
+                </label>
+                <div class="col-md-10 col-sm-12">:
+                    <p class="form-control-static">
+                        {{ userDatas.open_account_info.open_account_no.account_no || "Wating" }}
+                    </p>
+                </div>
+            </div>
+            <p>
+                Dengan mengisi kolom "YA" di bawah ini, saya menyatakan bahwa saya
+                bertanggungjawab
+                sepenuhnya terhadap kode akses transaksi Nasabah <i>(Personal Access
+                Password)</i>
+                dan tidak menyerahkan kode akses transaksi Nasabah <i>(Personal
+                Access Password)</i> ke pihak lain,
+                terutama kepada pegawai Pialang Berjangka atau pihak yang memiliki
+                kepentingan dengan
+                Pialang Berjangka.
+            </p>
+            <div class="alert alert-danger text-center">
+                <strong>PERHATIAN !!!</strong>
+                <br />
+                Pialang Berjangka, Wakil Pialang Berjangka, pegawai pialang
+                berjangka, atau pihak yang
+                memiliki kepentingan dengan Pialang Berjangka dilarang menerima kode
+                akses transaksi
+                Nasabah <i>(Personal Access Password)</i>.
+            </div>
+            <p>
+                Demikianlah surat pernyataan ini dibuat dengan sebenarnya dalam
+                keadaan sadar,
+                sehat jasmani dan rohani serta tanpa paksaan apapun dari pihak
+                manapun.
+            </p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+.model-select-box {
+    text-indent: 5px;
+    height: 28px;
+	line-height:28px; 
+	padding: 10px 0 21px 0;
+}
+
+.model-select-text {
+	float:left;
+	width: 140px;
+	height: 26px;
+    background-color: #ededf5;
+	border:1px solid #e6e6e6;
+}
+
+.model-select-img {
+	float:left;
+    width: 28px;
+    height: 28px;
+    background:url(../../img/select_ico.png) no-repeat center;
+    background-color:#198fcc;
+    cursor: pointer;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.model-select-option {
+	z-index:100;
+      display: none; 
+      background: #fff;
+      width: 168px;
+      height:220px;
+      border: 1px solid #aaa;
+      /*避免下拉框让前三行数据错乱　position:absolute;　*/
+      position:absolute;
+       overflow-y: scroll;
+  }
+  .model-select-option li {
+      height: 22px;
+	  text-align: left;
+      line-height: 22px;
+      color: #555;
+      cursor: pointer;
+  }
+
+ .model-select-option li.seleced {
+      background: #198fcc;
+      color: #fff;
+  }
